@@ -11,6 +11,7 @@ The agent preserves the read trace, coordinates in the original scan, and a ledg
 Install Python 3 and Node.js. Install the documented OCR runtime dependencies. The offline comparison consumes archived OCR readings. The full experiment reruns the OCR engine.
 
 ```sh
+python3 tools/fetch-archive-scans.py
 engine=outputs/document-evidence-agent-v3.2
 python3 -m pip install -r "$engine/requirements.txt"
 npm --prefix "$engine" install
@@ -20,3 +21,5 @@ sh reproduce.sh
 ```
 
 The latest experiment includes its pinned inputs and fixtures. The engine's separate historical external-document collections are not included in this public copy.
+
+Two large historical PDFs are fetched from the U.S. National Archives and Department of Justice and verified by SHA-256. The scanned pages, frozen inputs, and trial logs used by the current experiment are included.
