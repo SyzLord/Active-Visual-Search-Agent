@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>跨页文档取证 Agent</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <div class="shell masthead-inner">
+      <div class="identity"><span class="mark" aria-hidden="true"></span><span>跨页文档取证 Agent</span></div>
+      <span class="local"><span aria-hidden="true"></span>本机运行</span>
+    </div>
+  </header>
+  <main class="shell">
+    <section class="intro">
+      <h1>跨页取证工作台</h1>
+      <p>在给定像素预算内搜索多页英文文档，提取或比较数值，并核对证据和逐步开销。</p>
+    </section>
+    <div class="layout">
+      <aside class="settings">
+        <h2>检索任务</h2>
+        <form id="request">
+          <fieldset class="mode">
+            <legend class="sr">输入来源</legend>
+            <label><input type="radio" name="source" value="example" checked><span>内置样例</span></label>
+            <label><input type="radio" name="source" value="files"><span>自己的文档</span></label>
+          </fieldset>
+          <div id="example-panel">
+            <label for="example">样例</label>
+            <select id="example"></select>
+            <p class="help" id="example-description"></p>
+          </div>
+          <div id="file-panel" hidden>
+            <label for="files">PDF 或图像</label>
+            <input id="files" type="file" accept=".pdf,.jpg,.jpeg,.png,.webp" multiple>
+            <p class="help">最多 24 页，单个文件 16 MiB，合计 32 MiB。</p>
+            <label for="pages">PDF 页码（可选）</label>
+            <input id="pages" type="text" placeholder="2,5-8">
+            <label for="op">操作</label>
+            <select id="op">
+              <option value="locate">定位短语</option>
+              <option value="verify">核对两个短语</option>
+              <option value="extract">提取数字</option>
+              <option value="compare">比较两个数字</option>
+              <option value="difference">计算差值 A−B</option>
+            </select>
+            <div class="field">
+              <label for="anchor-a">字段 A · 英文锚点</label>
+              <input id="anchor-a" type="text" maxlength="96" placeholder="from a distance of">
+              <label for="scope-a">字段 A 页面 ID（可选）</label>
+              <input id="scope-a" type="text" placeholder="d01-p02">
+              <div class="number-settings" id="numbers-a" hidden>
+                <select id="direction-a" aria-label="字段 A 数字方向"><option value="after">锚点之后</option><option value="before">锚点之前</option></select>
+                <label class="mini">词窗<input id="window-a" type="number" min="1" max="8" value="5"></label>
+                <label class="mini">第几个<input id="ordinal-a" type="number" min="1" max="8" value="1"></label>
+              </div>
+            </div>
+            <div class="field" id="field-b" hidden>
+              <label for="anchor-b">字段 B · 英文锚点</label>
+              <input id="anchor-b" type="text" maxlength="96" placeholder="dime">
+              <label for="scope-b">字段 B 页面 ID（可选）</label>
+              <input id="scope-b" type="text" placeholder="d01-p03">
+              <div class="number-settings" id="numbers-b" hidden>
+                <select id="direction-b" aria-label="字段 B 数字方向"><option value="after">锚点之后</option><option value="before">锚点之前</option></select>
+                <label class="mini">词窗<input id="window-b" type="number" min="1" max="8" value="5"></label>
+                <label class="mini">第几个<input id="ordinal-b" type="number" min="1" max="8" value="1"></label>
+              </div>
+            </div>
+            <div id="unit-panel" hidden>
+              <label for="unit">单位（可选）</label>
+              <input id="unit" maxlength="20" placeholder="mi">
+              <p class="help">数字须与锚点同行，比较前请确认单位相同。页面 ID 使用结果中的编号，多个编号用逗号分隔。</p>
+            </div>
+          </div>
+          <div class="run-options">
+            <label for="budget">像素上限</label>
+            <input id="budget" type="number" min="100000" max="16000000" step="1" value="2600000" required>
+            <label for="strategy">调度策略</label>
+            <select id="strategy">
+              <option value="scan-audit">候选核验＋正文优先</option>
+              <option value="audited">候选核验与冲突判定</option>
+              <option value="hybrid">PDF 定位＋图像核验</option>
+              <option value="adaptive">预留核验预算</option>
+              <option value="uniform">整页均分</option>
+              <option value="sequential">顺序固定分辨率</option>
+              <option value="route-whole">缩略扫描＋整页补读</option>
+              <option value="greedy">缩略扫描＋启发式裁剪</option>
+              <option value="learned">缩略扫描＋训练评分器</option>
+            </select>
+          </div>
+          <button class="submit" type="submit" id="run">运行取证 <span aria-hidden="true">→</span></button>
+        </form>
+      </aside>
+      <section class="workspace" aria-label="运行结果">
+        <div id="message" class="message" role="status" aria-live="polite">
+          <h2>等待检索</h2>
+          <p>运行左侧任务后，这里会显示答案、证据框和每次 OCR 的实际观察图。</p>
+        </div>
+        <div id="results" hidden>
+          <div class="result-head">
+            <div><div class="status" id="status"></div><h2 id="answer"></h2><p id="answer-meta"></p></div>
+            <button type="button" class="secondary" id="download">导出 JSON</button>
+          </div>
+          <p id="ambiguities" class="help" hidden></p>
+          <div class="ledger">
+            <div><small>已读像素</small><strong id="pixel-count"></strong></div>
+            <div><small>OCR 次数</small><strong id="call-count"></strong></div>
+            <div><small>本机耗时</small><strong id="duration"></strong></div>
+            <div class="bar" role="progressbar" aria-label="像素预算使用量" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="bar"><span></span></div>
+          </div>
+          <section class="evidence-region">
+            <div class="section-head"><h3>原文证据</h3><select aria-label="切换页面" id="page-select"></select></div>
+            <div id="evidence" class="evidence"></div>
+            <figure class="page-figure">
+              <div class="image-layer"><img id="page-image" alt="原文预览"><div id="boxes"></div></div>
+              <figcaption>页面预览供核对位置。每步实际交给 OCR 的图像见下方。</figcaption>
+            </figure>
+          </section>
+          <section class="trace-region">
+            <div class="section-head"><h3>像素账本</h3><span id="trace-total"></span></div>
+            <div id="steps" class="steps"></div>
+            <figure class="view-figure" id="view-figure" hidden>
+              <figcaption id="view-caption"></figcaption><img id="view-image" alt="该步骤实际交给 OCR 的图像">
+            </figure>
+          </section>
+        </div>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
