@@ -1,0 +1,10 @@
+{
+  "op": "extract",
+  "fields": [
+    {
+      "anchor": "Reserve load",
+      "window": 2
+    }
+  ],
+  "unit": "kW"
+}
