@@ -3,7 +3,6 @@ from hashlib import sha256
 import json
 from pathlib import Path
 import subprocess
-import tempfile
 from urllib.parse import urldefrag, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -33,14 +32,15 @@ for directory, source, field in SOURCES:
     if parsed.scheme != 'https' or parsed.hostname not in {'www.justice.gov', 'www.archives.gov'}:
         raise SystemExit(f'Unexpected archive URL: {url}')
     dest.parent.mkdir(parents=True, exist_ok=True)
-    with tempfile.TemporaryDirectory(dir=dest.parent) as folder:
-        incoming = Path(folder) / 'archive.pdf'
+    incoming = dest.with_name(dest.name + '.part')
+    if not incoming.exists() or digest(incoming) != expected:
         subprocess.run(
-            ['curl', '--fail', '--silent', '--show-error', '--location', '--max-time', '180',
+            ['curl', '--fail', '--silent', '--show-error', '--location',
+             '--continue-at', '-', '--connect-timeout', '20', '--max-time', '1800',
              url, '--output', str(incoming)],
             check=True,
         )
-        if digest(incoming) != expected:
-            raise SystemExit(f'Archive checksum mismatch for {source}')
-        incoming.replace(dest)
+    if digest(incoming) != expected:
+        raise SystemExit(f'Archive checksum mismatch for {source}. Remove {incoming} before retrying.')
+    incoming.replace(dest)
     print(f'Downloaded and verified {dest.relative_to(ROOT)}')

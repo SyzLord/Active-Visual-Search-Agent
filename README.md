@@ -23,3 +23,4 @@ sh reproduce.sh
 The latest experiment includes its pinned inputs and fixtures. The engine's separate historical external-document collections are not included in this public copy.
 
 Two large historical PDFs are fetched from the U.S. National Archives and Department of Justice and verified by SHA-256. The scanned pages, frozen inputs, and trial logs used by the current experiment are included.
+Run the fetch command again to resume a partial archive download. The scans are checked before use.

@@ -9,3 +9,4 @@ node_modules/
 # Restored through tools/fetch-archive-scans.py
 cowell-original.pdf
 tweed-original.pdf
+*.pdf.part
