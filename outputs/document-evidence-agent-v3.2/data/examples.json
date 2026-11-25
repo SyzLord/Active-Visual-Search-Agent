@@ -1,0 +1,37 @@
+[
+  {
+    "id": "hubble-distance",
+    "label": "哈勃资料 · 两页距离差",
+    "description": "读取两页中的距离类比，计算 A−B，并回看两处原文。",
+    "input": "pdf",
+    "manifest": "external/manifest.json",
+    "pack": "nasa",
+    "case": "nasa-distance"
+  },
+  {
+    "id": "mixed-sources",
+    "label": "航天与气象 · 两份来源",
+    "description": "从六张候选页里找出航天说明和气象图表，核对两处页码。",
+    "input": "pdf",
+    "manifest": "external/manifest.json",
+    "pack": "mixed",
+    "case": "mixed-cross-source"
+  },
+  {
+    "id": "missing-evidence",
+    "label": "哈勃资料 · 缺少一处证据",
+    "description": "一处锚点可以找到，另一处缺失。检查系统返回的部分证据和预算账本。",
+    "input": "pdf",
+    "manifest": "external/manifest.json",
+    "pack": "nasa",
+    "case": "nasa-unconfirmed"
+  },
+  {
+    "id": "operations-difference",
+    "label": "巡检记录 · 跨页数值差",
+    "description": "在六张版式不同的巡检记录里定位两个带单位的数字。",
+    "manifest": "examples/manifest.json",
+    "pack": "demo-01",
+    "case": "demo-01-01"
+  }
+]
