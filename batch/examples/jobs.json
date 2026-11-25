@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "griffith-stamp",
+      "kind": "stamp",
+      "files": ["data/cowell.png", "data/griffith.png"],
+      "date": "AUG 26 1970",
+      "text": "Thanking you I remain",
+      "policy": "month-routed-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "missing-scan",
+      "kind": "stamp",
+      "files": ["data/not-included.png"],
+      "date": "AUG 26 1970",
+      "text": "Thanking you I remain"
+    },
+    {
+      "id": "younger-document",
+      "kind": "document",
+      "files": ["data/younger-original.pdf"],
+      "pages": "4",
+      "task": {"op": "locate", "fields": [{"anchor": "The conclusion from this investigation"}]}
+    },
+    {
+      "id": "bad-budget",
+      "kind": "stamp",
+      "files": ["data/griffith.png"],
+      "date": "AUG 26 1970",
+      "text": "Thanking you I remain",
+      "pixel_budget": 1000001
+    },
+    {
+      "id": "segal-stamp",
+      "kind": "stamp",
+      "files": ["data/segal.png"],
+      "date": "AUG 21 1963",
+      "text": "I am sending copies of this letter"
+    }
+  ]
+}

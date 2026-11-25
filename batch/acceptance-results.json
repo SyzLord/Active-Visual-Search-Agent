@@ -1,0 +1,34 @@
+{
+  "run_from_extracted_archive": true,
+  "kill_signal": 9,
+  "same_completed_result_sha256": "647c34902ba695a29f7d84ea535688c3f93556fdd4596acfbdeb107263b07e47",
+  "completed_task_not_restarted": true,
+  "interrupted_task_retried": true,
+  "second_run_ocr_calls": 11,
+  "concurrent_writer_rejected": true,
+  "modified_manifest_rejected": true,
+  "no_op_retry_runs_zero_jobs": true,
+  "only_failed_tasks_retried": true,
+  "results": {
+    "griffith-stamp": {
+      "decision": "verified",
+      "pixels": 938863,
+      "ocr_calls": 11
+    },
+    "younger-document": {
+      "decision": "answered",
+      "pixels": 424253,
+      "ocr_calls": 1
+    },
+    "segal-stamp": {
+      "decision": "unresolved",
+      "pixels": 985956,
+      "ocr_calls": 10
+    },
+    "missing-scan-after-repair": {
+      "decision": "verified",
+      "pixels": 970360,
+      "ocr_calls": 10
+    }
+  }
+}
