@@ -1,0 +1,7 @@
+{
+  "rows": 8,
+  "new_live_ocr_calls": 59,
+  "exact_except_wall_ms": true,
+  "scores_boxes_pixels_and_raw_words_identical": true,
+  "ocr": "tesseract-js-7.0.0/7.0.0-7d4322bd2a77-8923071176a0"
+}
