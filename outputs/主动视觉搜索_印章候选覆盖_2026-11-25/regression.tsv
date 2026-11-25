@@ -1,0 +1,27 @@
+case	condition	policy	year	date	text	joint	raw_year	pixels	footer_pixels	extra_pixels	extra_calls	candidate_pages
+D3	single	spare-stamp	0	0	0	0		998538	332132	83201	6	diggs,diggs
+D3	single	month-routed-stamp	0	0	0	0		999965	333559	84628	3	diggs,diggs
+D3	with_other_letter	spare-stamp	0	0	0	0		970908	294255	56053	3	diggs
+D3	with_other_letter	month-routed-stamp	0	0	0	0		971491	294838	56636	2	diggs
+R3	single	spare-stamp	1	1	1	1	1958	520060	200932	0	0	
+R3	single	month-routed-stamp	1	1	1	1	1958	520060	200932	0	0	
+R3	with_other_letter	spare-stamp	1	1	1	1	1958	892047	262219	0	0	
+R3	with_other_letter	month-routed-stamp	1	1	1	1	1958	892047	262219	0	0	
+W3	single	spare-stamp	1	0	0	0	1918	999592	248288	0	0	
+W3	single	month-routed-stamp	1	0	0	0	1918	999592	248288	0	0	
+W3	with_other_letter	spare-stamp	0	0	0	0		999567	238045	0	0	
+W3	with_other_letter	month-routed-stamp	0	0	0	0		999567	238045	0	0	
+G1	single	spare-stamp	1	1	1	1	1970	935466	249260	35510	2	griffith
+G1	single	month-routed-stamp	1	1	1	1	1970	970360	284154	70404	3	griffith
+G1	with_other_letter	spare-stamp	0	0	1	0		943763	261763	50920	3	griffith
+G1	with_other_letter	month-routed-stamp	1	1	1	1	1970	938863	256863	46020	2	griffith
+C1	single	spare-stamp	0	0	1	0		999819	216512	0	0	
+C1	single	month-routed-stamp	0	0	1	0		999819	216512	0	0	
+C1	with_other_letter	spare-stamp	0	0	0	0		955026	261763	50920	3	griffith
+C1	with_other_letter	month-routed-stamp	0	0	0	0		973042	279779	68936	3	griffith
+D3-masked	single	spare-stamp	0	0	0	0		970069	328847	48044	3	diggs-masked
+D3-masked	single	month-routed-stamp	0	0	0	0		999854	358632	77829	3	diggs-masked,diggs-masked
+T1	single	spare-stamp	1	1	0	0	1963	921054	249025	0	0	
+T1	single	month-routed-stamp	1	1	0	0	1963	921054	249025	0	0	
+T1	with_other_letter	spare-stamp	0	0	0	0		961883	261573	50920	3	griffith
+T1	with_other_letter	month-routed-stamp	1	1	0	0	1963	944719	244409	33756	1	tweed
