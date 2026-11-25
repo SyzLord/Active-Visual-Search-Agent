@@ -1,0 +1,110 @@
+[
+  {
+    "file": "register-00.pdf",
+    "anchor": "Relay output",
+    "values": [
+      "509",
+      "509"
+    ],
+    "expected": "answered"
+  },
+  {
+    "file": "register-01.pdf",
+    "anchor": "Reserve load",
+    "values": [
+      "257",
+      "527"
+    ],
+    "expected": "conflict"
+  },
+  {
+    "file": "register-02.pdf",
+    "anchor": "Intake demand",
+    "values": [
+      "887",
+      "346"
+    ],
+    "expected": "conflict"
+  },
+  {
+    "file": "register-03.pdf",
+    "anchor": "Relay output",
+    "values": [
+      "413",
+      "413"
+    ],
+    "expected": "answered"
+  },
+  {
+    "file": "register-04.pdf",
+    "anchor": "Reserve load",
+    "values": [
+      "536",
+      "580"
+    ],
+    "expected": "conflict"
+  },
+  {
+    "file": "register-05.pdf",
+    "anchor": "Intake demand",
+    "values": [
+      "657",
+      "715"
+    ],
+    "expected": "conflict"
+  },
+  {
+    "file": "register-06.pdf",
+    "anchor": "Relay output",
+    "values": [
+      "638",
+      "638"
+    ],
+    "expected": "answered"
+  },
+  {
+    "file": "register-07.pdf",
+    "anchor": "Reserve load",
+    "values": [
+      "683",
+      "605"
+    ],
+    "expected": "conflict"
+  },
+  {
+    "file": "register-08.pdf",
+    "anchor": "Intake demand",
+    "values": [
+      "138",
+      "320"
+    ],
+    "expected": "conflict"
+  },
+  {
+    "file": "register-09.pdf",
+    "anchor": "Relay output",
+    "values": [
+      "471",
+      "471"
+    ],
+    "expected": "answered"
+  },
+  {
+    "file": "register-10.pdf",
+    "anchor": "Reserve load",
+    "values": [
+      "824",
+      "598"
+    ],
+    "expected": "conflict"
+  },
+  {
+    "file": "register-11.pdf",
+    "anchor": "Intake demand",
+    "values": [
+      "739",
+      "880"
+    ],
+    "expected": "conflict"
+  }
+]

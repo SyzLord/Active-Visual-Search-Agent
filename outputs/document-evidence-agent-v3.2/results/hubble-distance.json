@@ -1,0 +1,161 @@
+{
+  "op": "difference",
+  "strategy": "hybrid",
+  "budget": 2600000,
+  "spent": 58100,
+  "status": "answered",
+  "answer": {
+    "difference": "-114",
+    "values": [
+      "86",
+      "200"
+    ],
+    "unit": "mi"
+  },
+  "evidence": [
+    {
+      "field": "A",
+      "page": "nasa-p01",
+      "view": "pdf-line:A:1.1",
+      "anchor": "from a distance of",
+      "anchor_box": [
+        822.0,
+        772,
+        1090.0,
+        810.0
+      ],
+      "value": "86",
+      "value_box": [
+        1102.0,
+        785.0,
+        1136.0,
+        810.0
+      ],
+      "box": [
+        822.0,
+        772,
+        1136.0,
+        810.0
+      ],
+      "line": "from a distance of 86 miles. This",
+      "confidence": 0.96
+    },
+    {
+      "field": "B",
+      "page": "nasa-p02",
+      "view": "pdf-line:B:2.1",
+      "anchor": "dime",
+      "anchor_box": [
+        995.0,
+        155.0,
+        1065.0,
+        180.0
+      ],
+      "value": "200",
+      "value_box": [
+        1077.0,
+        142,
+        1123.0,
+        190.0
+      ],
+      "box": [
+        995.0,
+        142,
+        1123.0,
+        190.0
+      ],
+      "line": "dime 200 miles awa’",
+      "confidence": 0.82
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "page": "nasa-p01",
+      "view": "pdf-line:A:1.1",
+      "mode": "pdf-line",
+      "size": [
+        519,
+        50
+      ],
+      "box": [
+        797,
+        772,
+        1316,
+        822
+      ],
+      "pixels": 25950,
+      "spent": 25950,
+      "reason": "PDF 候选 A · 像素复核",
+      "target": "A",
+      "ocr_lines": 1
+    },
+    {
+      "step": 2,
+      "page": "nasa-p01",
+      "view": "pdf-line:B:1.1",
+      "mode": "pdf-line",
+      "size": [
+        322,
+        50
+      ],
+      "box": [
+        1377,
+        732,
+        1699,
+        782
+      ],
+      "pixels": 16100,
+      "spent": 42050,
+      "reason": "PDF 候选 B · 像素复核",
+      "target": "B",
+      "ocr_lines": 1
+    },
+    {
+      "step": 3,
+      "page": "nasa-p02",
+      "view": "pdf-line:B:2.1",
+      "mode": "pdf-line",
+      "size": [
+        321,
+        50
+      ],
+      "box": [
+        970,
+        142,
+        1291,
+        192
+      ],
+      "pixels": 16050,
+      "spent": 58100,
+      "reason": "PDF 候选 B · 像素复核",
+      "target": "B",
+      "ocr_lines": 1
+    }
+  ],
+  "pages": [
+    {
+      "id": "nasa-p01",
+      "name": "NASA · 第 1 页",
+      "size": [
+        1948,
+        2520
+      ]
+    },
+    {
+      "id": "nasa-p02",
+      "name": "NASA · 第 2 页",
+      "size": [
+        1948,
+        2520
+      ]
+    }
+  ],
+  "ocr_calls": 3,
+  "elapsed_ms": 141.06,
+  "pdf_candidates": {
+    "A": 1,
+    "B": 2
+  },
+  "possible_ambiguities": []
+}

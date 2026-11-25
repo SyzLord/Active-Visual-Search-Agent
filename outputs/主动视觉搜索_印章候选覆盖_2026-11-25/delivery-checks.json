@@ -1,0 +1,10 @@
+{
+  "independent_full_json_byte_identical": true,
+  "independent_conditions": 4,
+  "independent_ocr_calls": 49,
+  "regression_conditions": 13,
+  "regression_raw_text_boxes_decisions_costs_equal": true,
+  "live_query_same_page_verified": true,
+  "live_query_input_digests_equal": 11,
+  "live_query_total_pixels": 938863
+}

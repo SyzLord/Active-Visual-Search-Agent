@@ -1,0 +1,9 @@
+page	case	collection	policy	year	date	text	joint	reported	prefix	year_line	year_view	year_box	preview	ocr	footer_preview	footer_ocr	footer_reread	year_only	footer_total	total	fallback
+griffith	G1	single	horizontal-footer	0	0	1	0					[]	24480	875476	0	213750	0	0	213750	899956	1
+griffith	G1	single	receipt-year	0	0	0	0					[]	23927	920861	23927	439397	0	0	463324	944788	1
+griffith	G1	with_other_letter	receipt-year	0	0	0	0					[]	47864	877885	47864	628088	0	0	675952	925749	0
+griffith	G1	with_other_letter	horizontal-footer	0	0	1	0					[]	36480	856363	0	210843	0	0	210843	892843	1
+cowell	C1	single	receipt-year	0	0	0	0					[]	23937	920670	23937	438126	0	0	462063	944607	1
+cowell	C1	single	horizontal-footer	0	0	1	0					[]	12000	987819	0	216512	0	0	216512	999819	1
+cowell	C1	with_other_letter	horizontal-footer	0	0	0	0					[]	36480	867626	0	210843	0	0	210843	904106	1
+cowell	C1	with_other_letter	receipt-year	0	0	0	0					[]	47864	877885	47864	628088	0	0	675952	925749	0

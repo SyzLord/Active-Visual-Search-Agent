@@ -1,0 +1,9 @@
+policy	page	conditions	documents	any_year_documents	any_joint_documents	year	date	text	joint	fallback	mean_preview	mean_footer_preview	mean_footer_ocr	mean_footer_reread	mean_year_only	mean_footer_total	mean_total	max_total
+horizontal-footer	diggs	2	1	0	0	0	0	0	0	2	18000	0	243566	28107	0	243566	915096	915337
+horizontal-footer	robinson	2	1	1	1	2	2	2	2	0	18000	0	231576	24152	0	231576	706054	892047
+horizontal-footer	wells	2	1	1	0	1	0	0	0	2	18000	0	243166	27808	0	243166	999580	999592
+horizontal-footer	ALL	6	3	2	1	3	2	2	2	4	18000	0	239436	26689	0	239436	873576	999592
+receipt-year	diggs	2	1	1	0	2	2	0	0	2	35922	35922	316298	38970	0	352220	947996	957401
+receipt-year	robinson	2	1	1	1	2	2	2	2	0	35736	35736	223854	0	0	259590	259590	273664
+receipt-year	wells	2	1	1	0	1	1	0	0	0	35718	35718	421298	0	0	457016	614590	906469
+receipt-year	ALL	6	3	3	1	5	5	2	2	2	35792	35792	320484	12990	0	356276	607392	957401

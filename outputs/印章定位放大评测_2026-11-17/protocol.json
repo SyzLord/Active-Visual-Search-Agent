@@ -1,0 +1,19 @@
+{
+  "fixture": "../真实扫描评测_2026-11-17/manifest.json",
+  "date": "2026-11-17",
+  "budgets": [1000000, 1600000],
+  "strategies": ["scan-audit", "edge-date", "stamp-locate"],
+  "preview_height": 240,
+  "side_fraction": 0.15,
+  "outer_trim_fraction": 0.015,
+  "window_fraction": 0.16,
+  "stride_fraction": 0.04,
+  "ink_threshold": "75th percentile grayscale minus 22",
+  "vertical_border_filter": "discard columns whose dark fraction exceeds 0.30",
+  "score": "ink density times fraction of rows containing ink",
+  "overlap_limit": 0.45,
+  "top_candidates": 4,
+  "zoom_budget_fraction_after_preview": 0.65,
+  "preview_charged": true,
+  "fallback": "scan-audit for missing fields using remaining budget"
+}

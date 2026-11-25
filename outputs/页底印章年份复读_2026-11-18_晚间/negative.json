@@ -1,0 +1,78 @@
+{
+  "split": "negative",
+  "budget": 1000000,
+  "sources": {
+    "diggs-masked": {
+      "path": "control/diggs-masked.png",
+      "source": "https://www.justice.gov/d9/crt/legacy/2011/06/14/005-aba-crd-part5.pdf#page=1",
+      "size": [
+        2550,
+        3300
+      ]
+    }
+  },
+  "cases": [
+    {
+      "id": "D3-masked",
+      "page": "diggs-masked",
+      "date": "MAY 29 1963",
+      "text": "I would appreciate your comments",
+      "text_box": [
+        385,
+        2335,
+        1131,
+        2403
+      ],
+      "stamps": [
+        {
+          "date_box": [
+            1134,
+            2745,
+            1415,
+            2807
+          ],
+          "year_box": [
+            1318,
+            2746,
+            1415,
+            2802
+          ]
+        },
+        {
+          "date_box": [
+            1794,
+            2679,
+            2117,
+            2739
+          ],
+          "year_box": [
+            2025,
+            2679,
+            2117,
+            2734
+          ]
+        }
+      ],
+      "sets": {
+        "single": [
+          "diggs-masked"
+        ]
+      }
+    }
+  ],
+  "erased_boxes": [
+    [
+      1315,
+      2743,
+      1418,
+      2805
+    ],
+    [
+      2022,
+      2676,
+      2120,
+      2737
+    ]
+  ],
+  "expected": "no year proof at either erased impression"
+}

@@ -1,0 +1,129 @@
+{
+  "op": "extract",
+  "strategy": "audited",
+  "budget": 2600000,
+  "spent": 48399,
+  "status": "answered",
+  "answer": {
+    "value": "527",
+    "unit": "kW"
+  },
+  "evidence": [
+    {
+      "field": "A",
+      "page": "d01-p02",
+      "view": "audit:A:1.1",
+      "anchor": "Reserve load",
+      "anchor_box": [
+        211.0,
+        857.0,
+        503.0,
+        895.0
+      ],
+      "value": "527",
+      "value_box": [
+        523.0,
+        857.0,
+        604.0,
+        895.0
+      ],
+      "box": [
+        211.0,
+        857.0,
+        604.0,
+        895.0
+      ],
+      "line": "Reserve load 527 kW",
+      "confidence": 0.95
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "page": "d01-p02",
+      "view": "audit:A:1.1",
+      "mode": "pdf-line",
+      "size": [
+        663,
+        73
+      ],
+      "box": [
+        174,
+        840,
+        837,
+        913
+      ],
+      "pixels": 48399,
+      "spent": 48399,
+      "reason": "核验字段 A 的第 1 个候选",
+      "target": "A",
+      "ocr_lines": 1
+    }
+  ],
+  "pages": [
+    {
+      "id": "d01-p01",
+      "name": "register-01.pdf · PDF 第 1 页",
+      "size": [
+        1948,
+        2520
+      ]
+    },
+    {
+      "id": "d01-p02",
+      "name": "register-01.pdf · PDF 第 2 页",
+      "size": [
+        1948,
+        2520
+      ]
+    }
+  ],
+  "ocr_calls": 1,
+  "elapsed_ms": 122.34,
+  "pdf_candidates": {
+    "A": 1
+  },
+  "possible_ambiguities": [],
+  "field_assessments": {
+    "A": {
+      "status": "accepted",
+      "values": [
+        "527"
+      ],
+      "evidence": [
+        {
+          "field": "A",
+          "page": "d01-p02",
+          "view": "audit:A:1.1",
+          "anchor": "Reserve load",
+          "anchor_box": [
+            211.0,
+            857.0,
+            503.0,
+            895.0
+          ],
+          "value": "527",
+          "value_box": [
+            523.0,
+            857.0,
+            604.0,
+            895.0
+          ],
+          "box": [
+            211.0,
+            857.0,
+            604.0,
+            895.0
+          ],
+          "line": "Reserve load 527 kW",
+          "confidence": 0.95
+        }
+      ],
+      "candidate_count": 1,
+      "unread": 0,
+      "unreadable": 0,
+      "candidate_limit_reached": false,
+      "scope": "indexed_candidates"
+    }
+  }
+}

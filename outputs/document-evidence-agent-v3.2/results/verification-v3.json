@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-13",
+  "platform": "macOS",
+  "checks": {
+    "tests_passed": 12,
+    "benchmark_rows": 3645,
+    "budget_violations": 0,
+    "duplicate_paid_views": 0,
+    "citations_without_paid_view": 0,
+    "ranker_retrain_byte_identical": true,
+    "public_pdf_repeat_byte_identical": true,
+    "previous_project_files_checked": 134,
+    "previous_project_files_changed": 0,
+    "new_model_or_data_download_bytes": 0
+  },
+  "browser": {
+    "interface": "loopback workbench",
+    "example": "hubble-distance",
+    "evidence_pages": ["nasa-p01", "nasa-p02"],
+    "evidence_switch_checked": true,
+    "json_export_checked": true,
+    "answer": "-114 mi",
+    "paid_pixels": 58100,
+    "ocr_calls": 3
+  },
+  "input_integration": {
+    "user_pdf_page_range_and_result_checked": true,
+    "image_only_pdf_fallback_checked_with_live_ocr": true,
+    "workbench_file_payload_and_paid_rasters_checked": true
+  },
+  "scope": "Benchmark and latency traces are local. Public documents were used for iteration. Deployment and 24-page throughput were not benchmarked."
+}

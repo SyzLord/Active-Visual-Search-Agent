@@ -1,0 +1,3 @@
+('', 'stamp-locate', 'scan17-10', 1000000) strict 1→0 pixels 593329→927474 [('B', '26', 'stamp:3', 'MAR2 3 1971')]
+('', 'stamp-locate', 'scan17-10', 1600000) strict 1→1 pixels 798944→1335593 [('A', '13', 'survey-body', 'A RESOLUTION'), ('B', '26', 'stamp:3', 'MAR2 3 1971')]
+66 rows validated. Strict 14→13. Gained 0, lost 1. Date-then-article strict 1.

@@ -1,0 +1,71 @@
+{
+  "split": "holdout",
+  "budget": 1000000,
+  "policy_sha256": "ff519027f8a93ec64cd7b7d6046339a114005da3d8da621f03405f103943ef2f",
+  "annotation": "All boxes are human-marked native PNG pixels [left,top,right,bottom) measured before the first OCR on this letter. Page 25 contains the direct receiving mark. Catalog text served to identify the letter only.",
+  "sources": {
+    "tweed": {
+      "path": "data/tweed.png",
+      "size": [
+        2550,
+        3300
+      ],
+      "source": "https://www.justice.gov/d9/crt/legacy/2011/06/14/003-ccr-crd-part32.pdf#page=25",
+      "source_file": "data/tweed-original.pdf",
+      "pdf_pages": 37,
+      "selected_page": 25,
+      "original_sha256": "afcda7bf883f8330af03e8aeb212778f4668d3a19c579dfb540aea756680af83",
+      "sha256": "380ae3f70666036915841c9273c160fb115a787c7c6230d402227687da863a12",
+      "source_description": "US Department of Justice, Lawyers’ Committee for Civil Rights Under Law, Harrison Tweed to Louis F. Oberdorfer. Issued September 3, 1963. Lower-right Tax Division receipt stamped SEP 5 1963."
+    },
+    "griffith": {
+      "path": "../data/griffith.png",
+      "size": [
+        1234,
+        786
+      ],
+      "sha256": "3e3b02b832c6cc79ba7193e94cf9d2d7e8d7daa8a145e68eab550127e9be7bcc",
+      "role": "previously seen distractor only",
+      "source": "https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_8-part_3_of_4.pdf#page=32"
+    }
+  },
+  "cases": [
+    {
+      "id": "T1",
+      "page": "tweed",
+      "date": "SEP 5 1963",
+      "text": "Have you seen the report",
+      "text_box": [
+        806,
+        1668,
+        1448,
+        1713
+      ],
+      "stamps": [
+        {
+          "date_box": [
+            1751,
+            2669,
+            2018,
+            2724
+          ],
+          "year_box": [
+            1928,
+            2668,
+            2018,
+            2714
+          ]
+        }
+      ],
+      "sets": {
+        "single": [
+          "tweed"
+        ],
+        "with_other_letter": [
+          "griffith",
+          "tweed"
+        ]
+      }
+    }
+  ]
+}

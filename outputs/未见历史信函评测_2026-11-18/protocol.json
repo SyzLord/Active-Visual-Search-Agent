@@ -1,0 +1,46 @@
+{
+  "budget": 1000000,
+  "window_cap": 4,
+  "iou_min": 0.30,
+  "gold_coverage_min": 0.48,
+  "unseen_basis": "These two catalog IDs, URLs and scans were not found in existing project evaluation manifests, and are distinct from Marshall Plan and the two amendment scans used to develop the policies. Two source pages chosen before any evaluation OCR. Each page is retained in every preregistered condition even if its result is negative.",
+  "coordinate_system": "Original exhibition JPEG pixels, top-left origin, [x0, y0, x1, y1). Manually drawn against the displayed JPEG, with no OCR output inspected.",
+  "sources": {
+    "wells": {
+      "catalog_id": "7455575",
+      "record": "https://www.archives.gov/college-park/highlights/ida-wells-letter",
+      "image": "https://www.archives.gov/files/college-park/highlights/7455575-2012-001-pr.jpg",
+      "path": "data/wells.jpg",
+      "size": [938,1200],
+      "layout": "Centered ornate letterhead; faint typewritten issue date and paragraphs; multiple incoming stamps."
+    },
+    "robinson": {
+      "catalog_id": "186627",
+      "record": "https://www.archives.gov/exhibits/featured-documents/jackie-robinson",
+      "image": "https://www.archives.gov/files/exhibits/featured-documents/jackie-robinson/images/robinson-letter-page-1-l.jpg",
+      "path": "data/robinson.jpg",
+      "size": [764,990],
+      "layout": "Centered typed date and letterhead address; clear flush-left typewritten paragraphs; ink receipt in lower left."
+    }
+  },
+  "fields": {
+    "wells_issue": {"page":"wells","anchor":"APR 26 1918","transcription":"April 26, 1918","box":[608,270,771,292]},
+    "wells_stamp": {"page":"wells","anchor":"MAY 1 1918","transcription":"MAY -1 1918","box":[171,962,284,990]},
+    "wells_heading": {"page":"wells","anchor":"Negro Fellowship League","box":[286,124,647,165]},
+    "wells_body": {"page":"wells","anchor":"destroys all civil rights","box":[451,664,725,685]},
+    "robinson_issue": {"page":"robinson","anchor":"MAY 13 1958","transcription":"May 13, 1958","box":[330,227,433,243]},
+    "robinson_stamp": {"page":"robinson","anchor":"MAY 26 1958","transcription":"MAY 26 1958","box":[40,952,135,974]},
+    "robinson_heading": {"page":"robinson","anchor":"425 LEXINGTON AVENUE","box":[289,162,479,183]},
+    "robinson_body": {"page":"robinson","anchor":"an unequivocal statement","box":[256,831,455,851]}
+  },
+  "cases": [
+    {"id":"W1","fields":["wells_issue","wells_heading"]},
+    {"id":"W2","fields":["wells_issue","wells_body"]},
+    {"id":"W3","fields":["wells_stamp","wells_heading"]},
+    {"id":"R1","fields":["robinson_issue","robinson_heading"]},
+    {"id":"R2","fields":["robinson_issue","robinson_body"]},
+    {"id":"R3","fields":["robinson_stamp","robinson_body"]}
+  ],
+  "collections":["single","with_other_letter"],
+  "policies":["cross-probe","heading-first"]
+}

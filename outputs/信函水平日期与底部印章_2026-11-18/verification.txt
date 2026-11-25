@@ -1,0 +1,1 @@
+Development 24 rows; original control reproduced. Held-out 20 rows x 2; all fields, OCR words, steps and pixel ledgers identical.

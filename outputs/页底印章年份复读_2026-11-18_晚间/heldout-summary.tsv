@@ -1,0 +1,7 @@
+policy	page	conditions	documents	any_year_documents	any_joint_documents	year	date	text	joint	fallback	mean_preview	mean_footer_preview	mean_footer_ocr	mean_footer_reread	mean_year_only	mean_footer_total	mean_total	max_total
+horizontal-footer	cowell	2	1	0	0	0	0	1	0	2	24240	0	213678	0	0	213678	951962	999819
+horizontal-footer	griffith	2	1	0	0	0	0	2	0	2	30480	0	212296	0	0	212296	896400	899956
+horizontal-footer	ALL	4	2	0	0	0	0	3	0	4	27360	0	212987	0	0	212987	924181	999819
+receipt-year	cowell	2	1	0	0	0	0	0	0	1	35900	35900	533107	0	0	569008	935178	944607
+receipt-year	griffith	2	1	0	0	0	0	0	0	1	35896	35896	533742	0	0	569638	935268	944788
+receipt-year	ALL	4	2	0	0	0	0	0	0	2	35898	35898	533425	0	0	569323	935223	944788

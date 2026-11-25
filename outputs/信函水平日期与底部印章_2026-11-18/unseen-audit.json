@@ -1,0 +1,18 @@
+{
+  "scope": "Pre-existing readable project sources, manifests/protocols/splits and Markdown; original-size matching byte digests among image/PDF files. Current experiment, dependency and virtual environment directories excluded.",
+  "existing_metadata_files": 153,
+  "existing_image_and_pdf_files": 768,
+  "text_matches": {
+    "005-aba-crd-part5": [],
+    "302035": [],
+    "nixon-resignation-letter": [],
+    "charles c. diggs": []
+  },
+  "identical_prior_files": [],
+  "source_hashes": {
+    "diggs-original.pdf": "bc704583f6599375e2a4bf3efc9b4446290255b20ed185299383e4885b527a5c",
+    "diggs.png": "0037e7b0d176ee352230aafc9c68316e4a8c0eb0078bef47d3926635d4cea168",
+    "nixon-original.pdf": "b50452c9f602504dc167c7c7539afa13e330fdf3915dea9ce0a68c86d71aab34",
+    "nixon.png": "2a3ffde2c37d29f1d53b33f54e07e2a99dcf7446abc5643da59976cc3e45a9ce"
+  }
+}

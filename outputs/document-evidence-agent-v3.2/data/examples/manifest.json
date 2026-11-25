@@ -1,0 +1,441 @@
+{
+  "packs": [
+    {
+      "id": "demo-01",
+      "pages": [
+        {
+          "id": "demo-01-p01",
+          "file": "sample-01.jpg",
+          "name": "合成巡检记录 · 第 1 页",
+          "size": [
+            1520,
+            2060
+          ],
+          "sha256": "603400225bfabc01f80ee967f9c570ba89b99e382762ccfa7bfdd44040a986d9"
+        },
+        {
+          "id": "demo-01-p02",
+          "file": "sample-02.jpg",
+          "name": "合成巡检记录 · 第 2 页",
+          "size": [
+            1520,
+            2060
+          ],
+          "sha256": "e2083746365bcf594d27fbf2caf97cfca797e4f268eacd61e252e671b73e3f4b"
+        },
+        {
+          "id": "demo-01-p03",
+          "file": "sample-03.jpg",
+          "name": "合成巡检记录 · 第 3 页",
+          "size": [
+            1520,
+            2060
+          ],
+          "sha256": "2a2fea3e7bbb9bd88785a6d9936cb8784a0ad8c8217780bb63133e702369f03a"
+        },
+        {
+          "id": "demo-01-p04",
+          "file": "sample-04.jpg",
+          "name": "合成巡检记录 · 第 4 页",
+          "size": [
+            1520,
+            2060
+          ],
+          "sha256": "d9df25aaefd4316a97878013e14f196a1d4174abe19fad664cb4996dd64d9277"
+        },
+        {
+          "id": "demo-01-p05",
+          "file": "sample-05.jpg",
+          "name": "合成巡检记录 · 第 5 页",
+          "size": [
+            1520,
+            2060
+          ],
+          "sha256": "9239cfcc1bbca44d06a3d8c4ff1c9b3024d78c5023c7867fd5831bc3e4537c9b"
+        },
+        {
+          "id": "demo-01-p06",
+          "file": "sample-06.jpg",
+          "name": "合成巡检记录 · 第 6 页",
+          "size": [
+            1520,
+            2060
+          ],
+          "sha256": "5805f17c16f7113836bb03db1640218e5b551f01ba8455c040275a17b115426c"
+        }
+      ],
+      "cases": [
+        {
+          "id": "demo-01-01",
+          "label": "合成巡检记录",
+          "task": {
+            "op": "difference",
+            "fields": [
+              {
+                "anchor": "Willow standby draw",
+                "direction": "before",
+                "window": 4,
+                "ordinal": 1
+              },
+              {
+                "anchor": "Alder reserve power",
+                "direction": "after",
+                "window": 4,
+                "ordinal": 1
+              }
+            ],
+            "unit": "kW"
+          },
+          "gold": {
+            "A": {
+              "page": "demo-01-p05",
+              "anchor_box": [
+                278,
+                1440,
+                770,
+                1490
+              ],
+              "value": "1330",
+              "value_box": [
+                98,
+                1441,
+                233,
+                1486
+              ]
+            },
+            "B": {
+              "page": "demo-01-p02",
+              "anchor_box": [
+                98,
+                459,
+                544,
+                502
+              ],
+              "value": "-6973",
+              "value_box": [
+                585,
+                460,
+                717,
+                499
+              ]
+            }
+          }
+        },
+        {
+          "id": "demo-01-02",
+          "label": "合成巡检记录",
+          "task": {
+            "op": "compare",
+            "fields": [
+              {
+                "anchor": "Hazel circulation load",
+                "direction": "after",
+                "window": 4,
+                "ordinal": 1
+              },
+              {
+                "anchor": "Birch panel supply",
+                "direction": "before",
+                "window": 4,
+                "ordinal": 1
+              }
+            ],
+            "unit": "kW"
+          },
+          "gold": {
+            "A": {
+              "page": "demo-01-p03",
+              "anchor_box": [
+                791,
+                468,
+                1168,
+                496
+              ],
+              "value": "58.76",
+              "value_box": [
+                1201,
+                469,
+                1300,
+                496
+              ]
+            },
+            "B": {
+              "page": "demo-01-p02",
+              "anchor_box": [
+                176,
+                1268,
+                430,
+                1297
+              ],
+              "value": "387",
+              "value_box": [
+                98,
+                1270,
+                149,
+                1291
+              ]
+            }
+          }
+        },
+        {
+          "id": "demo-01-03",
+          "label": "合成巡检记录",
+          "task": {
+            "op": "verify",
+            "fields": [
+              {
+                "anchor": "Willow inlet rate"
+              },
+              {
+                "anchor": "Spruce circulation load"
+              }
+            ],
+            "unit": ""
+          },
+          "gold": {
+            "A": {
+              "page": "demo-01-p06",
+              "anchor_box": [
+                230,
+                1215,
+                507,
+                1243
+              ],
+              "value": null,
+              "value_box": null
+            },
+            "B": {
+              "page": "demo-01-p03",
+              "anchor_box": [
+                911,
+                730,
+                1275,
+                763
+              ],
+              "value": null,
+              "value_box": null
+            }
+          }
+        },
+        {
+          "id": "demo-01-04",
+          "label": "合成巡检记录",
+          "task": {
+            "op": "extract",
+            "fields": [
+              {
+                "anchor": "Maple inlet rate",
+                "direction": "after",
+                "window": 4,
+                "ordinal": 1
+              }
+            ],
+            "unit": "kW"
+          },
+          "gold": {
+            "A": {
+              "page": "demo-01-p04",
+              "anchor_box": [
+                98,
+                1397,
+                491,
+                1447
+              ],
+              "value": "2591",
+              "value_box": [
+                539,
+                1398,
+                674,
+                1444
+              ]
+            }
+          }
+        },
+        {
+          "id": "demo-01-05",
+          "label": "合成巡检记录",
+          "task": {
+            "op": "locate",
+            "fields": [
+              {
+                "anchor": "Birch auxiliary feed"
+              }
+            ],
+            "unit": ""
+          },
+          "gold": {
+            "A": {
+              "page": "demo-01-p06",
+              "anchor_box": [
+                98,
+                1022,
+                433,
+                1058
+              ],
+              "value": null,
+              "value_box": null
+            }
+          }
+        },
+        {
+          "id": "demo-01-06",
+          "label": "合成巡检记录",
+          "task": {
+            "op": "verify",
+            "fields": [
+              {
+                "anchor": "Alder panel supply"
+              },
+              {
+                "anchor": "Mercury bypass reserve"
+              }
+            ],
+            "unit": ""
+          },
+          "gold": {
+            "A": {
+              "page": "demo-01-p06",
+              "anchor_box": [
+                923,
+                1244,
+                1249,
+                1280
+              ],
+              "value": null,
+              "value_box": null
+            },
+            "B": null
+          }
+        },
+        {
+          "id": "demo-01-07",
+          "label": "合成巡检记录",
+          "task": {
+            "op": "difference",
+            "fields": [
+              {
+                "anchor": "Cedar inlet rate",
+                "direction": "after",
+                "window": 4,
+                "ordinal": 1
+              },
+              {
+                "anchor": "Pine intake demand",
+                "direction": "before",
+                "window": 4,
+                "ordinal": 1
+              }
+            ],
+            "unit": "kW"
+          },
+          "gold": {
+            "A": {
+              "page": "demo-01-p03",
+              "anchor_box": [
+                98,
+                1276,
+                368,
+                1304
+              ],
+              "value": "2540",
+              "value_box": [
+                401,
+                1277,
+                500,
+                1309
+              ]
+            },
+            "B": {
+              "page": "demo-01-p06",
+              "anchor_box": [
+                945,
+                1016,
+                1294,
+                1044
+              ],
+              "value": "5867",
+              "value_box": [
+                791,
+                1017,
+                890,
+                1049
+              ]
+            }
+          }
+        },
+        {
+          "id": "demo-01-08",
+          "label": "合成巡检记录",
+          "task": {
+            "op": "compare",
+            "fields": [
+              {
+                "anchor": "Maple relay output",
+                "direction": "before",
+                "window": 4,
+                "ordinal": 1
+              },
+              {
+                "anchor": "Alder intake demand",
+                "direction": "before",
+                "window": 4,
+                "ordinal": 1
+              }
+            ],
+            "unit": "kW"
+          },
+          "gold": {
+            "A": {
+              "page": "demo-01-p01",
+              "anchor_box": [
+                233,
+                1252,
+                677,
+                1302
+              ],
+              "value": "355",
+              "value_box": [
+                98,
+                1253,
+                188,
+                1292
+              ]
+            },
+            "B": {
+              "page": "demo-01-p02",
+              "anchor_box": [
+                278,
+                650,
+                773,
+                690
+              ],
+              "value": "13.28",
+              "value_box": [
+                98,
+                651,
+                233,
+                690
+              ]
+            }
+          }
+        },
+        {
+          "id": "demo-01-09",
+          "label": "无匹配证据",
+          "task": {
+            "op": "locate",
+            "fields": [
+              {
+                "anchor": "Mercury bypass reserve"
+              }
+            ],
+            "unit": ""
+          },
+          "gold": {
+            "A": null
+          }
+        }
+      ]
+    }
+  ]
+}

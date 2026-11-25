@@ -1,0 +1,21 @@
+page	case	collection	policy	date_ok	text_ok	joint_ok	date_iou	text_iou	early_date	date_stage	footer_tried	footer_date	date_reread	text_reread	reread_pixels	fallback	fallback_added	preview	ocr	total
+nixon	N1	single	heading-first	0	1	0	0	0.663	False		False	False	False	False	0	True	True	12000	760000	772000
+nixon	N1	single	horizontal-footer	1	1	1	0.7538	0.631	True	header	False	False	False	False	0	False	False	12000	315700	327700
+nixon	N1	with_other_letter	horizontal-footer	1	1	1	0.7426	0.6773	True	header	False	False	False	False	0	False	False	24000	729620	753620
+nixon	N1	with_other_letter	heading-first	0	0	0	0	0	False		False	False	False	False	0	True	False	24000	975437	999437
+nixon	N2	single	horizontal-footer	1	1	1	0.7538	0.8024	True	header	False	False	False	False	0	False	False	12000	315700	327700
+nixon	N2	single	heading-first	0	1	0	0	0.7775	False		False	False	False	False	0	True	True	12000	760000	772000
+nixon	N2	with_other_letter	heading-first	0	0	0	0	0	False		False	False	False	False	0	True	False	24000	975437	999437
+nixon	N2	with_other_letter	horizontal-footer	1	0	0	0.7426	0	True	header	False	False	False	False	0	True	False	24000	901552	925552
+diggs	D1	single	heading-first	0	0	0	0	0	False		False	False	False	False	0	True	False	12000	987563	999563
+diggs	D1	single	horizontal-footer	0	0	0	0	0	False		True	False	True	True	76806	True	False	12000	912585	924585
+diggs	D1	with_other_letter	horizontal-footer	0	0	0	0	0	False		True	False	True	False	24318	True	False	24000	890855	914855
+diggs	D1	with_other_letter	heading-first	0	0	0	0	0	False		False	False	False	False	0	True	False	24000	857837	881837
+diggs	D2	single	horizontal-footer	0	0	0	0	0	False		True	False	True	False	31896	True	False	12000	903337	915337
+diggs	D2	single	heading-first	0	0	0	0	0	False		False	False	False	False	0	True	False	12000	987925	999925
+diggs	D2	with_other_letter	heading-first	0	0	0	0	0	False		False	False	False	False	0	True	False	24000	857837	881837
+diggs	D2	with_other_letter	horizontal-footer	0	0	0	0	0	False		True	False	True	False	24318	True	False	24000	890855	914855
+diggs	D3	single	heading-first	0	0	0	0	0	False		False	False	False	False	0	True	False	12000	987548	999548
+diggs	D3	single	horizontal-footer	0	0	0	0	0	False		True	False	True	False	31896	True	False	12000	903337	915337
+diggs	D3	with_other_letter	horizontal-footer	0	0	0	0	0	False		True	False	True	False	24318	True	False	24000	890855	914855
+diggs	D3	with_other_letter	heading-first	0	0	0	0	0	False		False	False	False	False	0	True	False	24000	857837	881837

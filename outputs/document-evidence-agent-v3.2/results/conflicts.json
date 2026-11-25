@@ -1,0 +1,6207 @@
+{
+  "seed": 61583,
+  "summary": [
+    {
+      "scoped": false,
+      "strategy": "hybrid",
+      "correct": 4,
+      "total": 12,
+      "mean_pixels": 53311
+    },
+    {
+      "scoped": false,
+      "strategy": "audited",
+      "correct": 12,
+      "total": 12,
+      "mean_pixels": 106622
+    },
+    {
+      "scoped": true,
+      "strategy": "hybrid",
+      "correct": 12,
+      "total": 12,
+      "mean_pixels": 106622
+    },
+    {
+      "scoped": true,
+      "strategy": "audited",
+      "correct": 12,
+      "total": 12,
+      "mean_pixels": 53311
+    }
+  ],
+  "trials": [
+    {
+      "file": "register-00.pdf",
+      "scoped": false,
+      "strategy": "hybrid",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "hybrid",
+        "budget": 500000,
+        "spent": 62532,
+        "status": "answered",
+        "answer": {
+          "value": "509",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "anchor": "Relay output",
+            "anchor_box": [
+              209.0,
+              834.0,
+              570.0,
+              875.0
+            ],
+            "value": "509",
+            "value_box": [
+              609.0,
+              833.0,
+              691.0,
+              866.0
+            ],
+            "box": [
+              209.0,
+              833.0,
+              691.0,
+              875.0
+            ],
+            "line": "Relay output 509 kw",
+            "confidence": 0.92
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              772,
+              81
+            ],
+            "box": [
+              168,
+              814,
+              940,
+              895
+            ],
+            "pixels": 62532,
+            "spent": 62532,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-00.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-00.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 1,
+        "elapsed_ms": 48.52,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [
+          "A"
+        ],
+        "field_assessments": {}
+      }
+    },
+    {
+      "file": "register-00.pdf",
+      "scoped": false,
+      "strategy": "audited",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "audited",
+        "budget": 500000,
+        "spent": 125064,
+        "status": "answered",
+        "answer": {
+          "value": "509",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p01",
+            "view": "audit:A:1.1",
+            "anchor": "Relay output",
+            "anchor_box": [
+              209.0,
+              834.0,
+              570.0,
+              875.0
+            ],
+            "value": "509",
+            "value_box": [
+              609.0,
+              833.0,
+              691.0,
+              866.0
+            ],
+            "box": [
+              209.0,
+              833.0,
+              691.0,
+              875.0
+            ],
+            "line": "Relay output 509 kw",
+            "confidence": 0.92
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "audit:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              772,
+              81
+            ],
+            "box": [
+              168,
+              814,
+              940,
+              895
+            ],
+            "pixels": 62532,
+            "spent": 62532,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 1 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          },
+          {
+            "step": 2,
+            "page": "d01-p02",
+            "view": "audit:A:2.1",
+            "mode": "pdf-line",
+            "size": [
+              772,
+              81
+            ],
+            "box": [
+              168,
+              814,
+              940,
+              895
+            ],
+            "pixels": 62532,
+            "spent": 125064,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 2 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-00.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-00.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 2,
+        "elapsed_ms": 35.81,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {
+          "A": {
+            "status": "accepted",
+            "values": [
+              "509"
+            ],
+            "evidence": [
+              {
+                "field": "A",
+                "page": "d01-p01",
+                "view": "audit:A:1.1",
+                "anchor": "Relay output",
+                "anchor_box": [
+                  209.0,
+                  834.0,
+                  570.0,
+                  875.0
+                ],
+                "value": "509",
+                "value_box": [
+                  609.0,
+                  833.0,
+                  691.0,
+                  866.0
+                ],
+                "box": [
+                  209.0,
+                  833.0,
+                  691.0,
+                  875.0
+                ],
+                "line": "Relay output 509 kw",
+                "confidence": 0.92
+              },
+              {
+                "field": "A",
+                "page": "d01-p02",
+                "view": "audit:A:2.1",
+                "anchor": "Relay output",
+                "anchor_box": [
+                  209.0,
+                  834.0,
+                  570.0,
+                  875.0
+                ],
+                "value": "509",
+                "value_box": [
+                  609.0,
+                  833.0,
+                  691.0,
+                  866.0
+                ],
+                "box": [
+                  209.0,
+                  833.0,
+                  691.0,
+                  875.0
+                ],
+                "line": "Relay output 509 kw",
+                "confidence": 0.92
+              }
+            ],
+            "candidate_count": 2,
+            "unread": 0,
+            "unreadable": 0,
+            "candidate_limit_reached": false,
+            "scope": "indexed_candidates"
+          }
+        }
+      }
+    },
+    {
+      "file": "register-00.pdf",
+      "scoped": true,
+      "strategy": "hybrid",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "hybrid",
+        "budget": 500000,
+        "spent": 125064,
+        "status": "answered",
+        "answer": {
+          "value": "509",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p02",
+            "view": "pdf-line:A:2.1",
+            "anchor": "Relay output",
+            "anchor_box": [
+              209.0,
+              834.0,
+              570.0,
+              875.0
+            ],
+            "value": "509",
+            "value_box": [
+              609.0,
+              833.0,
+              691.0,
+              866.0
+            ],
+            "box": [
+              209.0,
+              833.0,
+              691.0,
+              875.0
+            ],
+            "line": "Relay output 509 kw",
+            "confidence": 0.92
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              772,
+              81
+            ],
+            "box": [
+              168,
+              814,
+              940,
+              895
+            ],
+            "pixels": 62532,
+            "spent": 62532,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          },
+          {
+            "step": 2,
+            "page": "d01-p02",
+            "view": "pdf-line:A:2.1",
+            "mode": "pdf-line",
+            "size": [
+              772,
+              81
+            ],
+            "box": [
+              168,
+              814,
+              940,
+              895
+            ],
+            "pixels": 62532,
+            "spent": 125064,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-00.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-00.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 2,
+        "elapsed_ms": 35.57,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {}
+      }
+    },
+    {
+      "file": "register-00.pdf",
+      "scoped": true,
+      "strategy": "audited",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "audited",
+        "budget": 500000,
+        "spent": 62532,
+        "status": "answered",
+        "answer": {
+          "value": "509",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p02",
+            "view": "audit:A:1.1",
+            "anchor": "Relay output",
+            "anchor_box": [
+              209.0,
+              834.0,
+              570.0,
+              875.0
+            ],
+            "value": "509",
+            "value_box": [
+              609.0,
+              833.0,
+              691.0,
+              866.0
+            ],
+            "box": [
+              209.0,
+              833.0,
+              691.0,
+              875.0
+            ],
+            "line": "Relay output 509 kw",
+            "confidence": 0.92
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p02",
+            "view": "audit:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              772,
+              81
+            ],
+            "box": [
+              168,
+              814,
+              940,
+              895
+            ],
+            "pixels": 62532,
+            "spent": 62532,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 1 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-00.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-00.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 1,
+        "elapsed_ms": 17.36,
+        "pdf_candidates": {
+          "A": 1
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {
+          "A": {
+            "status": "accepted",
+            "values": [
+              "509"
+            ],
+            "evidence": [
+              {
+                "field": "A",
+                "page": "d01-p02",
+                "view": "audit:A:1.1",
+                "anchor": "Relay output",
+                "anchor_box": [
+                  209.0,
+                  834.0,
+                  570.0,
+                  875.0
+                ],
+                "value": "509",
+                "value_box": [
+                  609.0,
+                  833.0,
+                  691.0,
+                  866.0
+                ],
+                "box": [
+                  209.0,
+                  833.0,
+                  691.0,
+                  875.0
+                ],
+                "line": "Relay output 509 kw",
+                "confidence": 0.92
+              }
+            ],
+            "candidate_count": 1,
+            "unread": 0,
+            "unreadable": 0,
+            "candidate_limit_reached": false,
+            "scope": "indexed_candidates"
+          }
+        }
+      }
+    },
+    {
+      "file": "register-01.pdf",
+      "scoped": false,
+      "strategy": "hybrid",
+      "expected": "conflict",
+      "correct": false,
+      "result": {
+        "op": "extract",
+        "strategy": "hybrid",
+        "budget": 500000,
+        "spent": 48399,
+        "status": "answered",
+        "answer": {
+          "value": "257",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "anchor": "Reserve load",
+            "anchor_box": [
+              211.0,
+              857.0,
+              503.0,
+              895.0
+            ],
+            "value": "257",
+            "value_box": [
+              523.0,
+              857.0,
+              604.0,
+              895.0
+            ],
+            "box": [
+              211.0,
+              857.0,
+              604.0,
+              895.0
+            ],
+            "line": "Reserve load 257 kW",
+            "confidence": 0.95
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              663,
+              73
+            ],
+            "box": [
+              174,
+              840,
+              837,
+              913
+            ],
+            "pixels": 48399,
+            "spent": 48399,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-01.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-01.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 1,
+        "elapsed_ms": 23.79,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [
+          "A"
+        ],
+        "field_assessments": {}
+      }
+    },
+    {
+      "file": "register-01.pdf",
+      "scoped": false,
+      "strategy": "audited",
+      "expected": "conflict",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "audited",
+        "budget": 500000,
+        "spent": 96798,
+        "status": "conflict",
+        "answer": null,
+        "evidence": [],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "audit:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              663,
+              73
+            ],
+            "box": [
+              174,
+              840,
+              837,
+              913
+            ],
+            "pixels": 48399,
+            "spent": 48399,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 1 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          },
+          {
+            "step": 2,
+            "page": "d01-p02",
+            "view": "audit:A:2.1",
+            "mode": "pdf-line",
+            "size": [
+              663,
+              73
+            ],
+            "box": [
+              174,
+              840,
+              837,
+              913
+            ],
+            "pixels": 48399,
+            "spent": 96798,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 2 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-01.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-01.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 2,
+        "elapsed_ms": 30.69,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [
+          "A"
+        ],
+        "field_assessments": {
+          "A": {
+            "status": "conflict",
+            "values": [
+              "257",
+              "527"
+            ],
+            "evidence": [
+              {
+                "field": "A",
+                "page": "d01-p01",
+                "view": "audit:A:1.1",
+                "anchor": "Reserve load",
+                "anchor_box": [
+                  211.0,
+                  857.0,
+                  503.0,
+                  895.0
+                ],
+                "value": "257",
+                "value_box": [
+                  523.0,
+                  857.0,
+                  604.0,
+                  895.0
+                ],
+                "box": [
+                  211.0,
+                  857.0,
+                  604.0,
+                  895.0
+                ],
+                "line": "Reserve load 257 kW",
+                "confidence": 0.95
+              },
+              {
+                "field": "A",
+                "page": "d01-p02",
+                "view": "audit:A:2.1",
+                "anchor": "Reserve load",
+                "anchor_box": [
+                  211.0,
+                  857.0,
+                  503.0,
+                  895.0
+                ],
+                "value": "527",
+                "value_box": [
+                  523.0,
+                  857.0,
+                  604.0,
+                  895.0
+                ],
+                "box": [
+                  211.0,
+                  857.0,
+                  604.0,
+                  895.0
+                ],
+                "line": "Reserve load 527 kW",
+                "confidence": 0.95
+              }
+            ],
+            "candidate_count": 2,
+            "unread": 0,
+            "unreadable": 0,
+            "candidate_limit_reached": false,
+            "scope": "indexed_candidates"
+          }
+        }
+      }
+    },
+    {
+      "file": "register-01.pdf",
+      "scoped": true,
+      "strategy": "hybrid",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "hybrid",
+        "budget": 500000,
+        "spent": 96798,
+        "status": "answered",
+        "answer": {
+          "value": "527",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p02",
+            "view": "pdf-line:A:2.1",
+            "anchor": "Reserve load",
+            "anchor_box": [
+              211.0,
+              857.0,
+              503.0,
+              895.0
+            ],
+            "value": "527",
+            "value_box": [
+              523.0,
+              857.0,
+              604.0,
+              895.0
+            ],
+            "box": [
+              211.0,
+              857.0,
+              604.0,
+              895.0
+            ],
+            "line": "Reserve load 527 kW",
+            "confidence": 0.95
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              663,
+              73
+            ],
+            "box": [
+              174,
+              840,
+              837,
+              913
+            ],
+            "pixels": 48399,
+            "spent": 48399,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          },
+          {
+            "step": 2,
+            "page": "d01-p02",
+            "view": "pdf-line:A:2.1",
+            "mode": "pdf-line",
+            "size": [
+              663,
+              73
+            ],
+            "box": [
+              174,
+              840,
+              837,
+              913
+            ],
+            "pixels": 48399,
+            "spent": 96798,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-01.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-01.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 2,
+        "elapsed_ms": 28.13,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {}
+      }
+    },
+    {
+      "file": "register-01.pdf",
+      "scoped": true,
+      "strategy": "audited",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "audited",
+        "budget": 500000,
+        "spent": 48399,
+        "status": "answered",
+        "answer": {
+          "value": "527",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p02",
+            "view": "audit:A:1.1",
+            "anchor": "Reserve load",
+            "anchor_box": [
+              211.0,
+              857.0,
+              503.0,
+              895.0
+            ],
+            "value": "527",
+            "value_box": [
+              523.0,
+              857.0,
+              604.0,
+              895.0
+            ],
+            "box": [
+              211.0,
+              857.0,
+              604.0,
+              895.0
+            ],
+            "line": "Reserve load 527 kW",
+            "confidence": 0.95
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p02",
+            "view": "audit:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              663,
+              73
+            ],
+            "box": [
+              174,
+              840,
+              837,
+              913
+            ],
+            "pixels": 48399,
+            "spent": 48399,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 1 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-01.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-01.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 1,
+        "elapsed_ms": 14.2,
+        "pdf_candidates": {
+          "A": 1
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {
+          "A": {
+            "status": "accepted",
+            "values": [
+              "527"
+            ],
+            "evidence": [
+              {
+                "field": "A",
+                "page": "d01-p02",
+                "view": "audit:A:1.1",
+                "anchor": "Reserve load",
+                "anchor_box": [
+                  211.0,
+                  857.0,
+                  503.0,
+                  895.0
+                ],
+                "value": "527",
+                "value_box": [
+                  523.0,
+                  857.0,
+                  604.0,
+                  895.0
+                ],
+                "box": [
+                  211.0,
+                  857.0,
+                  604.0,
+                  895.0
+                ],
+                "line": "Reserve load 527 kW",
+                "confidence": 0.95
+              }
+            ],
+            "candidate_count": 1,
+            "unread": 0,
+            "unreadable": 0,
+            "candidate_limit_reached": false,
+            "scope": "indexed_candidates"
+          }
+        }
+      }
+    },
+    {
+      "file": "register-02.pdf",
+      "scoped": false,
+      "strategy": "hybrid",
+      "expected": "conflict",
+      "correct": false,
+      "result": {
+        "op": "extract",
+        "strategy": "hybrid",
+        "budget": 500000,
+        "spent": 42761,
+        "status": "answered",
+        "answer": {
+          "value": "887",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "anchor": "Intake demand",
+            "anchor_box": [
+              213.0,
+              891.0,
+              603.0,
+              924.0
+            ],
+            "value": "887",
+            "value_box": [
+              640.0,
+              891.0,
+              720.0,
+              924.0
+            ],
+            "box": [
+              213.0,
+              891.0,
+              720.0,
+              924.0
+            ],
+            "line": "Intake demand 887 kW",
+            "confidence": 0.93
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              701,
+              61
+            ],
+            "box": [
+              182,
+              877,
+              883,
+              938
+            ],
+            "pixels": 42761,
+            "spent": 42761,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-02.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-02.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 1,
+        "elapsed_ms": 17.75,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [
+          "A"
+        ],
+        "field_assessments": {}
+      }
+    },
+    {
+      "file": "register-02.pdf",
+      "scoped": false,
+      "strategy": "audited",
+      "expected": "conflict",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "audited",
+        "budget": 500000,
+        "spent": 85522,
+        "status": "conflict",
+        "answer": null,
+        "evidence": [],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "audit:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              701,
+              61
+            ],
+            "box": [
+              182,
+              877,
+              883,
+              938
+            ],
+            "pixels": 42761,
+            "spent": 42761,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 1 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          },
+          {
+            "step": 2,
+            "page": "d01-p02",
+            "view": "audit:A:2.1",
+            "mode": "pdf-line",
+            "size": [
+              701,
+              61
+            ],
+            "box": [
+              182,
+              877,
+              883,
+              938
+            ],
+            "pixels": 42761,
+            "spent": 85522,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 2 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-02.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-02.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 2,
+        "elapsed_ms": 35.03,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [
+          "A"
+        ],
+        "field_assessments": {
+          "A": {
+            "status": "conflict",
+            "values": [
+              "346",
+              "887"
+            ],
+            "evidence": [
+              {
+                "field": "A",
+                "page": "d01-p01",
+                "view": "audit:A:1.1",
+                "anchor": "Intake demand",
+                "anchor_box": [
+                  213.0,
+                  891.0,
+                  603.0,
+                  924.0
+                ],
+                "value": "887",
+                "value_box": [
+                  640.0,
+                  891.0,
+                  720.0,
+                  924.0
+                ],
+                "box": [
+                  213.0,
+                  891.0,
+                  720.0,
+                  924.0
+                ],
+                "line": "Intake demand 887 kW",
+                "confidence": 0.93
+              },
+              {
+                "field": "A",
+                "page": "d01-p02",
+                "view": "audit:A:2.1",
+                "anchor": "Intake demand",
+                "anchor_box": [
+                  213.0,
+                  891.0,
+                  603.0,
+                  924.0
+                ],
+                "value": "346",
+                "value_box": [
+                  640.0,
+                  891.0,
+                  722.0,
+                  924.0
+                ],
+                "box": [
+                  213.0,
+                  891.0,
+                  722.0,
+                  924.0
+                ],
+                "line": "Intake demand 346 kW",
+                "confidence": 0.89
+              }
+            ],
+            "candidate_count": 2,
+            "unread": 0,
+            "unreadable": 0,
+            "candidate_limit_reached": false,
+            "scope": "indexed_candidates"
+          }
+        }
+      }
+    },
+    {
+      "file": "register-02.pdf",
+      "scoped": true,
+      "strategy": "hybrid",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "hybrid",
+        "budget": 500000,
+        "spent": 85522,
+        "status": "answered",
+        "answer": {
+          "value": "346",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p02",
+            "view": "pdf-line:A:2.1",
+            "anchor": "Intake demand",
+            "anchor_box": [
+              213.0,
+              891.0,
+              603.0,
+              924.0
+            ],
+            "value": "346",
+            "value_box": [
+              640.0,
+              891.0,
+              722.0,
+              924.0
+            ],
+            "box": [
+              213.0,
+              891.0,
+              722.0,
+              924.0
+            ],
+            "line": "Intake demand 346 kW",
+            "confidence": 0.89
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              701,
+              61
+            ],
+            "box": [
+              182,
+              877,
+              883,
+              938
+            ],
+            "pixels": 42761,
+            "spent": 42761,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          },
+          {
+            "step": 2,
+            "page": "d01-p02",
+            "view": "pdf-line:A:2.1",
+            "mode": "pdf-line",
+            "size": [
+              701,
+              61
+            ],
+            "box": [
+              182,
+              877,
+              883,
+              938
+            ],
+            "pixels": 42761,
+            "spent": 85522,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-02.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-02.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 2,
+        "elapsed_ms": 37.22,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {}
+      }
+    },
+    {
+      "file": "register-02.pdf",
+      "scoped": true,
+      "strategy": "audited",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "audited",
+        "budget": 500000,
+        "spent": 42761,
+        "status": "answered",
+        "answer": {
+          "value": "346",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p02",
+            "view": "audit:A:1.1",
+            "anchor": "Intake demand",
+            "anchor_box": [
+              213.0,
+              891.0,
+              603.0,
+              924.0
+            ],
+            "value": "346",
+            "value_box": [
+              640.0,
+              891.0,
+              722.0,
+              924.0
+            ],
+            "box": [
+              213.0,
+              891.0,
+              722.0,
+              924.0
+            ],
+            "line": "Intake demand 346 kW",
+            "confidence": 0.89
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p02",
+            "view": "audit:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              701,
+              61
+            ],
+            "box": [
+              182,
+              877,
+              883,
+              938
+            ],
+            "pixels": 42761,
+            "spent": 42761,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 1 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-02.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-02.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 1,
+        "elapsed_ms": 17.36,
+        "pdf_candidates": {
+          "A": 1
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {
+          "A": {
+            "status": "accepted",
+            "values": [
+              "346"
+            ],
+            "evidence": [
+              {
+                "field": "A",
+                "page": "d01-p02",
+                "view": "audit:A:1.1",
+                "anchor": "Intake demand",
+                "anchor_box": [
+                  213.0,
+                  891.0,
+                  603.0,
+                  924.0
+                ],
+                "value": "346",
+                "value_box": [
+                  640.0,
+                  891.0,
+                  722.0,
+                  924.0
+                ],
+                "box": [
+                  213.0,
+                  891.0,
+                  722.0,
+                  924.0
+                ],
+                "line": "Intake demand 346 kW",
+                "confidence": 0.89
+              }
+            ],
+            "candidate_count": 1,
+            "unread": 0,
+            "unreadable": 0,
+            "candidate_limit_reached": false,
+            "scope": "indexed_candidates"
+          }
+        }
+      }
+    },
+    {
+      "file": "register-03.pdf",
+      "scoped": false,
+      "strategy": "hybrid",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "hybrid",
+        "budget": 500000,
+        "spent": 69936,
+        "status": "answered",
+        "answer": {
+          "value": "413",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "anchor": "Relay output",
+            "anchor_box": [
+              211.0,
+              915.0,
+              492.0,
+              962.0
+            ],
+            "value": "413",
+            "value_box": [
+              508.0,
+              915.0,
+              590.0,
+              952.0
+            ],
+            "box": [
+              211.0,
+              915.0,
+              590.0,
+              962.0
+            ],
+            "line": "Relay output 413 kW",
+            "confidence": 0.95
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              752,
+              93
+            ],
+            "box": [
+              164,
+              892,
+              916,
+              985
+            ],
+            "pixels": 69936,
+            "spent": 69936,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-03.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-03.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 1,
+        "elapsed_ms": 25.59,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [
+          "A"
+        ],
+        "field_assessments": {}
+      }
+    },
+    {
+      "file": "register-03.pdf",
+      "scoped": false,
+      "strategy": "audited",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "audited",
+        "budget": 500000,
+        "spent": 139872,
+        "status": "answered",
+        "answer": {
+          "value": "413",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p01",
+            "view": "audit:A:1.1",
+            "anchor": "Relay output",
+            "anchor_box": [
+              211.0,
+              915.0,
+              492.0,
+              962.0
+            ],
+            "value": "413",
+            "value_box": [
+              508.0,
+              915.0,
+              590.0,
+              952.0
+            ],
+            "box": [
+              211.0,
+              915.0,
+              590.0,
+              962.0
+            ],
+            "line": "Relay output 413 kW",
+            "confidence": 0.95
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "audit:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              752,
+              93
+            ],
+            "box": [
+              164,
+              892,
+              916,
+              985
+            ],
+            "pixels": 69936,
+            "spent": 69936,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 1 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          },
+          {
+            "step": 2,
+            "page": "d01-p02",
+            "view": "audit:A:2.1",
+            "mode": "pdf-line",
+            "size": [
+              752,
+              93
+            ],
+            "box": [
+              164,
+              892,
+              916,
+              985
+            ],
+            "pixels": 69936,
+            "spent": 139872,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 2 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-03.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-03.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 2,
+        "elapsed_ms": 28.9,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {
+          "A": {
+            "status": "accepted",
+            "values": [
+              "413"
+            ],
+            "evidence": [
+              {
+                "field": "A",
+                "page": "d01-p01",
+                "view": "audit:A:1.1",
+                "anchor": "Relay output",
+                "anchor_box": [
+                  211.0,
+                  915.0,
+                  492.0,
+                  962.0
+                ],
+                "value": "413",
+                "value_box": [
+                  508.0,
+                  915.0,
+                  590.0,
+                  952.0
+                ],
+                "box": [
+                  211.0,
+                  915.0,
+                  590.0,
+                  962.0
+                ],
+                "line": "Relay output 413 kW",
+                "confidence": 0.95
+              },
+              {
+                "field": "A",
+                "page": "d01-p02",
+                "view": "audit:A:2.1",
+                "anchor": "Relay output",
+                "anchor_box": [
+                  211.0,
+                  915.0,
+                  492.0,
+                  962.0
+                ],
+                "value": "413",
+                "value_box": [
+                  508.0,
+                  915.0,
+                  590.0,
+                  952.0
+                ],
+                "box": [
+                  211.0,
+                  915.0,
+                  590.0,
+                  962.0
+                ],
+                "line": "Relay output 413 kW",
+                "confidence": 0.95
+              }
+            ],
+            "candidate_count": 2,
+            "unread": 0,
+            "unreadable": 0,
+            "candidate_limit_reached": false,
+            "scope": "indexed_candidates"
+          }
+        }
+      }
+    },
+    {
+      "file": "register-03.pdf",
+      "scoped": true,
+      "strategy": "hybrid",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "hybrid",
+        "budget": 500000,
+        "spent": 139872,
+        "status": "answered",
+        "answer": {
+          "value": "413",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p02",
+            "view": "pdf-line:A:2.1",
+            "anchor": "Relay output",
+            "anchor_box": [
+              211.0,
+              915.0,
+              492.0,
+              962.0
+            ],
+            "value": "413",
+            "value_box": [
+              508.0,
+              915.0,
+              590.0,
+              952.0
+            ],
+            "box": [
+              211.0,
+              915.0,
+              590.0,
+              962.0
+            ],
+            "line": "Relay output 413 kW",
+            "confidence": 0.95
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              752,
+              93
+            ],
+            "box": [
+              164,
+              892,
+              916,
+              985
+            ],
+            "pixels": 69936,
+            "spent": 69936,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          },
+          {
+            "step": 2,
+            "page": "d01-p02",
+            "view": "pdf-line:A:2.1",
+            "mode": "pdf-line",
+            "size": [
+              752,
+              93
+            ],
+            "box": [
+              164,
+              892,
+              916,
+              985
+            ],
+            "pixels": 69936,
+            "spent": 139872,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-03.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-03.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 2,
+        "elapsed_ms": 27.63,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {}
+      }
+    },
+    {
+      "file": "register-03.pdf",
+      "scoped": true,
+      "strategy": "audited",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "audited",
+        "budget": 500000,
+        "spent": 69936,
+        "status": "answered",
+        "answer": {
+          "value": "413",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p02",
+            "view": "audit:A:1.1",
+            "anchor": "Relay output",
+            "anchor_box": [
+              211.0,
+              915.0,
+              492.0,
+              962.0
+            ],
+            "value": "413",
+            "value_box": [
+              508.0,
+              915.0,
+              590.0,
+              952.0
+            ],
+            "box": [
+              211.0,
+              915.0,
+              590.0,
+              962.0
+            ],
+            "line": "Relay output 413 kW",
+            "confidence": 0.95
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p02",
+            "view": "audit:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              752,
+              93
+            ],
+            "box": [
+              164,
+              892,
+              916,
+              985
+            ],
+            "pixels": 69936,
+            "spent": 69936,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 1 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-03.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-03.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 1,
+        "elapsed_ms": 13.92,
+        "pdf_candidates": {
+          "A": 1
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {
+          "A": {
+            "status": "accepted",
+            "values": [
+              "413"
+            ],
+            "evidence": [
+              {
+                "field": "A",
+                "page": "d01-p02",
+                "view": "audit:A:1.1",
+                "anchor": "Relay output",
+                "anchor_box": [
+                  211.0,
+                  915.0,
+                  492.0,
+                  962.0
+                ],
+                "value": "413",
+                "value_box": [
+                  508.0,
+                  915.0,
+                  590.0,
+                  952.0
+                ],
+                "box": [
+                  211.0,
+                  915.0,
+                  590.0,
+                  962.0
+                ],
+                "line": "Relay output 413 kW",
+                "confidence": 0.95
+              }
+            ],
+            "candidate_count": 1,
+            "unread": 0,
+            "unreadable": 0,
+            "candidate_limit_reached": false,
+            "scope": "indexed_candidates"
+          }
+        }
+      }
+    },
+    {
+      "file": "register-04.pdf",
+      "scoped": false,
+      "strategy": "hybrid",
+      "expected": "conflict",
+      "correct": false,
+      "result": {
+        "op": "extract",
+        "strategy": "hybrid",
+        "budget": 500000,
+        "spent": 43840,
+        "status": "answered",
+        "answer": {
+          "value": "536",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "anchor": "Reserve load",
+            "anchor_box": [
+              209.0,
+              949.0,
+              573.0,
+              981.0
+            ],
+            "value": "536",
+            "value_box": [
+              609.0,
+              948.0,
+              691.0,
+              981.0
+            ],
+            "box": [
+              209.0,
+              948.0,
+              691.0,
+              981.0
+            ],
+            "line": "Reserve load 536 kW",
+            "confidence": 0.94
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              685,
+              64
+            ],
+            "box": [
+              177,
+              933,
+              862,
+              997
+            ],
+            "pixels": 43840,
+            "spent": 43840,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-04.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-04.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 1,
+        "elapsed_ms": 15.5,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [
+          "A"
+        ],
+        "field_assessments": {}
+      }
+    },
+    {
+      "file": "register-04.pdf",
+      "scoped": false,
+      "strategy": "audited",
+      "expected": "conflict",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "audited",
+        "budget": 500000,
+        "spent": 87680,
+        "status": "conflict",
+        "answer": null,
+        "evidence": [],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "audit:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              685,
+              64
+            ],
+            "box": [
+              177,
+              933,
+              862,
+              997
+            ],
+            "pixels": 43840,
+            "spent": 43840,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 1 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          },
+          {
+            "step": 2,
+            "page": "d01-p02",
+            "view": "audit:A:2.1",
+            "mode": "pdf-line",
+            "size": [
+              685,
+              64
+            ],
+            "box": [
+              177,
+              933,
+              862,
+              997
+            ],
+            "pixels": 43840,
+            "spent": 87680,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 2 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-04.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-04.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 2,
+        "elapsed_ms": 31.13,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [
+          "A"
+        ],
+        "field_assessments": {
+          "A": {
+            "status": "conflict",
+            "values": [
+              "536",
+              "580"
+            ],
+            "evidence": [
+              {
+                "field": "A",
+                "page": "d01-p01",
+                "view": "audit:A:1.1",
+                "anchor": "Reserve load",
+                "anchor_box": [
+                  209.0,
+                  949.0,
+                  573.0,
+                  981.0
+                ],
+                "value": "536",
+                "value_box": [
+                  609.0,
+                  948.0,
+                  691.0,
+                  981.0
+                ],
+                "box": [
+                  209.0,
+                  948.0,
+                  691.0,
+                  981.0
+                ],
+                "line": "Reserve load 536 kW",
+                "confidence": 0.94
+              },
+              {
+                "field": "A",
+                "page": "d01-p02",
+                "view": "audit:A:2.1",
+                "anchor": "Reserve load",
+                "anchor_box": [
+                  209.0,
+                  949.0,
+                  573.0,
+                  981.0
+                ],
+                "value": "580",
+                "value_box": [
+                  609.0,
+                  948.0,
+                  690.0,
+                  981.0
+                ],
+                "box": [
+                  209.0,
+                  948.0,
+                  690.0,
+                  981.0
+                ],
+                "line": "Reserve load 580 kW",
+                "confidence": 0.9
+              }
+            ],
+            "candidate_count": 2,
+            "unread": 0,
+            "unreadable": 0,
+            "candidate_limit_reached": false,
+            "scope": "indexed_candidates"
+          }
+        }
+      }
+    },
+    {
+      "file": "register-04.pdf",
+      "scoped": true,
+      "strategy": "hybrid",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "hybrid",
+        "budget": 500000,
+        "spent": 87680,
+        "status": "answered",
+        "answer": {
+          "value": "580",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p02",
+            "view": "pdf-line:A:2.1",
+            "anchor": "Reserve load",
+            "anchor_box": [
+              209.0,
+              949.0,
+              573.0,
+              981.0
+            ],
+            "value": "580",
+            "value_box": [
+              609.0,
+              948.0,
+              690.0,
+              981.0
+            ],
+            "box": [
+              209.0,
+              948.0,
+              690.0,
+              981.0
+            ],
+            "line": "Reserve load 580 kW",
+            "confidence": 0.9
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              685,
+              64
+            ],
+            "box": [
+              177,
+              933,
+              862,
+              997
+            ],
+            "pixels": 43840,
+            "spent": 43840,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          },
+          {
+            "step": 2,
+            "page": "d01-p02",
+            "view": "pdf-line:A:2.1",
+            "mode": "pdf-line",
+            "size": [
+              685,
+              64
+            ],
+            "box": [
+              177,
+              933,
+              862,
+              997
+            ],
+            "pixels": 43840,
+            "spent": 87680,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-04.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-04.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 2,
+        "elapsed_ms": 33.62,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {}
+      }
+    },
+    {
+      "file": "register-04.pdf",
+      "scoped": true,
+      "strategy": "audited",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "audited",
+        "budget": 500000,
+        "spent": 43840,
+        "status": "answered",
+        "answer": {
+          "value": "580",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p02",
+            "view": "audit:A:1.1",
+            "anchor": "Reserve load",
+            "anchor_box": [
+              209.0,
+              949.0,
+              573.0,
+              981.0
+            ],
+            "value": "580",
+            "value_box": [
+              609.0,
+              948.0,
+              690.0,
+              981.0
+            ],
+            "box": [
+              209.0,
+              948.0,
+              690.0,
+              981.0
+            ],
+            "line": "Reserve load 580 kW",
+            "confidence": 0.9
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p02",
+            "view": "audit:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              685,
+              64
+            ],
+            "box": [
+              177,
+              933,
+              862,
+              997
+            ],
+            "pixels": 43840,
+            "spent": 43840,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 1 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-04.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-04.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 1,
+        "elapsed_ms": 17.31,
+        "pdf_candidates": {
+          "A": 1
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {
+          "A": {
+            "status": "accepted",
+            "values": [
+              "580"
+            ],
+            "evidence": [
+              {
+                "field": "A",
+                "page": "d01-p02",
+                "view": "audit:A:1.1",
+                "anchor": "Reserve load",
+                "anchor_box": [
+                  209.0,
+                  949.0,
+                  573.0,
+                  981.0
+                ],
+                "value": "580",
+                "value_box": [
+                  609.0,
+                  948.0,
+                  690.0,
+                  981.0
+                ],
+                "box": [
+                  209.0,
+                  948.0,
+                  690.0,
+                  981.0
+                ],
+                "line": "Reserve load 580 kW",
+                "confidence": 0.9
+              }
+            ],
+            "candidate_count": 1,
+            "unread": 0,
+            "unreadable": 0,
+            "candidate_limit_reached": false,
+            "scope": "indexed_candidates"
+          }
+        }
+      }
+    },
+    {
+      "file": "register-05.pdf",
+      "scoped": false,
+      "strategy": "hybrid",
+      "expected": "conflict",
+      "correct": false,
+      "result": {
+        "op": "extract",
+        "strategy": "hybrid",
+        "budget": 500000,
+        "spent": 51027,
+        "status": "answered",
+        "answer": {
+          "value": "657",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "anchor": "Intake demand",
+            "anchor_box": [
+              212.0,
+              972.0,
+              540.0,
+              1009.0
+            ],
+            "value": "657",
+            "value_box": [
+              560.0,
+              972.0,
+              641.0,
+              1009.0
+            ],
+            "box": [
+              212.0,
+              972.0,
+              641.0,
+              1009.0
+            ],
+            "line": "Intake demand 657 kW",
+            "confidence": 0.95
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              699,
+              73
+            ],
+            "box": [
+              175,
+              954,
+              874,
+              1027
+            ],
+            "pixels": 51027,
+            "spent": 51027,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-05.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-05.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 1,
+        "elapsed_ms": 18.2,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [
+          "A"
+        ],
+        "field_assessments": {}
+      }
+    },
+    {
+      "file": "register-05.pdf",
+      "scoped": false,
+      "strategy": "audited",
+      "expected": "conflict",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "audited",
+        "budget": 500000,
+        "spent": 102054,
+        "status": "conflict",
+        "answer": null,
+        "evidence": [],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "audit:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              699,
+              73
+            ],
+            "box": [
+              175,
+              954,
+              874,
+              1027
+            ],
+            "pixels": 51027,
+            "spent": 51027,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 1 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          },
+          {
+            "step": 2,
+            "page": "d01-p02",
+            "view": "audit:A:2.1",
+            "mode": "pdf-line",
+            "size": [
+              699,
+              73
+            ],
+            "box": [
+              175,
+              954,
+              874,
+              1027
+            ],
+            "pixels": 51027,
+            "spent": 102054,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 2 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-05.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-05.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 2,
+        "elapsed_ms": 36.52,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [
+          "A"
+        ],
+        "field_assessments": {
+          "A": {
+            "status": "conflict",
+            "values": [
+              "657",
+              "715"
+            ],
+            "evidence": [
+              {
+                "field": "A",
+                "page": "d01-p01",
+                "view": "audit:A:1.1",
+                "anchor": "Intake demand",
+                "anchor_box": [
+                  212.0,
+                  972.0,
+                  540.0,
+                  1009.0
+                ],
+                "value": "657",
+                "value_box": [
+                  560.0,
+                  972.0,
+                  641.0,
+                  1009.0
+                ],
+                "box": [
+                  212.0,
+                  972.0,
+                  641.0,
+                  1009.0
+                ],
+                "line": "Intake demand 657 kW",
+                "confidence": 0.95
+              },
+              {
+                "field": "A",
+                "page": "d01-p02",
+                "view": "audit:A:2.1",
+                "anchor": "Intake demand",
+                "anchor_box": [
+                  212.0,
+                  972.0,
+                  540.0,
+                  1009.0
+                ],
+                "value": "715",
+                "value_box": [
+                  560.0,
+                  972.0,
+                  641.0,
+                  1009.0
+                ],
+                "box": [
+                  212.0,
+                  972.0,
+                  641.0,
+                  1009.0
+                ],
+                "line": "Intake demand 715 kW",
+                "confidence": 0.95
+              }
+            ],
+            "candidate_count": 2,
+            "unread": 0,
+            "unreadable": 0,
+            "candidate_limit_reached": false,
+            "scope": "indexed_candidates"
+          }
+        }
+      }
+    },
+    {
+      "file": "register-05.pdf",
+      "scoped": true,
+      "strategy": "hybrid",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "hybrid",
+        "budget": 500000,
+        "spent": 102054,
+        "status": "answered",
+        "answer": {
+          "value": "715",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p02",
+            "view": "pdf-line:A:2.1",
+            "anchor": "Intake demand",
+            "anchor_box": [
+              212.0,
+              972.0,
+              540.0,
+              1009.0
+            ],
+            "value": "715",
+            "value_box": [
+              560.0,
+              972.0,
+              641.0,
+              1009.0
+            ],
+            "box": [
+              212.0,
+              972.0,
+              641.0,
+              1009.0
+            ],
+            "line": "Intake demand 715 kW",
+            "confidence": 0.95
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              699,
+              73
+            ],
+            "box": [
+              175,
+              954,
+              874,
+              1027
+            ],
+            "pixels": 51027,
+            "spent": 51027,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          },
+          {
+            "step": 2,
+            "page": "d01-p02",
+            "view": "pdf-line:A:2.1",
+            "mode": "pdf-line",
+            "size": [
+              699,
+              73
+            ],
+            "box": [
+              175,
+              954,
+              874,
+              1027
+            ],
+            "pixels": 51027,
+            "spent": 102054,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-05.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-05.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 2,
+        "elapsed_ms": 31.14,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {}
+      }
+    },
+    {
+      "file": "register-05.pdf",
+      "scoped": true,
+      "strategy": "audited",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "audited",
+        "budget": 500000,
+        "spent": 51027,
+        "status": "answered",
+        "answer": {
+          "value": "715",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p02",
+            "view": "audit:A:1.1",
+            "anchor": "Intake demand",
+            "anchor_box": [
+              212.0,
+              972.0,
+              540.0,
+              1009.0
+            ],
+            "value": "715",
+            "value_box": [
+              560.0,
+              972.0,
+              641.0,
+              1009.0
+            ],
+            "box": [
+              212.0,
+              972.0,
+              641.0,
+              1009.0
+            ],
+            "line": "Intake demand 715 kW",
+            "confidence": 0.95
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p02",
+            "view": "audit:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              699,
+              73
+            ],
+            "box": [
+              175,
+              954,
+              874,
+              1027
+            ],
+            "pixels": 51027,
+            "spent": 51027,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 1 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-05.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-05.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 1,
+        "elapsed_ms": 15.12,
+        "pdf_candidates": {
+          "A": 1
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {
+          "A": {
+            "status": "accepted",
+            "values": [
+              "715"
+            ],
+            "evidence": [
+              {
+                "field": "A",
+                "page": "d01-p02",
+                "view": "audit:A:1.1",
+                "anchor": "Intake demand",
+                "anchor_box": [
+                  212.0,
+                  972.0,
+                  540.0,
+                  1009.0
+                ],
+                "value": "715",
+                "value_box": [
+                  560.0,
+                  972.0,
+                  641.0,
+                  1009.0
+                ],
+                "box": [
+                  212.0,
+                  972.0,
+                  641.0,
+                  1009.0
+                ],
+                "line": "Intake demand 715 kW",
+                "confidence": 0.95
+              }
+            ],
+            "candidate_count": 1,
+            "unread": 0,
+            "unreadable": 0,
+            "candidate_limit_reached": false,
+            "scope": "indexed_candidates"
+          }
+        }
+      }
+    },
+    {
+      "file": "register-06.pdf",
+      "scoped": false,
+      "strategy": "hybrid",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "hybrid",
+        "budget": 500000,
+        "spent": 62532,
+        "status": "answered",
+        "answer": {
+          "value": "638",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "anchor": "Relay output",
+            "anchor_box": [
+              209.0,
+              1006.0,
+              570.0,
+              1047.0
+            ],
+            "value": "638",
+            "value_box": [
+              611.0,
+              1005.0,
+              690.0,
+              1038.0
+            ],
+            "box": [
+              209.0,
+              1005.0,
+              690.0,
+              1047.0
+            ],
+            "line": "Relay output 638 kW",
+            "confidence": 0.94
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              772,
+              81
+            ],
+            "box": [
+              168,
+              986,
+              940,
+              1067
+            ],
+            "pixels": 62532,
+            "spent": 62532,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-06.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-06.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 1,
+        "elapsed_ms": 17.18,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [
+          "A"
+        ],
+        "field_assessments": {}
+      }
+    },
+    {
+      "file": "register-06.pdf",
+      "scoped": false,
+      "strategy": "audited",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "audited",
+        "budget": 500000,
+        "spent": 125064,
+        "status": "answered",
+        "answer": {
+          "value": "638",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p01",
+            "view": "audit:A:1.1",
+            "anchor": "Relay output",
+            "anchor_box": [
+              209.0,
+              1006.0,
+              570.0,
+              1047.0
+            ],
+            "value": "638",
+            "value_box": [
+              611.0,
+              1005.0,
+              690.0,
+              1038.0
+            ],
+            "box": [
+              209.0,
+              1005.0,
+              690.0,
+              1047.0
+            ],
+            "line": "Relay output 638 kW",
+            "confidence": 0.94
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "audit:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              772,
+              81
+            ],
+            "box": [
+              168,
+              986,
+              940,
+              1067
+            ],
+            "pixels": 62532,
+            "spent": 62532,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 1 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          },
+          {
+            "step": 2,
+            "page": "d01-p02",
+            "view": "audit:A:2.1",
+            "mode": "pdf-line",
+            "size": [
+              772,
+              81
+            ],
+            "box": [
+              168,
+              986,
+              940,
+              1067
+            ],
+            "pixels": 62532,
+            "spent": 125064,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 2 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-06.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-06.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 2,
+        "elapsed_ms": 33.52,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {
+          "A": {
+            "status": "accepted",
+            "values": [
+              "638"
+            ],
+            "evidence": [
+              {
+                "field": "A",
+                "page": "d01-p01",
+                "view": "audit:A:1.1",
+                "anchor": "Relay output",
+                "anchor_box": [
+                  209.0,
+                  1006.0,
+                  570.0,
+                  1047.0
+                ],
+                "value": "638",
+                "value_box": [
+                  611.0,
+                  1005.0,
+                  690.0,
+                  1038.0
+                ],
+                "box": [
+                  209.0,
+                  1005.0,
+                  690.0,
+                  1047.0
+                ],
+                "line": "Relay output 638 kW",
+                "confidence": 0.94
+              },
+              {
+                "field": "A",
+                "page": "d01-p02",
+                "view": "audit:A:2.1",
+                "anchor": "Relay output",
+                "anchor_box": [
+                  209.0,
+                  1006.0,
+                  570.0,
+                  1047.0
+                ],
+                "value": "638",
+                "value_box": [
+                  611.0,
+                  1005.0,
+                  690.0,
+                  1038.0
+                ],
+                "box": [
+                  209.0,
+                  1005.0,
+                  690.0,
+                  1047.0
+                ],
+                "line": "Relay output 638 kW",
+                "confidence": 0.94
+              }
+            ],
+            "candidate_count": 2,
+            "unread": 0,
+            "unreadable": 0,
+            "candidate_limit_reached": false,
+            "scope": "indexed_candidates"
+          }
+        }
+      }
+    },
+    {
+      "file": "register-06.pdf",
+      "scoped": true,
+      "strategy": "hybrid",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "hybrid",
+        "budget": 500000,
+        "spent": 125064,
+        "status": "answered",
+        "answer": {
+          "value": "638",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p02",
+            "view": "pdf-line:A:2.1",
+            "anchor": "Relay output",
+            "anchor_box": [
+              209.0,
+              1006.0,
+              570.0,
+              1047.0
+            ],
+            "value": "638",
+            "value_box": [
+              611.0,
+              1005.0,
+              690.0,
+              1038.0
+            ],
+            "box": [
+              209.0,
+              1005.0,
+              690.0,
+              1047.0
+            ],
+            "line": "Relay output 638 kW",
+            "confidence": 0.94
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              772,
+              81
+            ],
+            "box": [
+              168,
+              986,
+              940,
+              1067
+            ],
+            "pixels": 62532,
+            "spent": 62532,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          },
+          {
+            "step": 2,
+            "page": "d01-p02",
+            "view": "pdf-line:A:2.1",
+            "mode": "pdf-line",
+            "size": [
+              772,
+              81
+            ],
+            "box": [
+              168,
+              986,
+              940,
+              1067
+            ],
+            "pixels": 62532,
+            "spent": 125064,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-06.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-06.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 2,
+        "elapsed_ms": 43.8,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {}
+      }
+    },
+    {
+      "file": "register-06.pdf",
+      "scoped": true,
+      "strategy": "audited",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "audited",
+        "budget": 500000,
+        "spent": 62532,
+        "status": "answered",
+        "answer": {
+          "value": "638",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p02",
+            "view": "audit:A:1.1",
+            "anchor": "Relay output",
+            "anchor_box": [
+              209.0,
+              1006.0,
+              570.0,
+              1047.0
+            ],
+            "value": "638",
+            "value_box": [
+              611.0,
+              1005.0,
+              690.0,
+              1038.0
+            ],
+            "box": [
+              209.0,
+              1005.0,
+              690.0,
+              1047.0
+            ],
+            "line": "Relay output 638 kW",
+            "confidence": 0.94
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p02",
+            "view": "audit:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              772,
+              81
+            ],
+            "box": [
+              168,
+              986,
+              940,
+              1067
+            ],
+            "pixels": 62532,
+            "spent": 62532,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 1 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-06.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-06.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 1,
+        "elapsed_ms": 16.84,
+        "pdf_candidates": {
+          "A": 1
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {
+          "A": {
+            "status": "accepted",
+            "values": [
+              "638"
+            ],
+            "evidence": [
+              {
+                "field": "A",
+                "page": "d01-p02",
+                "view": "audit:A:1.1",
+                "anchor": "Relay output",
+                "anchor_box": [
+                  209.0,
+                  1006.0,
+                  570.0,
+                  1047.0
+                ],
+                "value": "638",
+                "value_box": [
+                  611.0,
+                  1005.0,
+                  690.0,
+                  1038.0
+                ],
+                "box": [
+                  209.0,
+                  1005.0,
+                  690.0,
+                  1047.0
+                ],
+                "line": "Relay output 638 kW",
+                "confidence": 0.94
+              }
+            ],
+            "candidate_count": 1,
+            "unread": 0,
+            "unreadable": 0,
+            "candidate_limit_reached": false,
+            "scope": "indexed_candidates"
+          }
+        }
+      }
+    },
+    {
+      "file": "register-07.pdf",
+      "scoped": false,
+      "strategy": "hybrid",
+      "expected": "conflict",
+      "correct": false,
+      "result": {
+        "op": "extract",
+        "strategy": "hybrid",
+        "budget": 500000,
+        "spent": 48399,
+        "status": "answered",
+        "answer": {
+          "value": "683",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "anchor": "Reserve load",
+            "anchor_box": [
+              211.0,
+              1029.0,
+              503.0,
+              1067.0
+            ],
+            "value": "683",
+            "value_box": [
+              523.0,
+              1029.0,
+              604.0,
+              1067.0
+            ],
+            "box": [
+              211.0,
+              1029.0,
+              604.0,
+              1067.0
+            ],
+            "line": "Reserve load 683 kW",
+            "confidence": 0.95
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              663,
+              73
+            ],
+            "box": [
+              174,
+              1011,
+              837,
+              1084
+            ],
+            "pixels": 48399,
+            "spent": 48399,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-07.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-07.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 1,
+        "elapsed_ms": 14.33,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [
+          "A"
+        ],
+        "field_assessments": {}
+      }
+    },
+    {
+      "file": "register-07.pdf",
+      "scoped": false,
+      "strategy": "audited",
+      "expected": "conflict",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "audited",
+        "budget": 500000,
+        "spent": 96798,
+        "status": "conflict",
+        "answer": null,
+        "evidence": [],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "audit:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              663,
+              73
+            ],
+            "box": [
+              174,
+              1011,
+              837,
+              1084
+            ],
+            "pixels": 48399,
+            "spent": 48399,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 1 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          },
+          {
+            "step": 2,
+            "page": "d01-p02",
+            "view": "audit:A:2.1",
+            "mode": "pdf-line",
+            "size": [
+              663,
+              73
+            ],
+            "box": [
+              174,
+              1011,
+              837,
+              1084
+            ],
+            "pixels": 48399,
+            "spent": 96798,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 2 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-07.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-07.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 2,
+        "elapsed_ms": 27.37,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [
+          "A"
+        ],
+        "field_assessments": {
+          "A": {
+            "status": "conflict",
+            "values": [
+              "605",
+              "683"
+            ],
+            "evidence": [
+              {
+                "field": "A",
+                "page": "d01-p01",
+                "view": "audit:A:1.1",
+                "anchor": "Reserve load",
+                "anchor_box": [
+                  211.0,
+                  1029.0,
+                  503.0,
+                  1067.0
+                ],
+                "value": "683",
+                "value_box": [
+                  523.0,
+                  1029.0,
+                  604.0,
+                  1067.0
+                ],
+                "box": [
+                  211.0,
+                  1029.0,
+                  604.0,
+                  1067.0
+                ],
+                "line": "Reserve load 683 kW",
+                "confidence": 0.95
+              },
+              {
+                "field": "A",
+                "page": "d01-p02",
+                "view": "audit:A:2.1",
+                "anchor": "Reserve load",
+                "anchor_box": [
+                  211.0,
+                  1029.0,
+                  503.0,
+                  1067.0
+                ],
+                "value": "605",
+                "value_box": [
+                  523.0,
+                  1029.0,
+                  604.0,
+                  1067.0
+                ],
+                "box": [
+                  211.0,
+                  1029.0,
+                  604.0,
+                  1067.0
+                ],
+                "line": "Reserve load 605 kW",
+                "confidence": 0.95
+              }
+            ],
+            "candidate_count": 2,
+            "unread": 0,
+            "unreadable": 0,
+            "candidate_limit_reached": false,
+            "scope": "indexed_candidates"
+          }
+        }
+      }
+    },
+    {
+      "file": "register-07.pdf",
+      "scoped": true,
+      "strategy": "hybrid",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "hybrid",
+        "budget": 500000,
+        "spent": 96798,
+        "status": "answered",
+        "answer": {
+          "value": "605",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p02",
+            "view": "pdf-line:A:2.1",
+            "anchor": "Reserve load",
+            "anchor_box": [
+              211.0,
+              1029.0,
+              503.0,
+              1067.0
+            ],
+            "value": "605",
+            "value_box": [
+              523.0,
+              1029.0,
+              604.0,
+              1067.0
+            ],
+            "box": [
+              211.0,
+              1029.0,
+              604.0,
+              1067.0
+            ],
+            "line": "Reserve load 605 kW",
+            "confidence": 0.95
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              663,
+              73
+            ],
+            "box": [
+              174,
+              1011,
+              837,
+              1084
+            ],
+            "pixels": 48399,
+            "spent": 48399,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          },
+          {
+            "step": 2,
+            "page": "d01-p02",
+            "view": "pdf-line:A:2.1",
+            "mode": "pdf-line",
+            "size": [
+              663,
+              73
+            ],
+            "box": [
+              174,
+              1011,
+              837,
+              1084
+            ],
+            "pixels": 48399,
+            "spent": 96798,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-07.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-07.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 2,
+        "elapsed_ms": 27.76,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {}
+      }
+    },
+    {
+      "file": "register-07.pdf",
+      "scoped": true,
+      "strategy": "audited",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "audited",
+        "budget": 500000,
+        "spent": 48399,
+        "status": "answered",
+        "answer": {
+          "value": "605",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p02",
+            "view": "audit:A:1.1",
+            "anchor": "Reserve load",
+            "anchor_box": [
+              211.0,
+              1029.0,
+              503.0,
+              1067.0
+            ],
+            "value": "605",
+            "value_box": [
+              523.0,
+              1029.0,
+              604.0,
+              1067.0
+            ],
+            "box": [
+              211.0,
+              1029.0,
+              604.0,
+              1067.0
+            ],
+            "line": "Reserve load 605 kW",
+            "confidence": 0.95
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p02",
+            "view": "audit:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              663,
+              73
+            ],
+            "box": [
+              174,
+              1011,
+              837,
+              1084
+            ],
+            "pixels": 48399,
+            "spent": 48399,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 1 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-07.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-07.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 1,
+        "elapsed_ms": 13.9,
+        "pdf_candidates": {
+          "A": 1
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {
+          "A": {
+            "status": "accepted",
+            "values": [
+              "605"
+            ],
+            "evidence": [
+              {
+                "field": "A",
+                "page": "d01-p02",
+                "view": "audit:A:1.1",
+                "anchor": "Reserve load",
+                "anchor_box": [
+                  211.0,
+                  1029.0,
+                  503.0,
+                  1067.0
+                ],
+                "value": "605",
+                "value_box": [
+                  523.0,
+                  1029.0,
+                  604.0,
+                  1067.0
+                ],
+                "box": [
+                  211.0,
+                  1029.0,
+                  604.0,
+                  1067.0
+                ],
+                "line": "Reserve load 605 kW",
+                "confidence": 0.95
+              }
+            ],
+            "candidate_count": 1,
+            "unread": 0,
+            "unreadable": 0,
+            "candidate_limit_reached": false,
+            "scope": "indexed_candidates"
+          }
+        }
+      }
+    },
+    {
+      "file": "register-08.pdf",
+      "scoped": false,
+      "strategy": "hybrid",
+      "expected": "conflict",
+      "correct": false,
+      "result": {
+        "op": "extract",
+        "strategy": "hybrid",
+        "budget": 500000,
+        "spent": 45504,
+        "status": "answered",
+        "answer": {
+          "value": "138",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "anchor": "Intake demand",
+            "anchor_box": [
+              213.0,
+              1063.0,
+              603.0,
+              1095.0
+            ],
+            "value": "138",
+            "value_box": [
+              640.0,
+              1063.0,
+              721.0,
+              1095.0
+            ],
+            "box": [
+              213.0,
+              1063.0,
+              721.0,
+              1095.0
+            ],
+            "line": "Intake demand 138 kw",
+            "confidence": 0.86
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              711,
+              64
+            ],
+            "box": [
+              181,
+              1047,
+              892,
+              1111
+            ],
+            "pixels": 45504,
+            "spent": 45504,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-08.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-08.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 1,
+        "elapsed_ms": 16.58,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [
+          "A"
+        ],
+        "field_assessments": {}
+      }
+    },
+    {
+      "file": "register-08.pdf",
+      "scoped": false,
+      "strategy": "audited",
+      "expected": "conflict",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "audited",
+        "budget": 500000,
+        "spent": 91008,
+        "status": "conflict",
+        "answer": null,
+        "evidence": [],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "audit:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              711,
+              64
+            ],
+            "box": [
+              181,
+              1047,
+              892,
+              1111
+            ],
+            "pixels": 45504,
+            "spent": 45504,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 1 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          },
+          {
+            "step": 2,
+            "page": "d01-p02",
+            "view": "audit:A:2.1",
+            "mode": "pdf-line",
+            "size": [
+              711,
+              64
+            ],
+            "box": [
+              181,
+              1047,
+              892,
+              1111
+            ],
+            "pixels": 45504,
+            "spent": 91008,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 2 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-08.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-08.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 2,
+        "elapsed_ms": 34.42,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [
+          "A"
+        ],
+        "field_assessments": {
+          "A": {
+            "status": "conflict",
+            "values": [
+              "138",
+              "320"
+            ],
+            "evidence": [
+              {
+                "field": "A",
+                "page": "d01-p01",
+                "view": "audit:A:1.1",
+                "anchor": "Intake demand",
+                "anchor_box": [
+                  213.0,
+                  1063.0,
+                  603.0,
+                  1095.0
+                ],
+                "value": "138",
+                "value_box": [
+                  640.0,
+                  1063.0,
+                  721.0,
+                  1095.0
+                ],
+                "box": [
+                  213.0,
+                  1063.0,
+                  721.0,
+                  1095.0
+                ],
+                "line": "Intake demand 138 kw",
+                "confidence": 0.86
+              },
+              {
+                "field": "A",
+                "page": "d01-p02",
+                "view": "audit:A:2.1",
+                "anchor": "Intake demand",
+                "anchor_box": [
+                  213.0,
+                  1063.0,
+                  603.0,
+                  1095.0
+                ],
+                "value": "320",
+                "value_box": [
+                  640.0,
+                  1063.0,
+                  721.0,
+                  1095.0
+                ],
+                "box": [
+                  213.0,
+                  1063.0,
+                  721.0,
+                  1095.0
+                ],
+                "line": "Intake demand 320 kW",
+                "confidence": 0.89
+              }
+            ],
+            "candidate_count": 2,
+            "unread": 0,
+            "unreadable": 0,
+            "candidate_limit_reached": false,
+            "scope": "indexed_candidates"
+          }
+        }
+      }
+    },
+    {
+      "file": "register-08.pdf",
+      "scoped": true,
+      "strategy": "hybrid",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "hybrid",
+        "budget": 500000,
+        "spent": 91008,
+        "status": "answered",
+        "answer": {
+          "value": "320",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p02",
+            "view": "pdf-line:A:2.1",
+            "anchor": "Intake demand",
+            "anchor_box": [
+              213.0,
+              1063.0,
+              603.0,
+              1095.0
+            ],
+            "value": "320",
+            "value_box": [
+              640.0,
+              1063.0,
+              721.0,
+              1095.0
+            ],
+            "box": [
+              213.0,
+              1063.0,
+              721.0,
+              1095.0
+            ],
+            "line": "Intake demand 320 kW",
+            "confidence": 0.89
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              711,
+              64
+            ],
+            "box": [
+              181,
+              1047,
+              892,
+              1111
+            ],
+            "pixels": 45504,
+            "spent": 45504,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          },
+          {
+            "step": 2,
+            "page": "d01-p02",
+            "view": "pdf-line:A:2.1",
+            "mode": "pdf-line",
+            "size": [
+              711,
+              64
+            ],
+            "box": [
+              181,
+              1047,
+              892,
+              1111
+            ],
+            "pixels": 45504,
+            "spent": 91008,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-08.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-08.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 2,
+        "elapsed_ms": 49.83,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {}
+      }
+    },
+    {
+      "file": "register-08.pdf",
+      "scoped": true,
+      "strategy": "audited",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "audited",
+        "budget": 500000,
+        "spent": 45504,
+        "status": "answered",
+        "answer": {
+          "value": "320",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p02",
+            "view": "audit:A:1.1",
+            "anchor": "Intake demand",
+            "anchor_box": [
+              213.0,
+              1063.0,
+              603.0,
+              1095.0
+            ],
+            "value": "320",
+            "value_box": [
+              640.0,
+              1063.0,
+              721.0,
+              1095.0
+            ],
+            "box": [
+              213.0,
+              1063.0,
+              721.0,
+              1095.0
+            ],
+            "line": "Intake demand 320 kW",
+            "confidence": 0.89
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p02",
+            "view": "audit:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              711,
+              64
+            ],
+            "box": [
+              181,
+              1047,
+              892,
+              1111
+            ],
+            "pixels": 45504,
+            "spent": 45504,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 1 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-08.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-08.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 1,
+        "elapsed_ms": 17.04,
+        "pdf_candidates": {
+          "A": 1
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {
+          "A": {
+            "status": "accepted",
+            "values": [
+              "320"
+            ],
+            "evidence": [
+              {
+                "field": "A",
+                "page": "d01-p02",
+                "view": "audit:A:1.1",
+                "anchor": "Intake demand",
+                "anchor_box": [
+                  213.0,
+                  1063.0,
+                  603.0,
+                  1095.0
+                ],
+                "value": "320",
+                "value_box": [
+                  640.0,
+                  1063.0,
+                  721.0,
+                  1095.0
+                ],
+                "box": [
+                  213.0,
+                  1063.0,
+                  721.0,
+                  1095.0
+                ],
+                "line": "Intake demand 320 kW",
+                "confidence": 0.89
+              }
+            ],
+            "candidate_count": 1,
+            "unread": 0,
+            "unreadable": 0,
+            "candidate_limit_reached": false,
+            "scope": "indexed_candidates"
+          }
+        }
+      }
+    },
+    {
+      "file": "register-09.pdf",
+      "scoped": false,
+      "strategy": "hybrid",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "hybrid",
+        "budget": 500000,
+        "spent": 69936,
+        "status": "answered",
+        "answer": {
+          "value": "471",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "anchor": "Relay output",
+            "anchor_box": [
+              211.0,
+              1086.0,
+              492.0,
+              1134.0
+            ],
+            "value": "471",
+            "value_box": [
+              508.0,
+              1087.0,
+              583.0,
+              1123.0
+            ],
+            "box": [
+              211.0,
+              1086.0,
+              583.0,
+              1134.0
+            ],
+            "line": "Relay output 471 kW",
+            "confidence": 0.95
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              752,
+              93
+            ],
+            "box": [
+              164,
+              1064,
+              916,
+              1157
+            ],
+            "pixels": 69936,
+            "spent": 69936,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-09.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-09.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 1,
+        "elapsed_ms": 13.34,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [
+          "A"
+        ],
+        "field_assessments": {}
+      }
+    },
+    {
+      "file": "register-09.pdf",
+      "scoped": false,
+      "strategy": "audited",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "audited",
+        "budget": 500000,
+        "spent": 139872,
+        "status": "answered",
+        "answer": {
+          "value": "471",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p01",
+            "view": "audit:A:1.1",
+            "anchor": "Relay output",
+            "anchor_box": [
+              211.0,
+              1086.0,
+              492.0,
+              1134.0
+            ],
+            "value": "471",
+            "value_box": [
+              508.0,
+              1087.0,
+              583.0,
+              1123.0
+            ],
+            "box": [
+              211.0,
+              1086.0,
+              583.0,
+              1134.0
+            ],
+            "line": "Relay output 471 kW",
+            "confidence": 0.95
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "audit:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              752,
+              93
+            ],
+            "box": [
+              164,
+              1064,
+              916,
+              1157
+            ],
+            "pixels": 69936,
+            "spent": 69936,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 1 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          },
+          {
+            "step": 2,
+            "page": "d01-p02",
+            "view": "audit:A:2.1",
+            "mode": "pdf-line",
+            "size": [
+              752,
+              93
+            ],
+            "box": [
+              164,
+              1064,
+              916,
+              1157
+            ],
+            "pixels": 69936,
+            "spent": 139872,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 2 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-09.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-09.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 2,
+        "elapsed_ms": 26.38,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {
+          "A": {
+            "status": "accepted",
+            "values": [
+              "471"
+            ],
+            "evidence": [
+              {
+                "field": "A",
+                "page": "d01-p01",
+                "view": "audit:A:1.1",
+                "anchor": "Relay output",
+                "anchor_box": [
+                  211.0,
+                  1086.0,
+                  492.0,
+                  1134.0
+                ],
+                "value": "471",
+                "value_box": [
+                  508.0,
+                  1087.0,
+                  583.0,
+                  1123.0
+                ],
+                "box": [
+                  211.0,
+                  1086.0,
+                  583.0,
+                  1134.0
+                ],
+                "line": "Relay output 471 kW",
+                "confidence": 0.95
+              },
+              {
+                "field": "A",
+                "page": "d01-p02",
+                "view": "audit:A:2.1",
+                "anchor": "Relay output",
+                "anchor_box": [
+                  211.0,
+                  1086.0,
+                  492.0,
+                  1134.0
+                ],
+                "value": "471",
+                "value_box": [
+                  508.0,
+                  1087.0,
+                  583.0,
+                  1123.0
+                ],
+                "box": [
+                  211.0,
+                  1086.0,
+                  583.0,
+                  1134.0
+                ],
+                "line": "Relay output 471 kW",
+                "confidence": 0.95
+              }
+            ],
+            "candidate_count": 2,
+            "unread": 0,
+            "unreadable": 0,
+            "candidate_limit_reached": false,
+            "scope": "indexed_candidates"
+          }
+        }
+      }
+    },
+    {
+      "file": "register-09.pdf",
+      "scoped": true,
+      "strategy": "hybrid",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "hybrid",
+        "budget": 500000,
+        "spent": 139872,
+        "status": "answered",
+        "answer": {
+          "value": "471",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p02",
+            "view": "pdf-line:A:2.1",
+            "anchor": "Relay output",
+            "anchor_box": [
+              211.0,
+              1086.0,
+              492.0,
+              1134.0
+            ],
+            "value": "471",
+            "value_box": [
+              508.0,
+              1087.0,
+              583.0,
+              1123.0
+            ],
+            "box": [
+              211.0,
+              1086.0,
+              583.0,
+              1134.0
+            ],
+            "line": "Relay output 471 kW",
+            "confidence": 0.95
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              752,
+              93
+            ],
+            "box": [
+              164,
+              1064,
+              916,
+              1157
+            ],
+            "pixels": 69936,
+            "spent": 69936,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          },
+          {
+            "step": 2,
+            "page": "d01-p02",
+            "view": "pdf-line:A:2.1",
+            "mode": "pdf-line",
+            "size": [
+              752,
+              93
+            ],
+            "box": [
+              164,
+              1064,
+              916,
+              1157
+            ],
+            "pixels": 69936,
+            "spent": 139872,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-09.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-09.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 2,
+        "elapsed_ms": 27.33,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {}
+      }
+    },
+    {
+      "file": "register-09.pdf",
+      "scoped": true,
+      "strategy": "audited",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "audited",
+        "budget": 500000,
+        "spent": 69936,
+        "status": "answered",
+        "answer": {
+          "value": "471",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p02",
+            "view": "audit:A:1.1",
+            "anchor": "Relay output",
+            "anchor_box": [
+              211.0,
+              1086.0,
+              492.0,
+              1134.0
+            ],
+            "value": "471",
+            "value_box": [
+              508.0,
+              1087.0,
+              583.0,
+              1123.0
+            ],
+            "box": [
+              211.0,
+              1086.0,
+              583.0,
+              1134.0
+            ],
+            "line": "Relay output 471 kW",
+            "confidence": 0.95
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p02",
+            "view": "audit:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              752,
+              93
+            ],
+            "box": [
+              164,
+              1064,
+              916,
+              1157
+            ],
+            "pixels": 69936,
+            "spent": 69936,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 1 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-09.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-09.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 1,
+        "elapsed_ms": 13.33,
+        "pdf_candidates": {
+          "A": 1
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {
+          "A": {
+            "status": "accepted",
+            "values": [
+              "471"
+            ],
+            "evidence": [
+              {
+                "field": "A",
+                "page": "d01-p02",
+                "view": "audit:A:1.1",
+                "anchor": "Relay output",
+                "anchor_box": [
+                  211.0,
+                  1086.0,
+                  492.0,
+                  1134.0
+                ],
+                "value": "471",
+                "value_box": [
+                  508.0,
+                  1087.0,
+                  583.0,
+                  1123.0
+                ],
+                "box": [
+                  211.0,
+                  1086.0,
+                  583.0,
+                  1134.0
+                ],
+                "line": "Relay output 471 kW",
+                "confidence": 0.95
+              }
+            ],
+            "candidate_count": 1,
+            "unread": 0,
+            "unreadable": 0,
+            "candidate_limit_reached": false,
+            "scope": "indexed_candidates"
+          }
+        }
+      }
+    },
+    {
+      "file": "register-10.pdf",
+      "scoped": false,
+      "strategy": "hybrid",
+      "expected": "conflict",
+      "correct": false,
+      "result": {
+        "op": "extract",
+        "strategy": "hybrid",
+        "budget": 500000,
+        "spent": 43840,
+        "status": "answered",
+        "answer": {
+          "value": "824",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "anchor": "Reserve load",
+            "anchor_box": [
+              209.0,
+              1121.0,
+              573.0,
+              1153.0
+            ],
+            "value": "824",
+            "value_box": [
+              610.0,
+              1120.0,
+              690.0,
+              1153.0
+            ],
+            "box": [
+              209.0,
+              1120.0,
+              690.0,
+              1153.0
+            ],
+            "line": "Reserve load 824 kw",
+            "confidence": 0.96
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              685,
+              64
+            ],
+            "box": [
+              177,
+              1105,
+              862,
+              1169
+            ],
+            "pixels": 43840,
+            "spent": 43840,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-10.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-10.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 1,
+        "elapsed_ms": 16.3,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [
+          "A"
+        ],
+        "field_assessments": {}
+      }
+    },
+    {
+      "file": "register-10.pdf",
+      "scoped": false,
+      "strategy": "audited",
+      "expected": "conflict",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "audited",
+        "budget": 500000,
+        "spent": 87680,
+        "status": "conflict",
+        "answer": null,
+        "evidence": [],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "audit:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              685,
+              64
+            ],
+            "box": [
+              177,
+              1105,
+              862,
+              1169
+            ],
+            "pixels": 43840,
+            "spent": 43840,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 1 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          },
+          {
+            "step": 2,
+            "page": "d01-p02",
+            "view": "audit:A:2.1",
+            "mode": "pdf-line",
+            "size": [
+              685,
+              64
+            ],
+            "box": [
+              177,
+              1105,
+              862,
+              1169
+            ],
+            "pixels": 43840,
+            "spent": 87680,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 2 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-10.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-10.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 2,
+        "elapsed_ms": 32.87,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [
+          "A"
+        ],
+        "field_assessments": {
+          "A": {
+            "status": "conflict",
+            "values": [
+              "598",
+              "824"
+            ],
+            "evidence": [
+              {
+                "field": "A",
+                "page": "d01-p01",
+                "view": "audit:A:1.1",
+                "anchor": "Reserve load",
+                "anchor_box": [
+                  209.0,
+                  1121.0,
+                  573.0,
+                  1153.0
+                ],
+                "value": "824",
+                "value_box": [
+                  610.0,
+                  1120.0,
+                  690.0,
+                  1153.0
+                ],
+                "box": [
+                  209.0,
+                  1120.0,
+                  690.0,
+                  1153.0
+                ],
+                "line": "Reserve load 824 kw",
+                "confidence": 0.96
+              },
+              {
+                "field": "A",
+                "page": "d01-p02",
+                "view": "audit:A:2.1",
+                "anchor": "Reserve load",
+                "anchor_box": [
+                  209.0,
+                  1121.0,
+                  573.0,
+                  1153.0
+                ],
+                "value": "598",
+                "value_box": [
+                  609.0,
+                  1120.0,
+                  690.0,
+                  1153.0
+                ],
+                "box": [
+                  209.0,
+                  1120.0,
+                  690.0,
+                  1153.0
+                ],
+                "line": "Reserve load 598 kW",
+                "confidence": 0.91
+              }
+            ],
+            "candidate_count": 2,
+            "unread": 0,
+            "unreadable": 0,
+            "candidate_limit_reached": false,
+            "scope": "indexed_candidates"
+          }
+        }
+      }
+    },
+    {
+      "file": "register-10.pdf",
+      "scoped": true,
+      "strategy": "hybrid",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "hybrid",
+        "budget": 500000,
+        "spent": 87680,
+        "status": "answered",
+        "answer": {
+          "value": "598",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p02",
+            "view": "pdf-line:A:2.1",
+            "anchor": "Reserve load",
+            "anchor_box": [
+              209.0,
+              1121.0,
+              573.0,
+              1153.0
+            ],
+            "value": "598",
+            "value_box": [
+              609.0,
+              1120.0,
+              690.0,
+              1153.0
+            ],
+            "box": [
+              209.0,
+              1120.0,
+              690.0,
+              1153.0
+            ],
+            "line": "Reserve load 598 kW",
+            "confidence": 0.91
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              685,
+              64
+            ],
+            "box": [
+              177,
+              1105,
+              862,
+              1169
+            ],
+            "pixels": 43840,
+            "spent": 43840,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          },
+          {
+            "step": 2,
+            "page": "d01-p02",
+            "view": "pdf-line:A:2.1",
+            "mode": "pdf-line",
+            "size": [
+              685,
+              64
+            ],
+            "box": [
+              177,
+              1105,
+              862,
+              1169
+            ],
+            "pixels": 43840,
+            "spent": 87680,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-10.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-10.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 2,
+        "elapsed_ms": 44.96,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {}
+      }
+    },
+    {
+      "file": "register-10.pdf",
+      "scoped": true,
+      "strategy": "audited",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "audited",
+        "budget": 500000,
+        "spent": 43840,
+        "status": "answered",
+        "answer": {
+          "value": "598",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p02",
+            "view": "audit:A:1.1",
+            "anchor": "Reserve load",
+            "anchor_box": [
+              209.0,
+              1121.0,
+              573.0,
+              1153.0
+            ],
+            "value": "598",
+            "value_box": [
+              609.0,
+              1120.0,
+              690.0,
+              1153.0
+            ],
+            "box": [
+              209.0,
+              1120.0,
+              690.0,
+              1153.0
+            ],
+            "line": "Reserve load 598 kW",
+            "confidence": 0.91
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p02",
+            "view": "audit:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              685,
+              64
+            ],
+            "box": [
+              177,
+              1105,
+              862,
+              1169
+            ],
+            "pixels": 43840,
+            "spent": 43840,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 1 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-10.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-10.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 1,
+        "elapsed_ms": 17.0,
+        "pdf_candidates": {
+          "A": 1
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {
+          "A": {
+            "status": "accepted",
+            "values": [
+              "598"
+            ],
+            "evidence": [
+              {
+                "field": "A",
+                "page": "d01-p02",
+                "view": "audit:A:1.1",
+                "anchor": "Reserve load",
+                "anchor_box": [
+                  209.0,
+                  1121.0,
+                  573.0,
+                  1153.0
+                ],
+                "value": "598",
+                "value_box": [
+                  609.0,
+                  1120.0,
+                  690.0,
+                  1153.0
+                ],
+                "box": [
+                  209.0,
+                  1120.0,
+                  690.0,
+                  1153.0
+                ],
+                "line": "Reserve load 598 kW",
+                "confidence": 0.91
+              }
+            ],
+            "candidate_count": 1,
+            "unread": 0,
+            "unreadable": 0,
+            "candidate_limit_reached": false,
+            "scope": "indexed_candidates"
+          }
+        }
+      }
+    },
+    {
+      "file": "register-11.pdf",
+      "scoped": false,
+      "strategy": "hybrid",
+      "expected": "conflict",
+      "correct": false,
+      "result": {
+        "op": "extract",
+        "strategy": "hybrid",
+        "budget": 500000,
+        "spent": 51027,
+        "status": "answered",
+        "answer": {
+          "value": "739",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "anchor": "Intake demand",
+            "anchor_box": [
+              212.0,
+              1144.0,
+              540.0,
+              1181.0
+            ],
+            "value": "739",
+            "value_box": [
+              560.0,
+              1144.0,
+              641.0,
+              1181.0
+            ],
+            "box": [
+              212.0,
+              1144.0,
+              641.0,
+              1181.0
+            ],
+            "line": "Intake demand 739 kW",
+            "confidence": 0.96
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              699,
+              73
+            ],
+            "box": [
+              175,
+              1126,
+              874,
+              1199
+            ],
+            "pixels": 51027,
+            "spent": 51027,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-11.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-11.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 1,
+        "elapsed_ms": 15.37,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [
+          "A"
+        ],
+        "field_assessments": {}
+      }
+    },
+    {
+      "file": "register-11.pdf",
+      "scoped": false,
+      "strategy": "audited",
+      "expected": "conflict",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "audited",
+        "budget": 500000,
+        "spent": 102054,
+        "status": "conflict",
+        "answer": null,
+        "evidence": [],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "audit:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              699,
+              73
+            ],
+            "box": [
+              175,
+              1126,
+              874,
+              1199
+            ],
+            "pixels": 51027,
+            "spent": 51027,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 1 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          },
+          {
+            "step": 2,
+            "page": "d01-p02",
+            "view": "audit:A:2.1",
+            "mode": "pdf-line",
+            "size": [
+              699,
+              73
+            ],
+            "box": [
+              175,
+              1126,
+              874,
+              1199
+            ],
+            "pixels": 51027,
+            "spent": 102054,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 2 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-11.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-11.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 2,
+        "elapsed_ms": 28.99,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [
+          "A"
+        ],
+        "field_assessments": {
+          "A": {
+            "status": "conflict",
+            "values": [
+              "739",
+              "880"
+            ],
+            "evidence": [
+              {
+                "field": "A",
+                "page": "d01-p01",
+                "view": "audit:A:1.1",
+                "anchor": "Intake demand",
+                "anchor_box": [
+                  212.0,
+                  1144.0,
+                  540.0,
+                  1181.0
+                ],
+                "value": "739",
+                "value_box": [
+                  560.0,
+                  1144.0,
+                  641.0,
+                  1181.0
+                ],
+                "box": [
+                  212.0,
+                  1144.0,
+                  641.0,
+                  1181.0
+                ],
+                "line": "Intake demand 739 kW",
+                "confidence": 0.96
+              },
+              {
+                "field": "A",
+                "page": "d01-p02",
+                "view": "audit:A:2.1",
+                "anchor": "Intake demand",
+                "anchor_box": [
+                  212.0,
+                  1144.0,
+                  540.0,
+                  1181.0
+                ],
+                "value": "880",
+                "value_box": [
+                  560.0,
+                  1144.0,
+                  640.0,
+                  1181.0
+                ],
+                "box": [
+                  212.0,
+                  1144.0,
+                  640.0,
+                  1181.0
+                ],
+                "line": "Intake demand 880 kW",
+                "confidence": 0.96
+              }
+            ],
+            "candidate_count": 2,
+            "unread": 0,
+            "unreadable": 0,
+            "candidate_limit_reached": false,
+            "scope": "indexed_candidates"
+          }
+        }
+      }
+    },
+    {
+      "file": "register-11.pdf",
+      "scoped": true,
+      "strategy": "hybrid",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "hybrid",
+        "budget": 500000,
+        "spent": 102054,
+        "status": "answered",
+        "answer": {
+          "value": "880",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p02",
+            "view": "pdf-line:A:2.1",
+            "anchor": "Intake demand",
+            "anchor_box": [
+              212.0,
+              1144.0,
+              540.0,
+              1181.0
+            ],
+            "value": "880",
+            "value_box": [
+              560.0,
+              1144.0,
+              640.0,
+              1181.0
+            ],
+            "box": [
+              212.0,
+              1144.0,
+              640.0,
+              1181.0
+            ],
+            "line": "Intake demand 880 kW",
+            "confidence": 0.96
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p01",
+            "view": "pdf-line:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              699,
+              73
+            ],
+            "box": [
+              175,
+              1126,
+              874,
+              1199
+            ],
+            "pixels": 51027,
+            "spent": 51027,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          },
+          {
+            "step": 2,
+            "page": "d01-p02",
+            "view": "pdf-line:A:2.1",
+            "mode": "pdf-line",
+            "size": [
+              699,
+              73
+            ],
+            "box": [
+              175,
+              1126,
+              874,
+              1199
+            ],
+            "pixels": 51027,
+            "spent": 102054,
+            "reason": "PDF \u5019\u9009 A \u00b7 \u50cf\u7d20\u590d\u6838",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-11.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-11.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 2,
+        "elapsed_ms": 29.45,
+        "pdf_candidates": {
+          "A": 2
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {}
+      }
+    },
+    {
+      "file": "register-11.pdf",
+      "scoped": true,
+      "strategy": "audited",
+      "expected": "answered",
+      "correct": true,
+      "result": {
+        "op": "extract",
+        "strategy": "audited",
+        "budget": 500000,
+        "spent": 51027,
+        "status": "answered",
+        "answer": {
+          "value": "880",
+          "unit": "kW"
+        },
+        "evidence": [
+          {
+            "field": "A",
+            "page": "d01-p02",
+            "view": "audit:A:1.1",
+            "anchor": "Intake demand",
+            "anchor_box": [
+              212.0,
+              1144.0,
+              540.0,
+              1181.0
+            ],
+            "value": "880",
+            "value_box": [
+              560.0,
+              1144.0,
+              640.0,
+              1181.0
+            ],
+            "box": [
+              212.0,
+              1144.0,
+              640.0,
+              1181.0
+            ],
+            "line": "Intake demand 880 kW",
+            "confidence": 0.96
+          }
+        ],
+        "steps": [
+          {
+            "step": 1,
+            "page": "d01-p02",
+            "view": "audit:A:1.1",
+            "mode": "pdf-line",
+            "size": [
+              699,
+              73
+            ],
+            "box": [
+              175,
+              1126,
+              874,
+              1199
+            ],
+            "pixels": 51027,
+            "spent": 51027,
+            "reason": "\u6838\u9a8c\u5b57\u6bb5 A \u7684\u7b2c 1 \u4e2a\u5019\u9009",
+            "target": "A",
+            "ocr_lines": 1
+          }
+        ],
+        "pages": [
+          {
+            "id": "d01-p01",
+            "name": "register-11.pdf \u00b7 PDF \u7b2c 1 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          },
+          {
+            "id": "d01-p02",
+            "name": "register-11.pdf \u00b7 PDF \u7b2c 2 \u9875",
+            "size": [
+              1948,
+              2520
+            ]
+          }
+        ],
+        "ocr_calls": 1,
+        "elapsed_ms": 14.71,
+        "pdf_candidates": {
+          "A": 1
+        },
+        "possible_ambiguities": [],
+        "field_assessments": {
+          "A": {
+            "status": "accepted",
+            "values": [
+              "880"
+            ],
+            "evidence": [
+              {
+                "field": "A",
+                "page": "d01-p02",
+                "view": "audit:A:1.1",
+                "anchor": "Intake demand",
+                "anchor_box": [
+                  212.0,
+                  1144.0,
+                  540.0,
+                  1181.0
+                ],
+                "value": "880",
+                "value_box": [
+                  560.0,
+                  1144.0,
+                  640.0,
+                  1181.0
+                ],
+                "box": [
+                  212.0,
+                  1144.0,
+                  640.0,
+                  1181.0
+                ],
+                "line": "Intake demand 880 kW",
+                "confidence": 0.96
+              }
+            ],
+            "candidate_count": 1,
+            "unread": 0,
+            "unreadable": 0,
+            "candidate_limit_reached": false,
+            "scope": "indexed_candidates"
+          }
+        }
+      }
+    }
+  ]
+}

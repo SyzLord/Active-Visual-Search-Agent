@@ -1,0 +1,164 @@
+{
+  "op": "verify",
+  "strategy": "hybrid",
+  "budget": 2600000,
+  "spent": 2163138,
+  "status": "partial",
+  "answer": null,
+  "evidence": [
+    {
+      "field": "A",
+      "page": "nasa-p01",
+      "view": "pdf-line:A:1.1",
+      "anchor": "Space Shuttle",
+      "anchor_box": [
+        552.0,
+        527,
+        754.0,
+        591
+      ],
+      "value": null,
+      "value_box": null,
+      "box": [
+        552.0,
+        527,
+        754.0,
+        591
+      ],
+      "line": "e Space Shuttle",
+      "confidence": 0.85
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "page": "nasa-p01",
+      "view": "pdf-line:A:1.1",
+      "mode": "pdf-line",
+      "size": [
+        264,
+        64
+      ],
+      "box": [
+        515,
+        527,
+        779,
+        591
+      ],
+      "pixels": 16896,
+      "spent": 16896,
+      "reason": "PDF 候选 A · 像素复核",
+      "target": "A",
+      "ocr_lines": 1
+    },
+    {
+      "step": 2,
+      "page": "nasa-p01",
+      "view": "survey",
+      "mode": "whole",
+      "size": [
+        573,
+        741
+      ],
+      "box": [
+        0,
+        0,
+        1948,
+        2520
+      ],
+      "pixels": 424593,
+      "spent": 441489,
+      "reason": "均匀扫描候选页，保留局部核验预算",
+      "target": null,
+      "ocr_lines": 22
+    },
+    {
+      "step": 3,
+      "page": "nasa-p02",
+      "view": "survey",
+      "mode": "whole",
+      "size": [
+        573,
+        741
+      ],
+      "box": [
+        0,
+        0,
+        1948,
+        2520
+      ],
+      "pixels": 424593,
+      "spent": 866082,
+      "reason": "均匀扫描候选页，保留局部核验预算",
+      "target": null,
+      "ocr_lines": 106
+    },
+    {
+      "step": 4,
+      "page": "nasa-p02",
+      "view": "reserve",
+      "mode": "whole",
+      "size": [
+        708,
+        916
+      ],
+      "box": [
+        0,
+        0,
+        1948,
+        2520
+      ],
+      "pixels": 648528,
+      "spent": 1514610,
+      "reason": "整页补读 B · 优先分 0.184",
+      "target": "B",
+      "ocr_lines": 111
+    },
+    {
+      "step": 5,
+      "page": "nasa-p01",
+      "view": "reserve",
+      "mode": "whole",
+      "size": [
+        708,
+        916
+      ],
+      "box": [
+        0,
+        0,
+        1948,
+        2520
+      ],
+      "pixels": 648528,
+      "spent": 2163138,
+      "reason": "整页补读 B · 优先分 0.122",
+      "target": "B",
+      "ocr_lines": 130
+    }
+  ],
+  "pages": [
+    {
+      "id": "nasa-p01",
+      "name": "NASA · 第 1 页",
+      "size": [
+        1948,
+        2520
+      ]
+    },
+    {
+      "id": "nasa-p02",
+      "name": "NASA · 第 2 页",
+      "size": [
+        1948,
+        2520
+      ]
+    }
+  ],
+  "ocr_calls": 5,
+  "elapsed_ms": 2869.82,
+  "pdf_candidates": {
+    "A": 1,
+    "B": 0
+  },
+  "possible_ambiguities": []
+}

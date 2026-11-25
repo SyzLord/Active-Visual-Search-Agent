@@ -1,0 +1,115 @@
+{
+  "split": "holdout",
+  "budget": 1000000,
+  "policy_sha256": "9e3ed5b627d5d2ce2cde22cb1cc9f4b2a4c9394ecbe7c7750b294eedfa67d74f",
+  "coordinates": "Native scan pixels, upright top-left, [left, top, right, bottom) on the input PNG. No reference coordinates or PDF text layer go to the searcher.",
+  "sources": {
+    "griffith": {
+      "path": "data/griffith.png",
+      "size": [
+        1234,
+        786
+      ],
+      "source": "https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_8-part_3_of_4.pdf#page=32",
+      "original": "data/griffith-original.pdf",
+      "archive": "US National Archives, RFK release, 166-12C-1, Section 8, part 3 of 4",
+      "pdf_page": 32,
+      "pdf_pages": 50,
+      "sha256": "3e3b02b832c6cc79ba7193e94cf9d2d7e8d7daa8a145e68eab550127e9be7bcc",
+      "original_sha256": "c2bb903ae350f592f0777aeed9596b19bae3be07378ca54c27beb091b2f07617",
+      "imprint": "Direct black receiving mark at the bottom right. The internal diagonal November docket mark is outside the registered target."
+    },
+    "cowell": {
+      "path": "data/cowell.png",
+      "size": [
+        1282,
+        1655
+      ],
+      "source": "https://www.archives.gov/files/research/rfk/releases/2025/0612/591583_lbj_whcf_subject_files_on_judicial_and_legal_matters_b33_f6.pdf#page=42",
+      "original": "data/cowell-original.pdf",
+      "archive": "US National Archives, Lyndon B. Johnson Presidential Library, White House Central Files, box 33 folder 6",
+      "pdf_page": 42,
+      "pdf_pages": 222,
+      "sha256": "f29690e362f7f59f28f0fee3900eaf655a1f530c1ba33f3564d69ae78ed619c6",
+      "original_sha256": "32ebb547854f173510463fd6a22a6a2ae1b6a48672e2b3febb7bdf6b0ba73a5b",
+      "imprint": "Mirrored impression visible through the recto at bottom right. The direct ink on verso p.43 reads JUN 20 1968. Page 43 was consulted for transcription only and is never included in a search. This is reported separately as a difficult case."
+    }
+  },
+  "cases": [
+    {
+      "id": "G1",
+      "page": "griffith",
+      "date": "AUG 26 1970",
+      "text": "Thanking you I remain",
+      "text_box": [
+        497,
+        623,
+        821,
+        651
+      ],
+      "stamps": [
+        {
+          "date_box": [
+            1024,
+            739,
+            1210,
+            776
+          ],
+          "year_box": [
+            1143,
+            744,
+            1210,
+            776
+          ]
+        }
+      ],
+      "sets": {
+        "single": [
+          "griffith"
+        ],
+        "with_other_letter": [
+          "cowell",
+          "griffith"
+        ]
+      }
+    },
+    {
+      "id": "C1",
+      "page": "cowell",
+      "date": "JUN 20 1968",
+      "text": "editorial from Computerworld",
+      "text_box": [
+        290,
+        418,
+        684,
+        444
+      ],
+      "stamps": [
+        {
+          "date_box": [
+            991,
+            1410,
+            1124,
+            1509
+          ],
+          "year_box": [
+            1068,
+            1410,
+            1124,
+            1460
+          ]
+        }
+      ],
+      "sets": {
+        "single": [
+          "cowell"
+        ],
+        "with_other_letter": [
+          "cowell",
+          "griffith"
+        ]
+      }
+    }
+  ],
+  "selection": "After policy freeze, two new source files selected by document type, presence of human-readable stamps and a traceable phrase on the same scan. Both selected before any local OCR on these pages. Search snippets were only leads. Both original documents are retained regardless of performance."
+}

@@ -1,0 +1,14 @@
+{
+  "scope": "previous outputs outside reserve, excluding node_modules",
+  "reference_files": 247,
+  "scan_files": 193,
+  "searched_markers": [
+    "003-ccr-crd-part32",
+    "harrison tweed"
+  ],
+  "marker_hits": [],
+  "same_hashes": {
+    "tweed.png": [],
+    "tweed-original.pdf": []
+  }
+}

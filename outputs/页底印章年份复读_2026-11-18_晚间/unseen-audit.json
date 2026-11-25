@@ -1,0 +1,30 @@
+{
+  "scope": "All prior project outputs outside this experiment, excluding node_modules. Exact source identifiers and byte hashes, not a pretraining audit.",
+  "old_reference_files": 219,
+  "old_scan_files": 185,
+  "source_identifiers": [
+    "166-12c-1_section_8-part_3_of_4",
+    "591583_lbj_whcf_subject_files_on_judicial",
+    "Charlton Griffith",
+    "Evelyn Cowell"
+  ],
+  "identifier_matches": {},
+  "new_files": {
+    "cowell-original.pdf": {
+      "sha256": "32ebb547854f173510463fd6a22a6a2ae1b6a48672e2b3febb7bdf6b0ba73a5b",
+      "equal_bytes": []
+    },
+    "cowell.png": {
+      "sha256": "f29690e362f7f59f28f0fee3900eaf655a1f530c1ba33f3564d69ae78ed619c6",
+      "equal_bytes": []
+    },
+    "griffith-original.pdf": {
+      "sha256": "c2bb903ae350f592f0777aeed9596b19bae3be07378ca54c27beb091b2f07617",
+      "equal_bytes": []
+    },
+    "griffith.png": {
+      "sha256": "3e3b02b832c6cc79ba7193e94cf9d2d7e8d7daa8a145e68eab550127e9be7bcc",
+      "equal_bytes": []
+    }
+  }
+}

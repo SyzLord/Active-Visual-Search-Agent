@@ -1,0 +1,298 @@
+{
+  "op": "difference",
+  "strategy": "hybrid",
+  "budget": 2600000,
+  "spent": 2089873,
+  "status": "answered",
+  "answer": {
+    "difference": "8303",
+    "values": [
+      "1330",
+      "-6973"
+    ],
+    "unit": "kW"
+  },
+  "evidence": [
+    {
+      "field": "A",
+      "page": "demo-01-p05",
+      "view": "confirm:A",
+      "anchor": "Willow standby draw",
+      "anchor_box": [
+        277.92874396135267,
+        1440.0333333333333,
+        770.3804347826087,
+        1489.9055555555556
+      ],
+      "value": "1330",
+      "value_box": [
+        101.44927536231884,
+        1441.0944444444444,
+        231.43115942028987,
+        1485.661111111111
+      ],
+      "box": [
+        101.44927536231884,
+        1440.0333333333333,
+        770.3804347826087,
+        1489.9055555555556
+      ],
+      "line": "1,330 Willow standby draw",
+      "confidence": 0.95
+    },
+    {
+      "field": "B",
+      "page": "demo-01-p02",
+      "view": "confirm:B",
+      "anchor": "Alder reserve power",
+      "anchor_box": [
+        99.0,
+        459.0,
+        543.0,
+        502.0
+      ],
+      "value": "-6973",
+      "value_box": [
+        587.0,
+        460.0,
+        715.0,
+        499.0
+      ],
+      "box": [
+        99.0,
+        459.0,
+        715.0,
+        502.0
+      ],
+      "line": "Alder reserve power : -6,973 kW",
+      "confidence": 0.93
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "page": "demo-01-p01",
+      "view": "survey",
+      "mode": "whole",
+      "size": [
+        473,
+        641
+      ],
+      "box": [
+        0,
+        0,
+        1520,
+        2060
+      ],
+      "pixels": 303193,
+      "spent": 303193,
+      "reason": "均匀扫描候选页，保留局部核验预算",
+      "target": null,
+      "ocr_lines": 20
+    },
+    {
+      "step": 2,
+      "page": "demo-01-p02",
+      "view": "survey",
+      "mode": "whole",
+      "size": [
+        473,
+        641
+      ],
+      "box": [
+        0,
+        0,
+        1520,
+        2060
+      ],
+      "pixels": 303193,
+      "spent": 606386,
+      "reason": "均匀扫描候选页，保留局部核验预算",
+      "target": null,
+      "ocr_lines": 20
+    },
+    {
+      "step": 3,
+      "page": "demo-01-p03",
+      "view": "survey",
+      "mode": "whole",
+      "size": [
+        473,
+        641
+      ],
+      "box": [
+        0,
+        0,
+        1520,
+        2060
+      ],
+      "pixels": 303193,
+      "spent": 909579,
+      "reason": "均匀扫描候选页，保留局部核验预算",
+      "target": null,
+      "ocr_lines": 34
+    },
+    {
+      "step": 4,
+      "page": "demo-01-p04",
+      "view": "survey",
+      "mode": "whole",
+      "size": [
+        473,
+        641
+      ],
+      "box": [
+        0,
+        0,
+        1520,
+        2060
+      ],
+      "pixels": 303193,
+      "spent": 1212772,
+      "reason": "均匀扫描候选页，保留局部核验预算",
+      "target": null,
+      "ocr_lines": 21
+    },
+    {
+      "step": 5,
+      "page": "demo-01-p05",
+      "view": "survey",
+      "mode": "whole",
+      "size": [
+        473,
+        641
+      ],
+      "box": [
+        0,
+        0,
+        1520,
+        2060
+      ],
+      "pixels": 303193,
+      "spent": 1515965,
+      "reason": "均匀扫描候选页，保留局部核验预算",
+      "target": null,
+      "ocr_lines": 20
+    },
+    {
+      "step": 6,
+      "page": "demo-01-p06",
+      "view": "survey",
+      "mode": "whole",
+      "size": [
+        473,
+        641
+      ],
+      "box": [
+        0,
+        0,
+        1520,
+        2060
+      ],
+      "pixels": 303193,
+      "spent": 1819158,
+      "reason": "均匀扫描候选页，保留局部核验预算",
+      "target": null,
+      "ocr_lines": 35
+    },
+    {
+      "step": 7,
+      "page": "demo-01-p02",
+      "view": "confirm:B",
+      "mode": "confirm",
+      "size": [
+        785,
+        155
+      ],
+      "box": [
+        16,
+        403,
+        801,
+        558
+      ],
+      "pixels": 121675,
+      "spent": 1940833,
+      "reason": "核验数字 B · 优先分 1.926",
+      "target": "B",
+      "ocr_lines": 1
+    },
+    {
+      "step": 8,
+      "page": "demo-01-p05",
+      "view": "confirm:A",
+      "mode": "confirm",
+      "size": [
+        828,
+        180
+      ],
+      "box": [
+        0,
+        1370,
+        875,
+        1561
+      ],
+      "pixels": 149040,
+      "spent": 2089873,
+      "reason": "核验数字 A · 优先分 1.715",
+      "target": "A",
+      "ocr_lines": 1
+    }
+  ],
+  "pages": [
+    {
+      "id": "demo-01-p01",
+      "name": "合成巡检记录 · 第 1 页",
+      "size": [
+        1520,
+        2060
+      ]
+    },
+    {
+      "id": "demo-01-p02",
+      "name": "合成巡检记录 · 第 2 页",
+      "size": [
+        1520,
+        2060
+      ]
+    },
+    {
+      "id": "demo-01-p03",
+      "name": "合成巡检记录 · 第 3 页",
+      "size": [
+        1520,
+        2060
+      ]
+    },
+    {
+      "id": "demo-01-p04",
+      "name": "合成巡检记录 · 第 4 页",
+      "size": [
+        1520,
+        2060
+      ]
+    },
+    {
+      "id": "demo-01-p05",
+      "name": "合成巡检记录 · 第 5 页",
+      "size": [
+        1520,
+        2060
+      ]
+    },
+    {
+      "id": "demo-01-p06",
+      "name": "合成巡检记录 · 第 6 页",
+      "size": [
+        1520,
+        2060
+      ]
+    }
+  ],
+  "ocr_calls": 8,
+  "elapsed_ms": 1260.14,
+  "pdf_candidates": {
+    "A": 0,
+    "B": 0
+  },
+  "possible_ambiguities": []
+}

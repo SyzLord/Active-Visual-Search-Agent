@@ -1,0 +1,18 @@
+{
+  "scope": "prior outputs, excluding this experiment and node_modules",
+  "reference_files": 263,
+  "scan_files": 196,
+  "markers": [
+    "166-12c-1_section_8-part_4_of_4",
+    "005-aba-crd-part2",
+    "Evelle J. Younger",
+    "Bernard G. Segal"
+  ],
+  "marker_matches": [],
+  "same_bytes": {
+    "younger-original.pdf": [],
+    "younger.png": [],
+    "segal.png": [],
+    "segal-original.pdf": []
+  }
+}

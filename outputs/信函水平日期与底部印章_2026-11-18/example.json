@@ -1,0 +1,202 @@
+{
+  "strategy": "horizontal-and-footer",
+  "budget": 1000000,
+  "spent": 315700,
+  "preview_pixels": 12000,
+  "total_pixels": 327700,
+  "answer": {
+    "result": "both_located"
+  },
+  "status": "answered",
+  "evidence": [
+    {
+      "field": "A",
+      "anchor": "August 9, 1974",
+      "page": "p01",
+      "view": "header",
+      "box": [
+        971.657142857143,
+        681.8878048780488,
+        1407.6571428571428,
+        731.6829268292684
+      ],
+      "anchor_box": [
+        971.657142857143,
+        681.8878048780488,
+        1407.6571428571428,
+        731.6829268292684
+      ],
+      "value": null,
+      "value_box": null,
+      "matched_text": "August 9, 1974",
+      "canonical_date": "1974-08-09",
+      "line": "August 9, 1974",
+      "confidence": 0.95,
+      "match_type": "calendar_date"
+    },
+    {
+      "field": "B",
+      "page": "p01",
+      "view": "header",
+      "anchor": "I hereby resign the Office",
+      "anchor_box": [
+        495.1714285714286,
+        1083.3609756097562,
+        1251.942857142857,
+        1139.380487804878
+      ],
+      "value": null,
+      "value_box": null,
+      "box": [
+        495.1714285714286,
+        1083.3609756097562,
+        1251.942857142857,
+        1139.380487804878
+      ],
+      "line": "I hereby resign the Office of President of the",
+      "confidence": 0.92
+    }
+  ],
+  "steps": [
+    {
+      "step": 1,
+      "page": "p01",
+      "view": "header",
+      "mode": "header",
+      "size": [
+        770,
+        410
+      ],
+      "box": [
+        0,
+        47,
+        2398,
+        1323
+      ],
+      "pixels": 315700,
+      "spent": 315700,
+      "reason": "header",
+      "target": null,
+      "ocr_lines": 7,
+      "stage": "header",
+      "rotation_deg_ccw": 0
+    }
+  ],
+  "ocr_calls": 1,
+  "preview_observations": [
+    {
+      "page": "p01",
+      "side": "left",
+      "box": [
+        36,
+        0,
+        360,
+        3150
+      ],
+      "size": [
+        25,
+        240
+      ],
+      "threshold": 202.0,
+      "pixels": 6000
+    },
+    {
+      "page": "p01",
+      "side": "right",
+      "box": [
+        2038,
+        0,
+        2362,
+        3150
+      ],
+      "size": [
+        25,
+        240
+      ],
+      "threshold": 197.0,
+      "pixels": 6000
+    }
+  ],
+  "candidates": [
+    {
+      "page": "p01",
+      "side": "right",
+      "box": [
+        2038,
+        1444,
+        2362,
+        1942
+      ],
+      "angle": 90,
+      "score": 0.0019944598337950136,
+      "ink_density": 0.01263157894736842,
+      "row_coverage": 0.15789473684210525,
+      "rank": 1,
+      "decision": "selected"
+    },
+    {
+      "page": "p01",
+      "side": "right",
+      "box": [
+        2038,
+        1575,
+        2362,
+        2074
+      ],
+      "angle": 90,
+      "score": 0.0019944598337950136,
+      "ink_density": 0.01263157894736842,
+      "row_coverage": 0.15789473684210525,
+      "rank": 2,
+      "decision": "overlap"
+    },
+    {
+      "page": "p01",
+      "side": "right",
+      "box": [
+        2038,
+        1706,
+        2362,
+        2205
+      ],
+      "angle": 90,
+      "score": 0.0019944598337950136,
+      "ink_density": 0.01263157894736842,
+      "row_coverage": 0.15789473684210525,
+      "rank": 3,
+      "decision": "overlap"
+    },
+    {
+      "page": "p01",
+      "side": "right",
+      "box": [
+        2038,
+        1312,
+        2362,
+        1811
+      ],
+      "angle": 90,
+      "score": 0.0011080332409972298,
+      "ink_density": 0.010526315789473684,
+      "row_coverage": 0.10526315789473684,
+      "rank": 4,
+      "decision": "overlap"
+    }
+  ],
+  "events": [
+    {
+      "stage": "header",
+      "view": "header",
+      "page": "p01",
+      "new_fields": [
+        "A",
+        "B"
+      ]
+    }
+  ],
+  "policy": "horizontal-footer",
+  "input_files": {
+    "p01": "nixon.png"
+  },
+  "ocr": "tesseract-js-7.0.0/7.0.0-7d4322bd2a77-8923071176a0"
+}

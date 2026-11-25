@@ -1,0 +1,23 @@
+sample	case	collection	policy	year	date	text	joint	observed_year	pixels	footer_pixels	extra_pixels	extra_calls	trigger
+development	D3	single	baseline	0	0	0	0		915337	248931	0	0	
+development	D3	single	spare_stamp	0	0	0	0		998538	332132	83201	6	paid_footer_clue
+development	D3	with_other_letter	baseline	0	0	0	0		914855	238202	0	0	
+development	D3	with_other_letter	spare_stamp	0	0	0	0		970908	294255	56053	3	paid_footer_clue
+development	R3	single	baseline	1	1	1	1	1958	520060	200932	0	0	
+development	R3	single	spare_stamp	1	1	1	1	1958	520060	200932	0	0	already_verified
+development	R3	with_other_letter	baseline	1	1	1	1	1958	892047	262219	0	0	
+development	R3	with_other_letter	spare_stamp	1	1	1	1	1958	892047	262219	0	0	already_verified
+development	W3	single	baseline	1	0	0	0	1918	999592	248288	0	0	
+development	W3	single	spare_stamp	1	0	0	0	1918	999592	248288	0	0	insufficient_remaining_budget
+development	W3	with_other_letter	baseline	0	0	0	0		999567	238045	0	0	
+development	W3	with_other_letter	spare_stamp	0	0	0	0		999567	238045	0	0	insufficient_remaining_budget
+former_holdout	G1	single	baseline	0	0	1	0		899956	213750	0	0	
+former_holdout	G1	single	spare_stamp	1	1	1	1	1970	935466	249260	35510	2	paid_footer_clue
+former_holdout	G1	with_other_letter	baseline	0	0	1	0		892843	210843	0	0	
+former_holdout	G1	with_other_letter	spare_stamp	0	0	1	0		943763	261763	50920	3	paid_footer_clue
+former_holdout	C1	single	baseline	0	0	1	0		999819	216512	0	0	
+former_holdout	C1	single	spare_stamp	0	0	1	0		999819	216512	0	0	insufficient_remaining_budget
+former_holdout	C1	with_other_letter	baseline	0	0	0	0		904106	210843	0	0	
+former_holdout	C1	with_other_letter	spare_stamp	0	0	0	0		955026	261763	50920	3	paid_footer_clue
+masked	D3-masked	single	baseline	0	0	0	0		922025	280803	0	0	
+masked	D3-masked	single	spare_stamp	0	0	0	0		970069	328847	48044	3	paid_footer_clue

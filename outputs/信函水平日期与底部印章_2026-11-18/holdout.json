@@ -1,0 +1,52 @@
+{
+  "budget": 1000000,
+  "window_cap": 4,
+  "iou_min": 0.30,
+  "gold_coverage_min": 0.48,
+  "collections": ["single", "with_other_letter"],
+  "page_order": ["nixon", "diggs"],
+  "policies": ["heading-first", "horizontal-footer"],
+  "policy_lock_sha256": "d8a5ca70e4880f73e9b9cb76bbfbf008c7405e202bf77e518e6e1db0bb85da1a",
+  "unseen_basis": "The two records and their source URLs were selected after the policy lock. Prior project manifests, protocols, source lists and reports contained neither NARA 302035 nor DOJ 005-aba-crd-part5 or the corresponding letters. The project development pages were Wells-Barnett and Robinson. The two new originals were visually annotated before any system OCR on either. This is project-level holdout, with two independent physical records.",
+  "annotation": "Manual, from full page pixels and a closer view of both receipt impressions. Original raster pixel coordinates, origin at upper left, half-open axis-aligned word bounds. Multiple legitimate impressions of the same date are separately identified before scoring. Either must independently pass both geometric thresholds.",
+  "sources": {
+    "nixon": {
+      "record_id": "NARA NAID 302035, RG 59",
+      "description": "Richard Nixon's letter of resignation to the Secretary of State, August 9, 1974",
+      "record": "https://catalog.archives.gov/id/302035",
+      "source_pdf": "https://www.archives.gov/files/historical-docs/doc-content/images/nixon-resignation-letter.pdf",
+      "original": "data/nixon-original.pdf",
+      "path": "data/nixon.png",
+      "page": 1,
+      "size": [2398,3150],
+      "layout": "Color scan with centered full-month issue date and letterhead, sparse typescript and a handwritten time without a separate date."
+    },
+    "diggs": {
+      "record_id": "US Department of Justice Civil Rights Division, 005-aba-crd-part5, page 1",
+      "description": "Charles C. Diggs, Jr. to Attorney General Robert F. Kennedy, May 28, 1963",
+      "record": "https://www.justice.gov/d9/crt/legacy/2011/06/14/005-aba-crd-part5.pdf#page=1",
+      "source_pdf": "https://www.justice.gov/d9/crt/legacy/2011/06/14/005-aba-crd-part5.pdf",
+      "original": "data/diggs-original.pdf",
+      "path": "data/diggs.png",
+      "page": 1,
+      "size": [2550,3300],
+      "layout": "Skewed monochrome reproduction, heavy type, upper-left issue date and two horizontal May 29 receipt impressions near the bottom."
+    }
+  },
+  "fields": {
+    "nixon_issue": {"page":"nixon","anchor":"AUG 9 1974","transcription":"August 9, 1974","box":[966,674,1416,738]},
+    "nixon_head": {"page":"nixon","anchor":"THE WHITE HOUSE","box":[914,461,1491,514]},
+    "nixon_body": {"page":"nixon","anchor":"I hereby resign the Office","box":[486,1076,1263,1144]},
+    "diggs_issue": {"page":"diggs","anchor":"MAY 28 1963","transcription":"May 28, 1963","box":[314,798,616,873]},
+    "diggs_head": {"page":"diggs","anchor":"House of Representatives","box":[840,543,1436,628]},
+    "diggs_body": {"page":"diggs","anchor":"I would appreciate your comments","box":[385,2335,1131,2403]},
+    "diggs_receipt": {"page":"diggs","anchor":"MAY 29 1963","transcription":"MAY 29 1963","box":[1134,2745,1415,2807],"alternative_boxes":[[1794,2679,2117,2739]],"locations":["round receipt stamp at bottom center","rectangular routing stamp at bottom right"]}
+  },
+  "cases": [
+    {"id":"N1","fields":["nixon_issue","nixon_head"]},
+    {"id":"N2","fields":["nixon_issue","nixon_body"]},
+    {"id":"D1","fields":["diggs_issue","diggs_head"]},
+    {"id":"D2","fields":["diggs_issue","diggs_body"]},
+    {"id":"D3","fields":["diggs_receipt","diggs_body"]}
+  ]
+}

@@ -1,0 +1,7 @@
+policy	page	conditions	documents	any_joint	all_joint	date_ok	text_ok	joint_ok	early_date	footer_tried	footer_date	date_reread	text_reread	fallback	fallback_added	mean_preview	mean_reread	mean_pixels	max_pixels
+heading-first	diggs	6	1	0	0	0	0	0	0	0	0	0	0	6	0	18000	0	940758	999925
+heading-first	nixon	4	1	0	0	0	2	0	0	0	0	0	0	4	2	18000	0	885718	999437
+heading-first	ALL	10	2	0	0	0	2	0	0	0	0	0	0	10	2	18000	0	918742	999925
+horizontal-footer	diggs	6	1	0	0	0	0	0	0	6	0	6	1	6	0	18000	35592	916637	924585
+horizontal-footer	nixon	4	1	1	0	4	3	3	4	0	0	0	0	1	0	18000	0	583643	925552
+horizontal-footer	ALL	10	2	1	0	4	3	3	4	6	0	6	1	7	0	18000	21355	783440	925552

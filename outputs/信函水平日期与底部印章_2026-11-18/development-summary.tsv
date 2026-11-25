@@ -1,0 +1,7 @@
+policy	page	conditions	documents	any_joint	all_joint	date_ok	text_ok	joint_ok	early_date	footer_tried	footer_date	date_reread	text_reread	fallback	fallback_added	mean_preview	mean_reread	mean_pixels	max_pixels
+heading-first	robinson	6	1	1	0	4	6	4	0	0	0	0	0	6	6	18000	0	621740	748377
+heading-first	wells	6	1	0	0	0	2	0	0	0	0	0	0	6	2	18000	0	746296	904721
+heading-first	ALL	12	2	1	0	4	8	4	0	0	0	0	0	12	8	18000	0	684018	904721
+horizontal-footer	robinson	6	1	1	1	6	6	6	6	2	2	1	1	0	0	18000	15490	610160	892047
+horizontal-footer	wells	6	1	0	0	2	0	0	2	4	0	4	4	6	0	18000	49210	969394	999843
+horizontal-footer	ALL	12	2	1	1	8	6	6	8	6	2	5	5	6	0	18000	32350	789777	999843

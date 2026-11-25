@@ -1,0 +1,15 @@
+{
+  "split":"development",
+  "budget":1000000,
+  "sources":{
+    "diggs":{"path":"../信函水平日期与底部印章_2026-11-18/data/diggs.png","source":"https://www.justice.gov/d9/crt/legacy/2011/06/14/005-aba-crd-part5.pdf#page=1","size":[2550,3300]},
+    "nixon":{"path":"../信函水平日期与底部印章_2026-11-18/data/nixon.png","source":"https://www.archives.gov/files/historical-docs/doc-content/images/nixon-resignation-letter.pdf","size":[2398,3150]},
+    "wells":{"path":"../未见历史信函评测_2026-11-18/data/wells.jpg","source":"https://www.archives.gov/college-park/highlights/ida-wells-letter","size":[938,1200]},
+    "robinson":{"path":"../未见历史信函评测_2026-11-18/data/robinson.jpg","source":"https://www.archives.gov/exhibits/featured-documents/jackie-robinson","size":[764,990]}
+  },
+  "cases":[
+    {"id":"D3","page":"diggs","date":"MAY 29 1963","text":"I would appreciate your comments","text_box":[385,2335,1131,2403],"stamps":[{"date_box":[1134,2745,1415,2807],"year_box":[1318,2746,1415,2802]},{"date_box":[1794,2679,2117,2739],"year_box":[2025,2679,2117,2734]}],"sets":{"single":["diggs"],"with_other_letter":["nixon","diggs"]},"baseline_cache":"../信函水平日期与底部印章_2026-11-18/heldout-results.json"},
+    {"id":"R3","page":"robinson","date":"MAY 26 1958","text":"an unequivocal statement","text_box":[256,831,455,851],"stamps":[{"date_box":[40,952,135,974],"year_box":[102,953,135,971]}],"sets":{"single":["robinson"],"with_other_letter":["wells","robinson"]},"baseline_cache":"../信函水平日期与底部印章_2026-11-18/dev.json"},
+    {"id":"W3","page":"wells","date":"MAY 1 1918","text":"Negro Fellowship League","text_box":[286,124,647,165],"stamps":[{"date_box":[171,962,284,990],"year_box":[245,965,282,985]}],"sets":{"single":["wells"],"with_other_letter":["wells","robinson"]},"baseline_cache":"../信函水平日期与底部印章_2026-11-18/dev.json"}
+  ]
+}

@@ -1,0 +1,2393 @@
+{
+  "ocr": "tesseract-js-7.0.0/7.0.0-7d4322bd2a77-8923071176a0",
+  "manifest_sha256": "f6df393899275e43846e244c7e7639f7d00b4a4c2b859c03abab9f5ba4c26beb",
+  "summary": [
+    {
+      "strategy": "scan-audit",
+      "region": "all",
+      "budget": 1000000,
+      "n": 1,
+      "strict": 0,
+      "fields_page_correct": 0,
+      "fields_box_correct": 0,
+      "ocr_pixels": 698704,
+      "total_pixels": 698704,
+      "mean_ms": 487.29,
+      "median_ms": 487.29
+    },
+    {
+      "strategy": "scan-audit",
+      "region": "edge",
+      "budget": 1000000,
+      "n": 1,
+      "strict": 0,
+      "fields_page_correct": 0,
+      "fields_box_correct": 0,
+      "ocr_pixels": 698704,
+      "total_pixels": 698704,
+      "mean_ms": 487.29,
+      "median_ms": 487.29
+    },
+    {
+      "strategy": "edge-date",
+      "region": "all",
+      "budget": 1000000,
+      "n": 1,
+      "strict": 0,
+      "fields_page_correct": 0,
+      "fields_box_correct": 0,
+      "ocr_pixels": 817466,
+      "total_pixels": 817466,
+      "mean_ms": 428.65,
+      "median_ms": 428.65
+    },
+    {
+      "strategy": "edge-date",
+      "region": "edge",
+      "budget": 1000000,
+      "n": 1,
+      "strict": 0,
+      "fields_page_correct": 0,
+      "fields_box_correct": 0,
+      "ocr_pixels": 817466,
+      "total_pixels": 817466,
+      "mean_ms": 428.65,
+      "median_ms": 428.65
+    },
+    {
+      "strategy": "stamp-locate",
+      "region": "all",
+      "budget": 1000000,
+      "n": 1,
+      "strict": 1,
+      "fields_page_correct": 1,
+      "fields_box_correct": 1,
+      "ocr_pixels": 173660,
+      "total_pixels": 195740,
+      "mean_ms": 46.29,
+      "median_ms": 46.29
+    },
+    {
+      "strategy": "stamp-locate",
+      "region": "edge",
+      "budget": 1000000,
+      "n": 1,
+      "strict": 1,
+      "fields_page_correct": 1,
+      "fields_box_correct": 1,
+      "ocr_pixels": 173660,
+      "total_pixels": 195740,
+      "mean_ms": 46.29,
+      "median_ms": 46.29
+    }
+  ],
+  "rows": [
+    {
+      "id": "scan17-08",
+      "region": "edge",
+      "gold": {
+        "A": {
+          "page": "26",
+          "anchor": "MAR 23 1971",
+          "anchor_box": [
+            1481,
+            558,
+            1521,
+            720
+          ],
+          "value": null
+        }
+      },
+      "checks": {
+        "A": {
+          "page_ok": false,
+          "iou": 0,
+          "box_ok": false
+        }
+      },
+      "strict": false,
+      "wall_ms": 487.2853329998179,
+      "op": "locate",
+      "strategy": "scan-audit",
+      "budget": 1000000,
+      "spent": 698704,
+      "status": "unresolved",
+      "answer": null,
+      "evidence": [],
+      "steps": [
+        {
+          "step": 1,
+          "page": "13",
+          "view": "survey-body",
+          "mode": "survey",
+          "size": [
+            492,
+            710
+          ],
+          "box": [
+            140,
+            144,
+            1605,
+            2256
+          ],
+          "pixels": 349320,
+          "spent": 349320,
+          "reason": "均匀扫描候选页，保留局部核验预算",
+          "target": null,
+          "ocr_lines": 34
+        },
+        {
+          "step": 2,
+          "page": "26",
+          "view": "survey-body",
+          "mode": "survey",
+          "size": [
+            476,
+            734
+          ],
+          "box": [
+            131,
+            144,
+            1502,
+            2256
+          ],
+          "pixels": 349384,
+          "spent": 698704,
+          "reason": "均匀扫描候选页，保留局部核验预算",
+          "target": null,
+          "ocr_lines": 31
+        }
+      ],
+      "pages": [
+        {
+          "id": "13",
+          "name": "13.jpg",
+          "size": [
+            1745,
+            2400
+          ]
+        },
+        {
+          "id": "26",
+          "name": "26.jpg",
+          "size": [
+            1633,
+            2400
+          ]
+        }
+      ],
+      "ocr_calls": 2,
+      "elapsed_ms": 487.24,
+      "pdf_candidates": {
+        "A": 0
+      },
+      "possible_ambiguities": [],
+      "field_assessments": {
+        "A": {
+          "status": "missing",
+          "values": [],
+          "evidence": [],
+          "candidate_count": 0,
+          "unread": 0,
+          "unreadable": 0,
+          "candidate_limit_reached": false,
+          "scope": "observed_image_regions"
+        }
+      }
+    },
+    {
+      "id": "scan17-08",
+      "region": "edge",
+      "gold": {
+        "A": {
+          "page": "26",
+          "anchor": "MAR 23 1971",
+          "anchor_box": [
+            1481,
+            558,
+            1521,
+            720
+          ],
+          "value": null
+        }
+      },
+      "checks": {
+        "A": {
+          "page_ok": false,
+          "iou": 0,
+          "box_ok": false
+        }
+      },
+      "strict": false,
+      "wall_ms": 428.64783400000306,
+      "strategy": "edge-date",
+      "budget": 1000000,
+      "spent": 817466,
+      "status": "unresolved",
+      "answer": null,
+      "evidence": [],
+      "ocr_calls": 10,
+      "steps": [
+        {
+          "step": 1,
+          "page": "13",
+          "view": "edge:top",
+          "mode": "edge",
+          "size": [
+            602,
+            82
+          ],
+          "box": [
+            0,
+            0,
+            1745,
+            240
+          ],
+          "pixels": 49364,
+          "spent": 49364,
+          "reason": "geometric strip",
+          "target": null,
+          "ocr_lines": 2,
+          "rotation_deg_ccw": 0,
+          "contrast": false
+        },
+        {
+          "step": 2,
+          "page": "13",
+          "view": "edge:right",
+          "mode": "edge",
+          "size": [
+            757,
+            65
+          ],
+          "box": [
+            1536,
+            0,
+            1745,
+            2400
+          ],
+          "pixels": 49205,
+          "spent": 98569,
+          "reason": "geometric strip",
+          "target": null,
+          "ocr_lines": 3,
+          "rotation_deg_ccw": 90,
+          "contrast": false
+        },
+        {
+          "step": 3,
+          "page": "13",
+          "view": "edge:left",
+          "mode": "edge",
+          "size": [
+            757,
+            65
+          ],
+          "box": [
+            0,
+            0,
+            209,
+            2400
+          ],
+          "pixels": 49205,
+          "spent": 147774,
+          "reason": "geometric strip",
+          "target": null,
+          "ocr_lines": 1,
+          "rotation_deg_ccw": -90,
+          "contrast": false
+        },
+        {
+          "step": 4,
+          "page": "13",
+          "view": "edge:bottom",
+          "mode": "edge",
+          "size": [
+            602,
+            82
+          ],
+          "box": [
+            0,
+            2160,
+            1745,
+            2400
+          ],
+          "pixels": 49364,
+          "spent": 197138,
+          "reason": "geometric strip",
+          "target": null,
+          "ocr_lines": 0,
+          "rotation_deg_ccw": 0,
+          "contrast": false
+        },
+        {
+          "step": 5,
+          "page": "26",
+          "view": "edge:top",
+          "mode": "edge",
+          "size": [
+            583,
+            85
+          ],
+          "box": [
+            0,
+            0,
+            1633,
+            240
+          ],
+          "pixels": 49555,
+          "spent": 246693,
+          "reason": "geometric strip",
+          "target": null,
+          "ocr_lines": 1,
+          "rotation_deg_ccw": 0,
+          "contrast": false
+        },
+        {
+          "step": 6,
+          "page": "26",
+          "view": "edge:right",
+          "mode": "edge",
+          "size": [
+            782,
+            63
+          ],
+          "box": [
+            1437,
+            0,
+            1633,
+            2400
+          ],
+          "pixels": 49266,
+          "spent": 295959,
+          "reason": "geometric strip",
+          "target": null,
+          "ocr_lines": 1,
+          "rotation_deg_ccw": 90,
+          "contrast": false
+        },
+        {
+          "step": 7,
+          "page": "26",
+          "view": "edge:left",
+          "mode": "edge",
+          "size": [
+            782,
+            63
+          ],
+          "box": [
+            0,
+            0,
+            196,
+            2400
+          ],
+          "pixels": 49266,
+          "spent": 345225,
+          "reason": "geometric strip",
+          "target": null,
+          "ocr_lines": 0,
+          "rotation_deg_ccw": -90,
+          "contrast": false
+        },
+        {
+          "step": 8,
+          "page": "26",
+          "view": "edge:bottom",
+          "mode": "edge",
+          "size": [
+            583,
+            85
+          ],
+          "box": [
+            0,
+            2160,
+            1633,
+            2400
+          ],
+          "pixels": 49555,
+          "spent": 394780,
+          "reason": "geometric strip",
+          "target": null,
+          "ocr_lines": 0,
+          "rotation_deg_ccw": 0,
+          "contrast": false
+        },
+        {
+          "step": 9,
+          "page": "13",
+          "view": "survey-body",
+          "mode": "survey",
+          "size": [
+            383,
+            552
+          ],
+          "box": [
+            140,
+            144,
+            1605,
+            2256
+          ],
+          "pixels": 211416,
+          "spent": 606196,
+          "reason": "均匀扫描候选页，保留局部核验预算",
+          "target": null,
+          "ocr_lines": 42
+        },
+        {
+          "step": 10,
+          "page": "26",
+          "view": "survey-body",
+          "mode": "survey",
+          "size": [
+            370,
+            571
+          ],
+          "box": [
+            131,
+            144,
+            1502,
+            2256
+          ],
+          "pixels": 211270,
+          "spent": 817466,
+          "reason": "均匀扫描候选页，保留局部核验预算",
+          "target": null,
+          "ocr_lines": 29
+        }
+      ],
+      "edge_ocr": [
+        {
+          "page": "13",
+          "view": "edge:top",
+          "lines": [
+            {
+              "text": "Thirty-6ig44",
+              "box": [
+                130.4401993355482,
+                120.0,
+                498.57142857142856,
+                204.8780487804878
+              ],
+              "confidence": 0,
+              "raw_words": [
+                {
+                  "text": "Thirty-6ig44",
+                  "box": [
+                    130.4401993355482,
+                    120.0,
+                    498.57142857142856,
+                    204.8780487804878
+                  ]
+                }
+              ],
+              "words": [
+                {
+                  "text": "Thirty",
+                  "box": [
+                    130.4401993355482,
+                    120.0,
+                    314.50581395348837,
+                    204.8780487804878
+                  ]
+                },
+                {
+                  "text": "6ig44",
+                  "box": [
+                    345.1834163898117,
+                    120.0,
+                    498.57142857142856,
+                    204.8780487804878
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Congress of the United States of America;",
+              "box": [
+                617.4169435215947,
+                140.48780487804876,
+                1634.8504983388705,
+                210.73170731707316
+              ],
+              "confidence": 0.91,
+              "raw_words": [
+                {
+                  "text": "Congress",
+                  "box": [
+                    617.4169435215947,
+                    140.48780487804876,
+                    823.2225913621262,
+                    207.8048780487805
+                  ]
+                },
+                {
+                  "text": "of",
+                  "box": [
+                    849.3106312292359,
+                    140.48780487804876,
+                    892.7906976744187,
+                    196.09756097560975
+                  ]
+                },
+                {
+                  "text": "the",
+                  "box": [
+                    915.9800664451827,
+                    140.48780487804876,
+                    976.8521594684385,
+                    210.73170731707316
+                  ]
+                },
+                {
+                  "text": "United",
+                  "box": [
+                    1002.9401993355482,
+                    140.48780487804876,
+                    1153.671096345515,
+                    196.09756097560975
+                  ]
+                },
+                {
+                  "text": "States",
+                  "box": [
+                    1185.5564784053156,
+                    143.41463414634146,
+                    1327.5913621262457,
+                    196.09756097560975
+                  ]
+                },
+                {
+                  "text": "of",
+                  "box": [
+                    1353.6794019933554,
+                    140.48780487804876,
+                    1394.2607973421925,
+                    196.09756097560975
+                  ]
+                },
+                {
+                  "text": "America;",
+                  "box": [
+                    1423.2475083056477,
+                    140.48780487804876,
+                    1634.8504983388705,
+                    210.73170731707316
+                  ]
+                }
+              ],
+              "words": [
+                {
+                  "text": "Congress",
+                  "box": [
+                    617.4169435215947,
+                    140.48780487804876,
+                    823.2225913621262,
+                    207.8048780487805
+                  ]
+                },
+                {
+                  "text": "of",
+                  "box": [
+                    849.3106312292359,
+                    140.48780487804876,
+                    892.7906976744187,
+                    196.09756097560975
+                  ]
+                },
+                {
+                  "text": "the",
+                  "box": [
+                    915.9800664451827,
+                    140.48780487804876,
+                    976.8521594684385,
+                    210.73170731707316
+                  ]
+                },
+                {
+                  "text": "United",
+                  "box": [
+                    1002.9401993355482,
+                    140.48780487804876,
+                    1153.671096345515,
+                    196.09756097560975
+                  ]
+                },
+                {
+                  "text": "States",
+                  "box": [
+                    1185.5564784053156,
+                    143.41463414634146,
+                    1327.5913621262457,
+                    196.09756097560975
+                  ]
+                },
+                {
+                  "text": "of",
+                  "box": [
+                    1353.6794019933554,
+                    140.48780487804876,
+                    1394.2607973421925,
+                    196.09756097560975
+                  ]
+                },
+                {
+                  "text": "America",
+                  "box": [
+                    1423.2475083056477,
+                    140.48780487804876,
+                    1608.4001245847176,
+                    210.73170731707316
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "page": "13",
+          "view": "edge:right",
+          "lines": [
+            {
+              "text": "ce",
+              "box": [
+                1593.876923076923,
+                1141.347424042272,
+                1616.3846153846155,
+                1204.755614266843
+              ],
+              "confidence": 0.72,
+              "raw_words": [
+                {
+                  "text": "ce",
+                  "box": [
+                    1593.876923076923,
+                    1141.347424042272,
+                    1616.3846153846155,
+                    1204.755614266843
+                  ]
+                }
+              ],
+              "words": [
+                {
+                  "text": "ce",
+                  "box": [
+                    1593.876923076923,
+                    1141.347424042272,
+                    1616.3846153846155,
+                    1204.755614266843
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "yy",
+              "box": [
+                1536,
+                703.8309114927345,
+                1577.8,
+                789.4319682959049
+              ],
+              "confidence": 0.62,
+              "raw_words": [
+                {
+                  "text": "yy",
+                  "box": [
+                    1536,
+                    703.8309114927345,
+                    1577.8,
+                    789.4319682959049
+                  ]
+                }
+              ],
+              "words": [
+                {
+                  "text": "yy",
+                  "box": [
+                    1536,
+                    703.8309114927345,
+                    1577.8,
+                    789.4319682959049
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "or",
+              "box": [
+                1536,
+                1474.2404227212683,
+                1564.9384615384615,
+                1505.9445178335534
+              ],
+              "confidence": 0.36,
+              "raw_words": [
+                {
+                  "text": "or",
+                  "box": [
+                    1536,
+                    1474.2404227212683,
+                    1564.9384615384615,
+                    1505.9445178335534
+                  ]
+                }
+              ],
+              "words": [
+                {
+                  "text": "or",
+                  "box": [
+                    1536,
+                    1474.2404227212683,
+                    1564.9384615384615,
+                    1505.9445178335534
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "page": "13",
+          "view": "edge:left",
+          "lines": [
+            {
+              "text": "i =",
+              "box": [
+                125.39999999999999,
+                126.81638044914125,
+                209,
+                355.0858652575957
+              ],
+              "confidence": 0.73,
+              "raw_words": [
+                {
+                  "text": "i",
+                  "box": [
+                    125.39999999999999,
+                    326.55217965653895,
+                    196.13846153846154,
+                    355.0858652575957
+                  ]
+                },
+                {
+                  "text": "=",
+                  "box": [
+                    128.6153846153846,
+                    126.81638044914125,
+                    209,
+                    206.07661822985472
+                  ]
+                }
+              ],
+              "words": [
+                {
+                  "text": "i",
+                  "box": [
+                    125.39999999999999,
+                    326.55217965653895,
+                    196.13846153846154,
+                    355.0858652575957
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "page": "13",
+          "view": "edge:bottom",
+          "lines": []
+        },
+        {
+          "page": "26",
+          "view": "edge:top",
+          "lines": [
+            {
+              "text": "S.J. Res. 7",
+              "box": [
+                198.8730703259005,
+                158.11764705882354,
+                366.934819897084,
+                186.35294117647058
+              ],
+              "confidence": 0.74,
+              "raw_words": [
+                {
+                  "text": "S.J.",
+                  "box": [
+                    198.8730703259005,
+                    132.7058823529412,
+                    263.2967409948542,
+                    211.76470588235293
+                  ]
+                },
+                {
+                  "text": "Res.",
+                  "box": [
+                    285.704974271012,
+                    132.7058823529412,
+                    338.9245283018868,
+                    211.76470588235293
+                  ]
+                },
+                {
+                  "text": "7",
+                  "box": [
+                    352.9296740994854,
+                    158.11764705882354,
+                    366.934819897084,
+                    183.52941176470586
+                  ]
+                }
+              ],
+              "words": [
+                {
+                  "text": "S",
+                  "box": [
+                    198.8730703259005,
+                    132.7058823529412,
+                    214.97898799313893,
+                    211.76470588235293
+                  ]
+                },
+                {
+                  "text": "J",
+                  "box": [
+                    231.08490566037736,
+                    132.7058823529412,
+                    247.1908233276158,
+                    211.76470588235293
+                  ]
+                },
+                {
+                  "text": "Res",
+                  "box": [
+                    285.704974271012,
+                    132.7058823529412,
+                    325.6196397941681,
+                    211.76470588235293
+                  ]
+                },
+                {
+                  "text": "7",
+                  "box": [
+                    352.9296740994854,
+                    158.11764705882354,
+                    366.934819897084,
+                    183.52941176470586
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "page": "26",
+          "view": "edge:right",
+          "lines": [
+            {
+              "text": "(Gans",
+              "box": [
+                1437,
+                500.2557544757033,
+                1633,
+                2400
+              ],
+              "confidence": 0.1,
+              "raw_words": [
+                {
+                  "text": "(Gans",
+                  "box": [
+                    1437,
+                    500.2557544757033,
+                    1601.888888888889,
+                    785.6777493606139
+                  ]
+                }
+              ],
+              "words": [
+                {
+                  "text": "Gans",
+                  "box": [
+                    1437,
+                    557.3401534526855,
+                    1601.888888888889,
+                    785.6777493606139
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "page": "26",
+          "view": "edge:left",
+          "lines": []
+        },
+        {
+          "page": "26",
+          "view": "edge:bottom",
+          "lines": []
+        }
+      ]
+    },
+    {
+      "id": "scan17-08",
+      "region": "edge",
+      "gold": {
+        "A": {
+          "page": "26",
+          "anchor": "MAR 23 1971",
+          "anchor_box": [
+            1481,
+            558,
+            1521,
+            720
+          ],
+          "value": null
+        }
+      },
+      "checks": {
+        "A": {
+          "page_ok": true,
+          "iou": 0.8225108225108225,
+          "box_ok": true
+        }
+      },
+      "strict": true,
+      "wall_ms": 46.28712500016263,
+      "strategy": "stamp-locate",
+      "budget": 1000000,
+      "spent": 173660,
+      "preview_pixels": 22080,
+      "total_pixels": 195740,
+      "status": "answered",
+      "answer": {
+        "page": "26"
+      },
+      "evidence": [
+        {
+          "field": "A",
+          "anchor": "MAR 23 1971",
+          "page": "26",
+          "view": "stamp:3",
+          "anchor_box": [
+            1478.0,
+            567.0,
+            1519.0,
+            717.0
+          ],
+          "box": [
+            1478.0,
+            567.0,
+            1519.0,
+            717.0
+          ],
+          "value": null,
+          "value_box": null,
+          "line": "MAR2 3 1971",
+          "confidence": 0.93,
+          "match_type": "normalized_date",
+          "matched_text": "MAR2 3 1971",
+          "canonical_date": "1971-03-23"
+        }
+      ],
+      "ocr_calls": 2,
+      "steps": [
+        {
+          "step": 1,
+          "page": "13",
+          "view": "stamp:1",
+          "mode": "stamp",
+          "size": [
+            380,
+            236
+          ],
+          "box": [
+            26,
+            0,
+            262,
+            380
+          ],
+          "pixels": 89680,
+          "spent": 89680,
+          "reason": "ranked side-window",
+          "target": null,
+          "ocr_lines": 2,
+          "rotation_deg_ccw": -90
+        },
+        {
+          "step": 2,
+          "page": "26",
+          "view": "stamp:3",
+          "mode": "stamp",
+          "size": [
+            380,
+            221
+          ],
+          "box": [
+            1388,
+            400,
+            1609,
+            780
+          ],
+          "pixels": 83980,
+          "spent": 173660,
+          "reason": "ranked side-window",
+          "target": null,
+          "ocr_lines": 8,
+          "rotation_deg_ccw": 90
+        }
+      ],
+      "preview_observations": [
+        {
+          "page": "13",
+          "side": "left",
+          "box": [
+            26,
+            0,
+            262,
+            2400
+          ],
+          "size": [
+            24,
+            240
+          ],
+          "threshold": 201.0,
+          "pixels": 5760
+        },
+        {
+          "page": "13",
+          "side": "right",
+          "box": [
+            1483,
+            0,
+            1719,
+            2400
+          ],
+          "size": [
+            24,
+            240
+          ],
+          "threshold": 197.0,
+          "pixels": 5760
+        },
+        {
+          "page": "26",
+          "side": "left",
+          "box": [
+            24,
+            0,
+            245,
+            2400
+          ],
+          "size": [
+            22,
+            240
+          ],
+          "threshold": 191.0,
+          "pixels": 5280
+        },
+        {
+          "page": "26",
+          "side": "right",
+          "box": [
+            1388,
+            0,
+            1609,
+            2400
+          ],
+          "size": [
+            22,
+            240
+          ],
+          "threshold": 190.0,
+          "pixels": 5280
+        }
+      ],
+      "candidates": [
+        {
+          "page": "13",
+          "side": "left",
+          "box": [
+            26,
+            0,
+            262,
+            380
+          ],
+          "angle": -90,
+          "score": 0.13734995383194828,
+          "ink_density": 0.14912280701754385,
+          "row_coverage": 0.9210526315789473,
+          "rank": 1,
+          "decision": "selected"
+        },
+        {
+          "page": "13",
+          "side": "left",
+          "box": [
+            26,
+            100,
+            262,
+            480
+          ],
+          "angle": -90,
+          "score": 0.13596491228070176,
+          "ink_density": 0.13596491228070176,
+          "row_coverage": 1.0,
+          "rank": 2,
+          "decision": "overlap"
+        },
+        {
+          "page": "26",
+          "side": "right",
+          "box": [
+            1388,
+            400,
+            1609,
+            780
+          ],
+          "angle": 90,
+          "score": 0.09411986905061698,
+          "ink_density": 0.1375598086124402,
+          "row_coverage": 0.6842105263157895,
+          "rank": 3,
+          "decision": "selected"
+        },
+        {
+          "page": "26",
+          "side": "right",
+          "box": [
+            1388,
+            500,
+            1609,
+            880
+          ],
+          "angle": 90,
+          "score": 0.09411986905061698,
+          "ink_density": 0.1375598086124402,
+          "row_coverage": 0.6842105263157895,
+          "rank": 4,
+          "decision": "overlap"
+        },
+        {
+          "page": "13",
+          "side": "left",
+          "box": [
+            26,
+            200,
+            262,
+            580
+          ],
+          "angle": -90,
+          "score": 0.0716759002770083,
+          "ink_density": 0.0756578947368421,
+          "row_coverage": 0.9473684210526315,
+          "rank": 5,
+          "decision": "overlap"
+        },
+        {
+          "page": "13",
+          "side": "left",
+          "box": [
+            26,
+            300,
+            262,
+            680
+          ],
+          "angle": -90,
+          "score": 0.05909510618651892,
+          "ink_density": 0.07017543859649122,
+          "row_coverage": 0.8421052631578947,
+          "rank": 6,
+          "decision": "selected"
+        },
+        {
+          "page": "13",
+          "side": "left",
+          "box": [
+            26,
+            1000,
+            262,
+            1380
+          ],
+          "angle": -90,
+          "score": 0.05055401662049861,
+          "ink_density": 0.0800438596491228,
+          "row_coverage": 0.631578947368421,
+          "rank": 7,
+          "decision": "selected"
+        },
+        {
+          "page": "13",
+          "side": "left",
+          "box": [
+            26,
+            900,
+            262,
+            1280
+          ],
+          "angle": -90,
+          "score": 0.04634118190212373,
+          "ink_density": 0.0800438596491228,
+          "row_coverage": 0.5789473684210527,
+          "rank": 8,
+          "decision": "overlap"
+        },
+        {
+          "page": "26",
+          "side": "right",
+          "box": [
+            1388,
+            600,
+            1609,
+            980
+          ],
+          "angle": 90,
+          "score": 0.04548602367161924,
+          "ink_density": 0.10167464114832536,
+          "row_coverage": 0.4473684210526316,
+          "rank": 9,
+          "decision": "overlap"
+        },
+        {
+          "page": "13",
+          "side": "left",
+          "box": [
+            26,
+            1100,
+            262,
+            1480
+          ],
+          "angle": -90,
+          "score": 0.04313827331486611,
+          "ink_density": 0.0712719298245614,
+          "row_coverage": 0.6052631578947368,
+          "rank": 10,
+          "decision": "overlap"
+        },
+        {
+          "page": "26",
+          "side": "right",
+          "box": [
+            1388,
+            300,
+            1609,
+            680
+          ],
+          "angle": 90,
+          "score": 0.03906446738856711,
+          "ink_density": 0.08732057416267942,
+          "row_coverage": 0.4473684210526316,
+          "rank": 11,
+          "decision": "overlap"
+        },
+        {
+          "page": "13",
+          "side": "right",
+          "box": [
+            1483,
+            700,
+            1719,
+            1080
+          ],
+          "angle": 90,
+          "score": 0.03376038781163435,
+          "ink_density": 0.08552631578947369,
+          "row_coverage": 0.39473684210526316,
+          "rank": 12,
+          "decision": "below_limit"
+        },
+        {
+          "page": "13",
+          "side": "left",
+          "box": [
+            26,
+            800,
+            262,
+            1180
+          ],
+          "angle": -90,
+          "score": 0.02827793167128347,
+          "ink_density": 0.0537280701754386,
+          "row_coverage": 0.5263157894736842,
+          "rank": 13,
+          "decision": "overlap"
+        },
+        {
+          "page": "13",
+          "side": "right",
+          "box": [
+            1483,
+            0,
+            1719,
+            380
+          ],
+          "angle": 90,
+          "score": 0.023805401662049863,
+          "ink_density": 0.08223684210526316,
+          "row_coverage": 0.2894736842105263,
+          "rank": 14,
+          "decision": "below_limit"
+        },
+        {
+          "page": "13",
+          "side": "right",
+          "box": [
+            1483,
+            100,
+            1719,
+            480
+          ],
+          "angle": 90,
+          "score": 0.023805401662049863,
+          "ink_density": 0.08223684210526316,
+          "row_coverage": 0.2894736842105263,
+          "rank": 15,
+          "decision": "below_limit"
+        },
+        {
+          "page": "13",
+          "side": "right",
+          "box": [
+            1483,
+            600,
+            1719,
+            980
+          ],
+          "angle": 90,
+          "score": 0.021814404432132964,
+          "ink_density": 0.06907894736842106,
+          "row_coverage": 0.3157894736842105,
+          "rank": 16,
+          "decision": "below_limit"
+        },
+        {
+          "page": "13",
+          "side": "left",
+          "box": [
+            26,
+            500,
+            262,
+            880
+          ],
+          "angle": -90,
+          "score": 0.021352723915050786,
+          "ink_density": 0.04057017543859649,
+          "row_coverage": 0.5263157894736842,
+          "rank": 17,
+          "decision": "overlap"
+        },
+        {
+          "page": "13",
+          "side": "right",
+          "box": [
+            1483,
+            800,
+            1719,
+            1180
+          ],
+          "angle": 90,
+          "score": 0.020198522622345335,
+          "ink_density": 0.05482456140350877,
+          "row_coverage": 0.3684210526315789,
+          "rank": 18,
+          "decision": "below_limit"
+        },
+        {
+          "page": "13",
+          "side": "left",
+          "box": [
+            26,
+            1200,
+            262,
+            1580
+          ],
+          "angle": -90,
+          "score": 0.019044321329639888,
+          "ink_density": 0.04824561403508772,
+          "row_coverage": 0.39473684210526316,
+          "rank": 19,
+          "decision": "overlap"
+        },
+        {
+          "page": "13",
+          "side": "right",
+          "box": [
+            1483,
+            900,
+            1719,
+            1280
+          ],
+          "angle": 90,
+          "score": 0.017255309325946443,
+          "ink_density": 0.05043859649122807,
+          "row_coverage": 0.34210526315789475,
+          "rank": 20,
+          "decision": "below_limit"
+        },
+        {
+          "page": "13",
+          "side": "left",
+          "box": [
+            26,
+            400,
+            262,
+            780
+          ],
+          "angle": -90,
+          "score": 0.016505078485687903,
+          "ink_density": 0.02850877192982456,
+          "row_coverage": 0.5789473684210527,
+          "rank": 21,
+          "decision": "overlap"
+        },
+        {
+          "page": "13",
+          "side": "right",
+          "box": [
+            1483,
+            500,
+            1719,
+            880
+          ],
+          "angle": 90,
+          "score": 0.01454293628808864,
+          "ink_density": 0.06140350877192982,
+          "row_coverage": 0.23684210526315788,
+          "rank": 22,
+          "decision": "below_limit"
+        },
+        {
+          "page": "13",
+          "side": "left",
+          "box": [
+            26,
+            600,
+            262,
+            980
+          ],
+          "angle": -90,
+          "score": 0.013417590027700831,
+          "ink_density": 0.03399122807017544,
+          "row_coverage": 0.39473684210526316,
+          "rank": 23,
+          "decision": "below_limit"
+        },
+        {
+          "page": "13",
+          "side": "left",
+          "box": [
+            26,
+            700,
+            262,
+            1080
+          ],
+          "angle": -90,
+          "score": 0.01237880886426593,
+          "ink_density": 0.03618421052631579,
+          "row_coverage": 0.34210526315789475,
+          "rank": 24,
+          "decision": "below_limit"
+        },
+        {
+          "page": "13",
+          "side": "right",
+          "box": [
+            1483,
+            1000,
+            1719,
+            1380
+          ],
+          "angle": 90,
+          "score": 0.010791782086795937,
+          "ink_density": 0.03728070175438596,
+          "row_coverage": 0.2894736842105263,
+          "rank": 25,
+          "decision": "below_limit"
+        },
+        {
+          "page": "13",
+          "side": "right",
+          "box": [
+            1483,
+            1200,
+            1719,
+            1580
+          ],
+          "angle": 90,
+          "score": 0.009810710987996305,
+          "ink_density": 0.03728070175438596,
+          "row_coverage": 0.2631578947368421,
+          "rank": 26,
+          "decision": "below_limit"
+        },
+        {
+          "page": "13",
+          "side": "right",
+          "box": [
+            1483,
+            200,
+            1719,
+            580
+          ],
+          "angle": 90,
+          "score": 0.009464450600184672,
+          "ink_density": 0.044956140350877194,
+          "row_coverage": 0.21052631578947367,
+          "rank": 27,
+          "decision": "below_limit"
+        },
+        {
+          "page": "13",
+          "side": "right",
+          "box": [
+            1483,
+            300,
+            1719,
+            680
+          ],
+          "angle": 90,
+          "score": 0.009464450600184672,
+          "ink_density": 0.044956140350877194,
+          "row_coverage": 0.21052631578947367,
+          "rank": 28,
+          "decision": "below_limit"
+        },
+        {
+          "page": "13",
+          "side": "right",
+          "box": [
+            1483,
+            1100,
+            1719,
+            1480
+          ],
+          "angle": 90,
+          "score": 0.008367959372114497,
+          "ink_density": 0.03179824561403509,
+          "row_coverage": 0.2631578947368421,
+          "rank": 29,
+          "decision": "below_limit"
+        },
+        {
+          "page": "13",
+          "side": "right",
+          "box": [
+            1483,
+            1300,
+            1719,
+            1680
+          ],
+          "angle": 90,
+          "score": 0.007790858725761772,
+          "ink_density": 0.03289473684210526,
+          "row_coverage": 0.23684210526315788,
+          "rank": 30,
+          "decision": "below_limit"
+        },
+        {
+          "page": "13",
+          "side": "right",
+          "box": [
+            1483,
+            400,
+            1719,
+            780
+          ],
+          "angle": 90,
+          "score": 0.006925207756232686,
+          "ink_density": 0.043859649122807015,
+          "row_coverage": 0.15789473684210525,
+          "rank": 31,
+          "decision": "below_limit"
+        },
+        {
+          "page": "26",
+          "side": "right",
+          "box": [
+            1388,
+            700,
+            1609,
+            1080
+          ],
+          "angle": 90,
+          "score": 0.006610425585494837,
+          "ink_density": 0.03588516746411483,
+          "row_coverage": 0.18421052631578946,
+          "rank": 32,
+          "decision": "below_limit"
+        },
+        {
+          "page": "26",
+          "side": "left",
+          "box": [
+            24,
+            0,
+            245,
+            380
+          ],
+          "angle": -90,
+          "score": 0.006453034500125913,
+          "ink_density": 0.04904306220095694,
+          "row_coverage": 0.13157894736842105,
+          "rank": 33,
+          "decision": "below_limit"
+        },
+        {
+          "page": "26",
+          "side": "right",
+          "box": [
+            1388,
+            200,
+            1609,
+            580
+          ],
+          "angle": 90,
+          "score": 0.004847645429362881,
+          "ink_density": 0.02631578947368421,
+          "row_coverage": 0.18421052631578946,
+          "rank": 34,
+          "decision": "overlap"
+        },
+        {
+          "page": "13",
+          "side": "right",
+          "box": [
+            1483,
+            1400,
+            1719,
+            1780
+          ],
+          "angle": 90,
+          "score": 0.0025969529085872575,
+          "ink_density": 0.01644736842105263,
+          "row_coverage": 0.15789473684210525,
+          "rank": 35,
+          "decision": "below_limit"
+        },
+        {
+          "page": "13",
+          "side": "left",
+          "box": [
+            26,
+            1300,
+            262,
+            1680
+          ],
+          "angle": -90,
+          "score": 0.002539242843951985,
+          "ink_density": 0.01206140350877193,
+          "row_coverage": 0.21052631578947367,
+          "rank": 36,
+          "decision": "below_limit"
+        },
+        {
+          "page": "26",
+          "side": "right",
+          "box": [
+            1388,
+            0,
+            1609,
+            380
+          ],
+          "angle": 90,
+          "score": 0.0023608662805338705,
+          "ink_density": 0.029904306220095694,
+          "row_coverage": 0.07894736842105263,
+          "rank": 37,
+          "decision": "below_limit"
+        },
+        {
+          "page": "13",
+          "side": "left",
+          "box": [
+            26,
+            1400,
+            262,
+            1780
+          ],
+          "angle": -90,
+          "score": 0.0019044321329639887,
+          "ink_density": 0.01206140350877193,
+          "row_coverage": 0.15789473684210525,
+          "rank": 38,
+          "decision": "below_limit"
+        },
+        {
+          "page": "13",
+          "side": "left",
+          "box": [
+            26,
+            1500,
+            262,
+            1880
+          ],
+          "angle": -90,
+          "score": 0.0014427516158818097,
+          "ink_density": 0.010964912280701754,
+          "row_coverage": 0.13157894736842105,
+          "rank": 39,
+          "decision": "below_limit"
+        },
+        {
+          "page": "13",
+          "side": "left",
+          "box": [
+            26,
+            1600,
+            262,
+            1980
+          ],
+          "angle": -90,
+          "score": 0.0014427516158818097,
+          "ink_density": 0.010964912280701754,
+          "row_coverage": 0.13157894736842105,
+          "rank": 40,
+          "decision": "below_limit"
+        },
+        {
+          "page": "13",
+          "side": "right",
+          "box": [
+            1483,
+            1500,
+            1719,
+            1880
+          ],
+          "angle": 90,
+          "score": 0.0006925207756232686,
+          "ink_density": 0.008771929824561403,
+          "row_coverage": 0.07894736842105263,
+          "rank": 41,
+          "decision": "below_limit"
+        },
+        {
+          "page": "26",
+          "side": "left",
+          "box": [
+            24,
+            100,
+            245,
+            480
+          ],
+          "angle": -90,
+          "score": 0.0004721732561067741,
+          "ink_density": 0.005980861244019139,
+          "row_coverage": 0.07894736842105263,
+          "rank": 42,
+          "decision": "below_limit"
+        },
+        {
+          "page": "26",
+          "side": "right",
+          "box": [
+            1388,
+            100,
+            1609,
+            480
+          ],
+          "angle": 90,
+          "score": 0.0003777386048854193,
+          "ink_density": 0.007177033492822967,
+          "row_coverage": 0.05263157894736842,
+          "rank": 43,
+          "decision": "below_limit"
+        },
+        {
+          "page": "26",
+          "side": "right",
+          "box": [
+            1388,
+            1100,
+            1609,
+            1480
+          ],
+          "angle": 90,
+          "score": 0.0003777386048854193,
+          "ink_density": 0.004784688995215311,
+          "row_coverage": 0.07894736842105263,
+          "rank": 44,
+          "decision": "below_limit"
+        },
+        {
+          "page": "26",
+          "side": "right",
+          "box": [
+            1388,
+            1200,
+            1609,
+            1580
+          ],
+          "angle": 90,
+          "score": 0.0003777386048854193,
+          "ink_density": 0.004784688995215311,
+          "row_coverage": 0.07894736842105263,
+          "rank": 45,
+          "decision": "below_limit"
+        },
+        {
+          "page": "26",
+          "side": "right",
+          "box": [
+            1388,
+            1300,
+            1609,
+            1680
+          ],
+          "angle": 90,
+          "score": 0.0003777386048854193,
+          "ink_density": 0.004784688995215311,
+          "row_coverage": 0.07894736842105263,
+          "rank": 46,
+          "decision": "below_limit"
+        },
+        {
+          "page": "26",
+          "side": "right",
+          "box": [
+            1388,
+            1800,
+            1609,
+            2180
+          ],
+          "angle": 90,
+          "score": 0.0003777386048854193,
+          "ink_density": 0.007177033492822967,
+          "row_coverage": 0.05263157894736842,
+          "rank": 47,
+          "decision": "below_limit"
+        },
+        {
+          "page": "26",
+          "side": "right",
+          "box": [
+            1388,
+            1900,
+            1609,
+            2280
+          ],
+          "angle": 90,
+          "score": 0.0003777386048854193,
+          "ink_density": 0.007177033492822967,
+          "row_coverage": 0.05263157894736842,
+          "rank": 48,
+          "decision": "below_limit"
+        },
+        {
+          "page": "26",
+          "side": "right",
+          "box": [
+            1388,
+            2000,
+            1609,
+            2380
+          ],
+          "angle": 90,
+          "score": 0.0003777386048854193,
+          "ink_density": 0.007177033492822967,
+          "row_coverage": 0.05263157894736842,
+          "rank": 49,
+          "decision": "below_limit"
+        },
+        {
+          "page": "26",
+          "side": "right",
+          "box": [
+            1388,
+            2020,
+            1609,
+            2400
+          ],
+          "angle": 90,
+          "score": 0.0003777386048854193,
+          "ink_density": 0.007177033492822967,
+          "row_coverage": 0.05263157894736842,
+          "rank": 50,
+          "decision": "below_limit"
+        },
+        {
+          "page": "26",
+          "side": "left",
+          "box": [
+            24,
+            2000,
+            245,
+            2380
+          ],
+          "angle": -90,
+          "score": 0.0002518257365902795,
+          "ink_density": 0.004784688995215311,
+          "row_coverage": 0.05263157894736842,
+          "rank": 51,
+          "decision": "below_limit"
+        },
+        {
+          "page": "26",
+          "side": "left",
+          "box": [
+            24,
+            2020,
+            245,
+            2400
+          ],
+          "angle": -90,
+          "score": 0.0002518257365902795,
+          "ink_density": 0.004784688995215311,
+          "row_coverage": 0.05263157894736842,
+          "rank": 52,
+          "decision": "below_limit"
+        },
+        {
+          "page": "26",
+          "side": "right",
+          "box": [
+            1388,
+            1000,
+            1609,
+            1380
+          ],
+          "angle": 90,
+          "score": 0.00018886930244270964,
+          "ink_density": 0.0035885167464114833,
+          "row_coverage": 0.05263157894736842,
+          "rank": 53,
+          "decision": "below_limit"
+        },
+        {
+          "page": "26",
+          "side": "left",
+          "box": [
+            24,
+            1800,
+            245,
+            2180
+          ],
+          "angle": -90,
+          "score": 9.443465122135482e-05,
+          "ink_density": 0.0035885167464114833,
+          "row_coverage": 0.02631578947368421,
+          "rank": 54,
+          "decision": "below_limit"
+        },
+        {
+          "page": "26",
+          "side": "left",
+          "box": [
+            24,
+            1900,
+            245,
+            2280
+          ],
+          "angle": -90,
+          "score": 9.443465122135482e-05,
+          "ink_density": 0.0035885167464114833,
+          "row_coverage": 0.02631578947368421,
+          "rank": 55,
+          "decision": "below_limit"
+        },
+        {
+          "page": "13",
+          "side": "left",
+          "box": [
+            26,
+            1700,
+            262,
+            2080
+          ],
+          "angle": -90,
+          "score": 2.885503231763619e-05,
+          "ink_density": 0.0010964912280701754,
+          "row_coverage": 0.02631578947368421,
+          "rank": 56,
+          "decision": "below_limit"
+        }
+      ],
+      "edge_ocr": [
+        {
+          "page": "13",
+          "view": "stamp:1",
+          "lines": [
+            {
+              "text": "eS",
+              "box": [
+                177.0,
+                132.0,
+                198.0,
+                203.0
+              ],
+              "confidence": 0.52,
+              "raw_words": [
+                {
+                  "text": "eS",
+                  "box": [
+                    177.0,
+                    132.0,
+                    198.0,
+                    203.0
+                  ]
+                }
+              ],
+              "words": [
+                {
+                  "text": "eS",
+                  "box": [
+                    177.0,
+                    132.0,
+                    198.0,
+                    203.0
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "“+",
+              "box": [
+                199.0,
+                132.0,
+                215.0,
+                187.0
+              ],
+              "confidence": 0,
+              "raw_words": [
+                {
+                  "text": "“+",
+                  "box": [
+                    199.0,
+                    132.0,
+                    215.0,
+                    187.0
+                  ]
+                }
+              ],
+              "words": []
+            }
+          ]
+        },
+        {
+          "page": "26",
+          "view": "stamp:3",
+          "lines": [
+            {
+              "text": "CES ADIMiRy",
+              "box": [
+                1558.0,
+                621.0,
+                1581.0,
+                710.0
+              ],
+              "confidence": 0,
+              "raw_words": [
+                {
+                  "text": "CES",
+                  "box": [
+                    1554.0,
+                    617.0,
+                    1585.0,
+                    651.0
+                  ]
+                },
+                {
+                  "text": "ADIMiRy",
+                  "box": [
+                    1554.0,
+                    658.0,
+                    1585.0,
+                    710.0
+                  ]
+                }
+              ],
+              "words": [
+                {
+                  "text": "CES",
+                  "box": [
+                    1554.0,
+                    617.0,
+                    1585.0,
+                    651.0
+                  ]
+                },
+                {
+                  "text": "ADIMiRy",
+                  "box": [
+                    1554.0,
+                    658.0,
+                    1585.0,
+                    710.0
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "(i RECEIVED",
+              "box": [
+                1533.0,
+                536.0,
+                1563.0,
+                694.0
+              ],
+              "confidence": 0.36,
+              "raw_words": [
+                {
+                  "text": "(i",
+                  "box": [
+                    1533.0,
+                    536.0,
+                    1563.0,
+                    573.0
+                  ]
+                },
+                {
+                  "text": "RECEIVED",
+                  "box": [
+                    1541.0,
+                    597.0,
+                    1555.0,
+                    694.0
+                  ]
+                }
+              ],
+              "words": [
+                {
+                  "text": "i",
+                  "box": [
+                    1533.0,
+                    554.5,
+                    1563.0,
+                    573.0
+                  ]
+                },
+                {
+                  "text": "RECEIVED",
+                  "box": [
+                    1541.0,
+                    597.0,
+                    1555.0,
+                    694.0
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "»",
+              "box": [
+                1527.0,
+                736.0,
+                1544.0,
+                755.0
+              ],
+              "confidence": 0.72,
+              "raw_words": [
+                {
+                  "text": "»",
+                  "box": [
+                    1527.0,
+                    736.0,
+                    1544.0,
+                    755.0
+                  ]
+                }
+              ],
+              "words": []
+            },
+            {
+              "text": "MAR2 3 1971",
+              "box": [
+                1490.0,
+                567.0,
+                1515.0,
+                717.0
+              ],
+              "confidence": 0.93,
+              "raw_words": [
+                {
+                  "text": "MAR2",
+                  "box": [
+                    1490.0,
+                    567.0,
+                    1514.0,
+                    657.0
+                  ]
+                },
+                {
+                  "text": "3",
+                  "box": [
+                    1478.0,
+                    641.0,
+                    1519.0,
+                    652.0
+                  ]
+                },
+                {
+                  "text": "1971",
+                  "box": [
+                    1491.0,
+                    669.0,
+                    1515.0,
+                    717.0
+                  ]
+                }
+              ],
+              "words": [
+                {
+                  "text": "MAR2",
+                  "box": [
+                    1490.0,
+                    567.0,
+                    1514.0,
+                    657.0
+                  ]
+                },
+                {
+                  "text": "3",
+                  "box": [
+                    1478.0,
+                    641.0,
+                    1519.0,
+                    652.0
+                  ]
+                },
+                {
+                  "text": "1971",
+                  "box": [
+                    1491.0,
+                    669.0,
+                    1515.0,
+                    717.0
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "or",
+              "box": [
+                1460.0,
+                533.0,
+                1470.0,
+                545.0
+              ],
+              "confidence": 0.51,
+              "raw_words": [
+                {
+                  "text": "or",
+                  "box": [
+                    1460.0,
+                    533.0,
+                    1470.0,
+                    545.0
+                  ]
+                }
+              ],
+              "words": [
+                {
+                  "text": "or",
+                  "box": [
+                    1460.0,
+                    533.0,
+                    1470.0,
+                    545.0
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "ee",
+              "box": [
+                1436.0,
+                546.0,
+                1458.0,
+                573.0
+              ],
+              "confidence": 0.7,
+              "raw_words": [
+                {
+                  "text": "ee",
+                  "box": [
+                    1436.0,
+                    546.0,
+                    1458.0,
+                    573.0
+                  ]
+                }
+              ],
+              "words": [
+                {
+                  "text": "ee",
+                  "box": [
+                    1436.0,
+                    546.0,
+                    1458.0,
+                    573.0
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "NARS",
+              "box": [
+                1442.0,
+                615.0,
+                1454.0,
+                668.0
+              ],
+              "confidence": 0.96,
+              "raw_words": [
+                {
+                  "text": "NARS",
+                  "box": [
+                    1442.0,
+                    615.0,
+                    1454.0,
+                    668.0
+                  ]
+                }
+              ],
+              "words": [
+                {
+                  "text": "NARS",
+                  "box": [
+                    1442.0,
+                    615.0,
+                    1454.0,
+                    668.0
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "wt",
+              "box": [
+                1434.0,
+                711.0,
+                1468.0,
+                753.0
+              ],
+              "confidence": 0.31,
+              "raw_words": [
+                {
+                  "text": "wt",
+                  "box": [
+                    1434.0,
+                    711.0,
+                    1468.0,
+                    753.0
+                  ]
+                }
+              ],
+              "words": [
+                {
+                  "text": "wt",
+                  "box": [
+                    1434.0,
+                    711.0,
+                    1468.0,
+                    753.0
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

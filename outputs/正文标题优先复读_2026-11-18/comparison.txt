@@ -1,0 +1,16 @@
+('single', 'four-windows', 'joint', 1000000) strict 0→1 pixels 955920→865407 [('A', 'marsh01', 'stamp:1', 'apR3- 1948'), ('B', 'marsh01', 'article-confirm:B:1', 'FINDINGS AND DECLARATION OF POLICY')]
+('single', 'two-windows', 'joint', 1000000) strict 0→1 pixels 955920→865407 [('A', 'marsh01', 'stamp:1', 'apR3- 1948'), ('B', 'marsh01', 'article-confirm:B:1', 'FINDINGS AND DECLARATION OF POLICY')]
+('single', 'four-windows', 'joint', 1600000) strict 1→1 pixels 1370468→1370468 [('A', 'marsh01', 'stamp:1', 'apR3- 1948'), ('B', 'marsh01', 'article-confirm:B:1', 'FINDINGS AND DECLARATION OF POLICY')]
+('single', 'two-windows', 'joint', 1600000) strict 1→1 pixels 1370468→1370468 [('A', 'marsh01', 'stamp:1', 'apR3- 1948'), ('B', 'marsh01', 'article-confirm:B:1', 'FINDINGS AND DECLARATION OF POLICY')]
+('with_distractors', 'four-windows', 'joint', 1000000) strict 0→1 pixels 911792→719447 [('A', 'marsh01', 'stamp:1', 'apR3- 1948'), ('B', 'marsh01', 'article-confirm:B:1', 'FINDINGS AND DECLARATION OF POLICY')]
+('with_distractors', 'two-windows', 'joint', 1000000) strict 0→1 pixels 911792→719447 [('A', 'marsh01', 'stamp:1', 'apR3- 1948'), ('B', 'marsh01', 'article-confirm:B:1', 'FINDINGS AND DECLARATION OF POLICY')]
+('with_distractors', 'four-windows', 'joint', 1600000) strict 1→1 pixels 1123260→1123260 [('A', 'marsh01', 'stamp:1', 'apR3- 1948'), ('B', 'marsh01', 'article-confirm:B:1', 'FINDINGS AND DECLARATION OF POLICY')]
+('with_distractors', 'two-windows', 'joint', 1600000) strict 1→1 pixels 1123260→1123260 [('A', 'marsh01', 'stamp:1', 'apR3- 1948'), ('B', 'marsh01', 'article-confirm:B:1', 'FINDINGS AND DECLARATION OF POLICY')]
+36 rows validated. Strict 20→24. Gained 4, lost 0. Date-then-article strict 8.
+('', 'stamp-locate', 'scan17-10', 1000000) strict 1→1 pixels 428498→428498 [('A', '13', 'article-alt-survey', 'A RESOLUTION'), ('B', '26', 'stamp:3', 'MAR2 3 1971')]
+('', 'stamp-locate', 'scan17-10', 1600000) strict 1→1 pixels 430286→430286 [('A', '13', 'article-alt-survey', 'A RESOLUTION'), ('B', '26', 'stamp:3', 'MAR2 3 1971')]
+66 rows validated. Strict 14→14. Gained 0, lost 0. Date-then-article strict 2.
+Historical joint scan17-10 @ 1000000: 1→1; pixels 428498→428498; evidence [('A', '13', 'A RESOLUTION'), ('B', '26', 'MAR 23 1971')]
+Historical joint scan17-10 @ 1600000: 1→1; pixels 430286→430286; evidence [('A', '13', 'A RESOLUTION'), ('B', '26', 'MAR 23 1971')]
+Historical joint scan17-11 @ 1000000: 0→0; pixels 811409→811409; evidence []
+Historical joint scan17-11 @ 1600000: 0→0; pixels 1223669→1223669; evidence []

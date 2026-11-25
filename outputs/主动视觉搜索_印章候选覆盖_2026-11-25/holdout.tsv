@@ -1,0 +1,9 @@
+case	condition	policy	year	date	text	joint	raw_year	pixels	footer_pixels	extra_pixels	extra_calls	candidate_pages
+S1	single	spare-stamp	0	0	0	0		996959	323673	74958	5	segal,segal
+S1	single	month-routed-stamp	0	0	0	0		985956	312670	63955	3	segal
+S1	with_other_letter	spare-stamp	0	0	0	0		971474	261573	50920	3	griffith
+S1	with_other_letter	month-routed-stamp	0	0	0	0		999847	289946	79293	3	segal,griffith
+Y1	single	spare-stamp	1	1	0	0	1970	999919	302500	22190	1	younger
+Y1	single	month-routed-stamp	1	1	0	0	1970	992064	294645	14335	1	younger
+Y1	with_other_letter	spare-stamp	1	1	1	1	1970	919750	234640	0	0	
+Y1	with_other_letter	month-routed-stamp	1	1	1	1	1970	919750	234640	0	0	

@@ -1,0 +1,117 @@
+{
+  "split": "holdout",
+  "budget": 1000000,
+  "policy_sha256": "15b239fee777e7c908a4363d25bfd781a1fc6e6bf4e448b17af85d33b5867ef3",
+  "sources": {
+    "segal": {
+      "path": "data/segal.png",
+      "size": [
+        2550,
+        3300
+      ],
+      "source": "https://www.justice.gov/d9/crt/legacy/2011/06/14/005-aba-crd-part2.pdf#page=24",
+      "pdf_page": 24,
+      "pdf_pages": 31,
+      "sha256": "4c63b33a2714ec0e33dc38a1446bdf47a320a7509cc40b86387498f4f4b6109a",
+      "pdf_sha256": "6e4cac6ee8536253591f4d1a28e6848eb95b8ac461b9b27ba20ef83944eb104e"
+    },
+    "younger": {
+      "path": "data/younger.png",
+      "size": [
+        1232,
+        1604
+      ],
+      "source": "https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_8-part_4_of_4.pdf#page=4",
+      "pdf_page": 4,
+      "pdf_pages": 30,
+      "sha256": "e484b5eb35a23b3e5ce35646ad80f6eeb3445f32592f08d784c900e7d6cca8f3",
+      "pdf_sha256": "ca63cb3d26ba168eadc0ca401391232c8cdbbc7494583fa715dc44c67d8bff0e"
+    },
+    "griffith": {
+      "path": "../页底印章年份复读_2026-11-18_晚间/data/griffith.png",
+      "size": [
+        1234,
+        786
+      ],
+      "role": "known distractor only",
+      "sha256": "3e3b02b832c6cc79ba7193e94cf9d2d7e8d7daa8a145e68eab550127e9be7bcc"
+    }
+  },
+  "cases": [
+    {
+      "id": "S1",
+      "page": "segal",
+      "date": "AUG 21 1963",
+      "text": "I am sending copies of this letter",
+      "text_box": [
+        686,
+        1806,
+        1618,
+        1858
+      ],
+      "stamps": [
+        {
+          "date_box": [
+            1827,
+            2825,
+            2099,
+            2887
+          ],
+          "year_box": [
+            2007,
+            2824,
+            2099,
+            2876
+          ]
+        }
+      ],
+      "sets": {
+        "single": [
+          "segal"
+        ],
+        "with_other_letter": [
+          "griffith",
+          "segal"
+        ]
+      }
+    },
+    {
+      "id": "Y1",
+      "page": "younger",
+      "date": "SEP 25 1970",
+      "text": "The conclusion from this investigation",
+      "text_box": [
+        160,
+        841,
+        630,
+        862
+      ],
+      "stamps": [
+        {
+          "date_box": [
+            879,
+            1447,
+            1054,
+            1480
+          ],
+          "year_box": [
+            995,
+            1447,
+            1054,
+            1480
+          ]
+        }
+      ],
+      "sets": {
+        "single": [
+          "younger"
+        ],
+        "with_other_letter": [
+          "griffith",
+          "younger"
+        ]
+      }
+    }
+  ],
+  "coordinates": "Half-open native image pixels [left,top,right,bottom). Labeled before local OCR. Younger SEP 29 and OCT 1 marks are separate stamps."
+}

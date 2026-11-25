@@ -1,0 +1,9 @@
+('single', 'four-windows', 'joint', 1000000) strict 0→0 pixels 764720→955920 [('A', 'marsh01', 'stamp:1', 'apR3- 1948')]
+('single', 'two-windows', 'joint', 1000000) strict 0→0 pixels 599800→955920 [('A', 'marsh01', 'stamp:1', 'apR3- 1948')]
+('single', 'four-windows', 'joint', 1600000) strict 0→1 pixels 1414494→1370468 [('A', 'marsh01', 'stamp:1', 'apR3- 1948'), ('B', 'marsh01', 'article-confirm:B:1', 'FINDINGS AND DECLARATION OF POLICY')]
+('single', 'two-windows', 'joint', 1600000) strict 0→1 pixels 1249574→1370468 [('A', 'marsh01', 'stamp:1', 'apR3- 1948'), ('B', 'marsh01', 'article-confirm:B:1', 'FINDINGS AND DECLARATION OF POLICY')]
+('with_distractors', 'four-windows', 'joint', 1000000) strict 0→0 pixels 810515→911792 [('A', 'marsh01', 'stamp:1', 'apR3- 1948')]
+('with_distractors', 'two-windows', 'joint', 1000000) strict 0→0 pixels 760580→911792 [('A', 'marsh01', 'stamp:1', 'apR3- 1948')]
+('with_distractors', 'four-windows', 'joint', 1600000) strict 0→1 pixels 1229184→1123260 [('A', 'marsh01', 'stamp:1', 'apR3- 1948'), ('B', 'marsh01', 'article-confirm:B:1', 'FINDINGS AND DECLARATION OF POLICY')]
+('with_distractors', 'two-windows', 'joint', 1600000) strict 0→1 pixels 1179997→1123260 [('A', 'marsh01', 'stamp:1', 'apR3- 1948'), ('B', 'marsh01', 'article-confirm:B:1', 'FINDINGS AND DECLARATION OF POLICY')]
+36 rows validated. Strict 16→20. Gained 4, lost 0. Date-then-article strict 4.

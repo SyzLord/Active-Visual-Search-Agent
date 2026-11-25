@@ -1,0 +1,39 @@
+{
+  "matching_locks": 4,
+  "native_scans_rebuilt": 2,
+  "masked_scan_rebuilt_byte_for_byte": true,
+  "development": {
+    "recomputed_rows": 12,
+    "rows": 12,
+    "ocr_calls_replayed": 70,
+    "encoded_input_digests_verified": 0,
+    "new_recognizer_calls": 0,
+    "all_decisions_identical": true
+  },
+  "negative": {
+    "recomputed_rows": 2,
+    "rows": 2,
+    "ocr_calls_replayed": 19,
+    "encoded_input_digests_verified": 0,
+    "new_recognizer_calls": 0,
+    "all_decisions_identical": true
+  },
+  "holdout": {
+    "recomputed_rows": 8,
+    "rows": 8,
+    "ocr_calls_replayed": 59,
+    "encoded_input_digests_verified": 59,
+    "new_recognizer_calls": 0,
+    "all_decisions_identical": true
+  },
+  "wrong_year_query": {
+    "requested": "1959-05-26",
+    "read": "1958",
+    "pixels": 865676
+  },
+  "independent_live_repeat": {
+    "rows": 8,
+    "actual_calls": 59,
+    "all_except_time_equal": true
+  }
+}

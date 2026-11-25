@@ -1,0 +1,8 @@
+test_boxes_are_only_for_consumed_words (__main__.DateTests.test_boxes_are_only_for_consumed_words) ... ok
+test_equivalent_forms (__main__.DateTests.test_equivalent_forms) ... ok
+test_other_and_invalid_dates (__main__.DateTests.test_other_and_invalid_dates) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.000s
+
+OK

@@ -1,0 +1,8 @@
+{
+  "op": "difference",
+  "fields": [
+    {"id": "A", "anchor": "from a distance of", "direction": "after", "window": 2},
+    {"id": "B", "anchor": "dime", "direction": "after", "window": 2}
+  ],
+  "unit": "mi"
+}

@@ -1,0 +1,5 @@
+sample	case	collection	policy	year	date	text	joint	observed_year	pixels	footer_pixels	extra_pixels	extra_calls	trigger
+new_holdout	T1	single	baseline	1	1	0	0	1963	921054	249025	0	0	
+new_holdout	T1	single	spare_stamp	1	1	0	0	1963	921054	249025	0	0	already_verified
+new_holdout	T1	with_other_letter	baseline	0	0	0	0		910963	210653	0	0	
+new_holdout	T1	with_other_letter	spare_stamp	0	0	0	0		961883	261573	50920	3	paid_footer_clue

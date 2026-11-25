@@ -1,0 +1,25 @@
+page	case	collection	policy	date_ok	text_ok	joint_ok	date_iou	text_iou	early_date	date_stage	footer_tried	footer_date	date_reread	text_reread	reread_pixels	fallback	fallback_added	preview	ocr	total
+wells	W1	single	heading-first	0	0	0	0	0	False		False	False	False	False	0	True	False	12000	669009	681009
+wells	W1	single	horizontal-footer	1	0	0	0.8896	0	True	date-reread	False	False	True	True	74940	True	False	12000	987843	999843
+wells	W1	with_other_letter	horizontal-footer	0	0	0	0	0	False		True	False	False	True	44880	True	False	24000	975493	999493
+wells	W1	with_other_letter	heading-first	0	1	0	0	0.7954	False		False	False	False	False	0	True	True	24000	880721	904721
+wells	W2	single	horizontal-footer	1	0	0	0.8896	0	True	date-reread	False	False	True	False	30228	True	False	12000	929727	941727
+wells	W2	single	heading-first	0	0	0	0	0	False		False	False	False	False	0	True	False	12000	521022	533022
+wells	W2	with_other_letter	heading-first	0	0	0	0	0	False		False	False	False	False	0	True	False	24000	706377	730377
+wells	W2	with_other_letter	horizontal-footer	0	0	0	0	0	False		True	False	False	False	0	True	False	24000	852141	876141
+wells	W3	single	heading-first	0	0	0	0	0	False		False	False	False	False	0	True	False	12000	711928	723928
+wells	W3	single	horizontal-footer	0	0	0	0	0	False		True	False	True	True	76200	True	False	12000	987592	999592
+wells	W3	with_other_letter	horizontal-footer	0	0	0	0	0	False		True	False	True	True	69009	True	False	24000	975567	999567
+wells	W3	with_other_letter	heading-first	0	1	0	0	0.7954	False		False	False	False	False	0	True	True	24000	880721	904721
+robinson	R1	single	horizontal-footer	1	1	1	0.7297	0.465	True	header	False	False	False	False	0	False	False	12000	307128	319128
+robinson	R1	single	heading-first	1	1	1	0.7486	0.6813	False	global	False	False	False	False	0	True	True	12000	489593	501593
+robinson	R1	with_other_letter	heading-first	1	1	1	0.7441	0.6715	False	global	False	False	False	False	0	True	True	24000	706377	730377
+robinson	R1	with_other_letter	horizontal-footer	1	1	1	0.743	0.7031	True	header	False	False	False	False	0	False	False	24000	311216	335216
+robinson	R2	single	heading-first	1	1	1	0.7486	0.5835	False	global	False	False	False	False	0	True	True	12000	489593	501593
+robinson	R2	single	horizontal-footer	1	1	1	0.7297	0.6423	True	header	False	False	False	False	0	False	False	12000	782652	794652
+robinson	R2	with_other_letter	horizontal-footer	1	1	1	0.743	0.5966	True	header	False	False	False	False	0	False	False	24000	775856	799856
+robinson	R2	with_other_letter	heading-first	1	1	1	0.7441	0.6202	False	global	False	False	False	False	0	True	True	24000	706377	730377
+robinson	R3	single	horizontal-footer	1	1	1	0.7321	0.601	True	footer	True	True	False	False	0	False	False	12000	508060	520060
+robinson	R3	single	heading-first	0	1	0	0	0.5835	False		False	False	False	False	0	True	True	12000	506123	518123
+robinson	R3	with_other_letter	heading-first	0	1	0	0	0.6202	False		False	False	False	False	0	True	True	24000	724377	748377
+robinson	R3	with_other_letter	horizontal-footer	1	1	1	0.7139	0.5899	True	date-reread	True	True	True	True	92943	False	False	24000	868047	892047
