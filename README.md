@@ -1,28 +1,43 @@
 # Active-Visual-Search-Agent
 
-## 项目简介 · Overview
+**English** · [简体中文](README.zh-CN.md)
 
-主动视觉搜索 Agent 在固定的 OCR 像素预算内，从高分辨率文档扫描中定位并核验收件章日期和正文。它根据已读线索选择局部区域复读，保留 OCR 原词、原图坐标和逐步像素账本。批量任务支持从本地进度文件续跑。
+## Overview
 
 Active Visual Search Agent locates and verifies receipt stamp dates and body text in high-resolution document scans under a fixed OCR pixel budget. It uses earlier OCR observations to select regions for a closer read, and records the raw OCR text, source-image coordinates, and pixel cost of each step. Batch jobs can resume from a local progress file.
 
-**实测。** 每题上限 100 万像素。新版策略在 13 个已见条件中的联合核验从 3/13 提升到 4/13。在两封新信的 4 个独立条件中，新旧策略均通过 1/4。
-
 **Results.** With a cap of 1,000,000 pixels per query, the updated policy improved joint verification from 3/13 to 4/13 on previously seen conditions. Both policies passed 1/4 conditions across two held-out letters.
 
-- [Windows 快速开始](#windows-快速开始)
-- [Latest experiment and demo](outputs/主动视觉搜索_印章候选覆盖_2026-11-25/README.md)
-- [OCR engine and app](outputs/document-evidence-agent-v3.2/README.md)
+- [Windows quickstart](#windows-quickstart)
+- [Latest experiment and demo (Chinese)](outputs/主动视觉搜索_印章候选覆盖_2026-11-25/README.md)
+- [OCR engine and app (Chinese)](outputs/document-evidence-agent-v3.2/README.md)
 
-## Windows 快速开始
+<a name="windows-快速开始"></a>
 
-在 Windows 的管理员 PowerShell 执行 `wsl --install -d Ubuntu-24.04`。按提示重启后，从开始菜单打开 Ubuntu，在 Ubuntu 终端操作。
+## Windows quickstart
 
-[Windows 安装与测试手册](batch/WINDOWS.md)包含环境安装、样例运行、结果导出和断点续跑步骤。用仓库自带的 [Griffith 单任务清单](batch/examples/quickstart.json)开始，参考结果为 **完成 1、失败 0**，结论为 `verified`。
+Run `wsl --install -d Ubuntu-24.04` in an administrator PowerShell window. Restart if prompted, then open Ubuntu from the Start menu. Run the following commands in Ubuntu:
+
+```bash
+sudo apt update
+sudo apt install -y git python3 python3-venv nodejs npm
+cd ~
+git clone https://github.com/SyzLord/Active-Visual-Search-Agent.git
+cd Active-Visual-Search-Agent/batch
+python3 -m venv .venv
+.venv/bin/python -m pip install -r vendor/document-evidence-agent-v3.2/requirements.txt
+npm --prefix vendor/document-evidence-agent-v3.2 install
+export VISUAL_SEARCH_PYTHON="$PWD/.venv/bin/python"
+mkdir -p local-run
+sh batch.sh run examples/quickstart.json --state local-run/quickstart.sqlite
+sh batch.sh status --state local-run/quickstart.sqlite
+```
+
+The [single-job example](batch/examples/quickstart.json) should report one completed job, zero failures, and a `verified` result. Rerun the same command with the same state file to resume. The example has been verified on macOS. End-to-end Windows/WSL testing is pending. [Detailed setup and troubleshooting (Chinese)](batch/WINDOWS.md)
 
 ## Batch processing
 
-[Batch CLI and setup](batch/README.md) accepts JSON job lists for local scans and PDFs. It records OCR reads, coordinates, pixel costs and results in SQLite. Restarting with the same manifest preserves completed jobs. A failed job can be retried separately once its inputs are repaired.
+The batch CLI accepts JSON job lists for local scans and PDFs. It records OCR reads, coordinates, pixel costs and results in SQLite. Restarting with the same manifest preserves completed jobs. A failed job can be retried separately once its inputs are repaired. [Batch CLI reference (Chinese)](batch/README.md)
 
 | Verified scenario | Observed behavior |
 | --- | --- |
