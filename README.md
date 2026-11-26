@@ -1,7 +1,14 @@
 # Active-Visual-Search-Agent
-Finds and verifies evidence in high-resolution document scans under a fixed OCR pixel budget.
 
-The agent preserves the read trace, coordinates in the original scan, and a ledger of every OCR pixel read. The latest experiment capped each query at 1,000,000 pixels. Joint stamp-date and body-text verification improved from 3/13 to 4/13 on previously seen conditions. Both strategies passed 1/4 conditions on two new letters.
+## 项目简介 · Overview
+
+主动视觉搜索 Agent 在固定的 OCR 像素预算内，从高分辨率文档扫描中定位并核验收件章日期和正文。它根据已读线索选择局部区域复读，保留 OCR 原词、原图坐标和逐步像素账本。批量任务支持从本地进度文件续跑。
+
+Active Visual Search Agent locates and verifies receipt stamp dates and body text in high-resolution document scans under a fixed OCR pixel budget. It uses earlier OCR observations to select regions for a closer read, and records the raw OCR text, source-image coordinates, and pixel cost of each step. Batch jobs can resume from a local progress file.
+
+**实测。** 每题上限 100 万像素。新版策略在 13 个已见条件中的联合核验从 3/13 提升到 4/13。在两封新信的 4 个独立条件中，新旧策略均通过 1/4。
+
+**Results.** With a cap of 1,000,000 pixels per query, the updated policy improved joint verification from 3/13 to 4/13 on previously seen conditions. Both policies passed 1/4 conditions across two held-out letters.
 
 - [Windows 快速开始](#windows-快速开始)
 - [Latest experiment and demo](outputs/主动视觉搜索_印章候选覆盖_2026-11-25/README.md)
