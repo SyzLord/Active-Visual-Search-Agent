@@ -5,6 +5,7 @@ __pycache__/
 node_modules/
 .env
 .env.*
+/batch/local-run/
 
 # Restored through tools/fetch-archive-scans.py
 cowell-original.pdf

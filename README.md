@@ -3,8 +3,15 @@ Finds and verifies evidence in high-resolution document scans under a fixed OCR 
 
 The agent preserves the read trace, coordinates in the original scan, and a ledger of every OCR pixel read. The latest experiment capped each query at 1,000,000 pixels. Joint stamp-date and body-text verification improved from 3/13 to 4/13 on previously seen conditions. Both strategies passed 1/4 conditions on two new letters.
 
+- [Windows 快速开始](#windows-快速开始)
 - [Latest experiment and demo](outputs/主动视觉搜索_印章候选覆盖_2026-11-25/README.md)
 - [OCR engine and app](outputs/document-evidence-agent-v3.2/README.md)
+
+## Windows 快速开始
+
+在 Windows 的管理员 PowerShell 执行 `wsl --install -d Ubuntu-24.04`。按提示重启后，从开始菜单打开 Ubuntu，在 Ubuntu 终端操作。
+
+[Windows 安装与测试手册](batch/WINDOWS.md)包含环境安装、样例运行、结果导出和断点续跑步骤。用仓库自带的 [Griffith 单任务清单](batch/examples/quickstart.json)开始，参考结果为 **完成 1、失败 0**，结论为 `verified`。
 
 ## Batch processing
 
