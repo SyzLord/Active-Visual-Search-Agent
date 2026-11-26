@@ -4,7 +4,7 @@
 
 ## 运行一个批次
 
-在解压后的 `visual-search-batch` 目录中执行。环境需要 macOS 或 Linux、本地 SQLite 3.35 以上、Python 3.11 以上和 Node.js 18 以上。在原开发环境中可直接运行。另一台机器首次安装依赖时执行：
+从 GitHub 克隆后进入 `batch`，从移植包解压后进入 `visual-search-batch`。环境需要 macOS 或 Linux、本地 SQLite 3.35 以上、Python 3.11 以上和 Node.js 18 以上。Windows 用户可先配置 WSL 2。首次安装依赖时执行以下命令。[Windows 从安装到测试](WINDOWS.md)
 
 ~~~sh
 python3 -m venv .venv
@@ -24,7 +24,7 @@ sh batch.sh show griffith-stamp --state "$out/progress.sqlite" > "$out/griffith.
 sh batch.sh attempts --state "$out/progress.sqlite" > "$out/attempts.json"
 ~~~
 
-示例清单中的缺文件及错误预算会使 `validate`、`run` 分别返回 1。其余查询继续执行。状态命令可加 `--json`，运行命令为逐行 JSON 事件。退出码 0 表示命令成功且无执行错误，1 表示一项或多项校验或执行失败，2 表示清单、环境或进度文件级错误，130 表示键盘中断。
+`examples/jobs.json` 中的缺文件及错误预算会使 `validate`、`run` 分别返回 1。其余查询继续执行。首次测试也可将命令中的清单换为 [examples/quickstart.json](examples/quickstart.json)，只执行 Griffith 双页工单，预期退出码 0。状态命令可加 `--json`，运行命令为逐行 JSON 事件。退出码 0 表示命令成功且无执行错误，1 表示一项或多项校验或执行失败，2 表示清单、环境或进度文件级错误，130 表示键盘中断。
 
 ## 清单与证据
 

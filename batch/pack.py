@@ -5,8 +5,8 @@ from zipfile import ZIP_DEFLATED, ZipFile
 
 HERE = Path(__file__).resolve().parent
 FILES = (
-    "README.md","batch.sh","batch.py","batch_engine.py","batch_state.py","acceptance.py","pack.py",
-    "vendor.sha256","vendor-files.txt","examples/jobs.json","examples/sources.md",
+    "README.md","WINDOWS.md","batch.sh","batch.py","batch_engine.py","batch_state.py","acceptance.py","pack.py",
+    "vendor.sha256","vendor-files.txt","examples/jobs.json","examples/quickstart.json","examples/sources.md",
     "examples/data/cowell.png","examples/data/griffith.png","examples/data/younger-original.pdf","examples/data/segal.png",
 )
 
