@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "griffith-stamp",
+      "kind": "stamp",
+      "files": ["data/cowell.png", "data/griffith.png"],
+      "date": "AUG 26 1970",
+      "text": "Thanking you I remain",
+      "policy": "month-routed-stamp",
+      "pixel_budget": 1000000
+    }
+  ]
+}
