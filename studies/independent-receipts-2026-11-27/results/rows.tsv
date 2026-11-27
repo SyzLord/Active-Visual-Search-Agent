@@ -1,0 +1,33 @@
+case	volume	condition	policy	year	date	text	joint	reported_year	total_pixels	footer_pixels	extra_pixels	ocr_calls	extra_calls	extra_pages	extra_read_target	decision	trigger
+D1	aba1	single	spare-stamp	1	1	0	0	1963	964210	248781	0	6	0		0	partial	already_verified
+D1	aba1	single	month-routed-stamp	1	1	0	0	1963	964210	248781	0	6	0		0	partial	already_verified
+D1	aba1	distractor	spare-stamp	0	0	0	0		961883	261573	50920	11	3	griffith	0	unresolved	paid_footer_clue
+D1	aba1	distractor	month-routed-stamp	0	0	0	0		979899	279589	68936	11	3	griffith	0	unresolved	ranked_footer_clue
+D2	aba1	single	spare-stamp	1	1	0	0	1963	947683	248703	31668	7	1	d2	1	partial	paid_footer_clue
+D2	aba1	single	month-routed-stamp	0	0	0	0	1563	983262	284282	67247	9	3	d2	1	partial	ranked_footer_clue
+D2	aba1	distractor	spare-stamp	0	0	0	0	1663	996673	291499	80846	14	5	griffith,d2	1	partial	paid_footer_clue
+D2	aba1	distractor	month-routed-stamp	1	1	0	0	1963	970333	265159	54506	12	3	d2	1	partial	ranked_footer_clue
+D3	ccr28	single	spare-stamp	0	0	1	0		909731	217035	0	5	0		0	partial	no_paid_footer_clue
+D3	ccr28	single	month-routed-stamp	0	0	1	0		909731	217035	0	5	0		0	partial	no_paid_footer_clue
+D3	ccr28	distractor	spare-stamp	0	0	0	0		956644	261573	50920	12	3	griffith	0	unresolved	paid_footer_clue
+D3	ccr28	distractor	month-routed-stamp	0	0	0	0		974660	279589	68936	12	3	griffith	0	unresolved	ranked_footer_clue
+D4	ccr28	single	spare-stamp	1	1	0	0	1963	947351	280945	31951	7	1	d4	1	partial	paid_footer_clue
+D4	ccr28	single	month-routed-stamp	1	1	0	0	1963	971946	305540	56546	8	2	d4	1	partial	ranked_footer_clue
+D4	ccr28	distractor	spare-stamp	0	0	0	0		945386	261573	50920	11	3	griffith	0	unresolved	paid_footer_clue
+D4	ccr28	distractor	month-routed-stamp	0	0	0	0		963402	279589	68936	11	3	griffith	0	unresolved	ranked_footer_clue
+N1	rfk7	single	spare-stamp	0	0	0	0		959451	266900	50388	8	3	n1	1	unresolved	paid_footer_clue
+N1	rfk7	single	month-routed-stamp	0	0	0	0		999916	307365	90853	9	4	n1	1	unresolved	ranked_footer_clue
+N1	rfk7	distractor	spare-stamp	0	0	0	0		962073	261763	50920	11	3	griffith	0	unresolved	paid_footer_clue
+N1	rfk7	distractor	month-routed-stamp	0	0	0	0		980089	279779	68936	11	3	griffith	0	unresolved	ranked_footer_clue
+N2	rfk7	single	spare-stamp	1	1	0	0	1970	965212	248480	0	6	0		0	partial	already_verified
+N2	rfk7	single	month-routed-stamp	1	1	0	0	1970	965212	248480	0	6	0		0	partial	already_verified
+N2	rfk7	distractor	spare-stamp	1	1	0	0	1970	967746	234600	0	10	0		0	partial	already_verified
+N2	rfk7	distractor	month-routed-stamp	1	1	0	0	1970	967746	234600	0	10	0		0	partial	already_verified
+N3	rfk7	single	spare-stamp	1	1	1	1	1970	544187	216762	0	2	0		0	verified	already_verified
+N3	rfk7	single	month-routed-stamp	1	1	1	1	1970	544187	216762	0	2	0		0	verified	already_verified
+N3	rfk7	distractor	spare-stamp	1	1	0	0	1970	963438	211017	0	9	0		0	partial	already_verified
+N3	rfk7	distractor	month-routed-stamp	1	1	0	0	1970	963438	211017	0	9	0		0	partial	already_verified
+N4	rfk7	single	spare-stamp	1	1	1	1	1970	938111	271142	22752	7	1	n4	1	verified	paid_footer_clue
+N4	rfk7	single	month-routed-stamp	1	0	1	0	1970	981583	314614	66224	9	3	n4	1	partial	ranked_footer_clue
+N4	rfk7	distractor	spare-stamp	1	1	0	0	1970	961434	210665	0	8	0		0	partial	already_verified
+N4	rfk7	distractor	month-routed-stamp	1	1	0	0	1970	961434	210665	0	8	0		0	partial	already_verified

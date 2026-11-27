@@ -1,0 +1,218 @@
+[
+  {
+    "id": "D1",
+    "volume": "aba1",
+    "pdf_page": 28,
+    "name": "Battle, Fowler, Stokes & Kheel letter",
+    "source": "https://www.justice.gov/d9/crt/legacy/2011/06/14/005-aba-crd-part1.pdf#page=28",
+    "date": "JUL 12 1963",
+    "text": "There are many groups",
+    "date_box": [
+      587,
+      2887,
+      859,
+      2958
+    ],
+    "year_box": [
+      765,
+      2884,
+      859,
+      2948
+    ],
+    "text_box": [
+      466,
+      2340,
+      1054,
+      2398
+    ]
+  },
+  {
+    "id": "D2",
+    "volume": "aba1",
+    "pdf_page": 30,
+    "name": "Glenn R. Winters / American Judicature Society",
+    "source": "https://www.justice.gov/d9/crt/legacy/2011/06/14/005-aba-crd-part1.pdf#page=30",
+    "date": "JUL 15 1963",
+    "text": "Thank you very much",
+    "date_box": [
+      1432,
+      2746,
+      1715,
+      2804
+    ],
+    "year_box": [
+      1617,
+      2746,
+      1715,
+      2804
+    ],
+    "text_box": [
+      701,
+      1495,
+      1229,
+      1547
+    ]
+  },
+  {
+    "id": "D3",
+    "volume": "ccr28",
+    "pdf_page": 11,
+    "name": "Walton J. McLeod Jr. letter",
+    "source": "https://www.justice.gov/d9/crt/legacy/2011/06/14/003-ccr-crd-part28.pdf#page=11",
+    "date": "JUL 11 1963",
+    "text": "Thank you for your letter",
+    "date_box": [
+      1077,
+      2283,
+      1353,
+      2368
+    ],
+    "year_box": [
+      1254,
+      2280,
+      1353,
+      2351
+    ],
+    "text_box": [
+      520,
+      1250,
+      1118,
+      1305
+    ]
+  },
+  {
+    "id": "D4",
+    "volume": "ccr28",
+    "pdf_page": 14,
+    "name": "Fuller, Smith, Mosburg, Davis & Bowen letter",
+    "source": "https://www.justice.gov/d9/crt/legacy/2011/06/14/003-ccr-crd-part28.pdf#page=14",
+    "date": "JUL 12 1963",
+    "text": "Immediately upon my return",
+    "date_box": [
+      1412,
+      2917,
+      1685,
+      2989
+    ],
+    "year_box": [
+      1590,
+      2917,
+      1688,
+      2975
+    ],
+    "text_box": [
+      593,
+      1757,
+      1188,
+      1801
+    ]
+  },
+  {
+    "id": "N1",
+    "volume": "rfk7",
+    "pdf_page": 10,
+    "name": "Robert Anderson handwritten letter",
+    "source": "https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_7-part_1_of_6.pdf#page=10",
+    "date": "JUN 9 1971",
+    "text": "never came to trial",
+    "date_box": [
+      1592,
+      2094,
+      1939,
+      2174
+    ],
+    "year_box": [
+      1809,
+      2098,
+      1939,
+      2174
+    ],
+    "text_box": [
+      463,
+      1001,
+      1458,
+      1094
+    ]
+  },
+  {
+    "id": "N2",
+    "volume": "rfk7",
+    "pdf_page": 27,
+    "name": "John Main letter",
+    "source": "https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_7-part_1_of_6.pdf#page=27",
+    "date": "MAY 1 1970",
+    "text": "if you would answer this letter",
+    "date_box": [
+      1686,
+      2525,
+      2054,
+      2597
+    ],
+    "year_box": [
+      1932,
+      2525,
+      2054,
+      2597
+    ],
+    "text_box": [
+      846,
+      671,
+      1680,
+      729
+    ]
+  },
+  {
+    "id": "N3",
+    "volume": "rfk7",
+    "pdf_page": 36,
+    "name": "February 17 letter to the Justice Department",
+    "source": "https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_7-part_1_of_6.pdf#page=36",
+    "date": "FEB 24 1970",
+    "text": "I am a citizen of this great nation",
+    "date_box": [
+      1697,
+      2822,
+      2067,
+      2890
+    ],
+    "year_box": [
+      1936,
+      2822,
+      2067,
+      2890
+    ],
+    "text_box": [
+      509,
+      1025,
+      1417,
+      1096
+    ]
+  },
+  {
+    "id": "N4",
+    "volume": "rfk7",
+    "pdf_page": 39,
+    "name": "Peter Nordberg letter",
+    "source": "https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_7-part_1_of_6.pdf#page=39",
+    "date": "MAR 5 1970",
+    "text": "a plea for mercy",
+    "date_box": [
+      1798,
+      2915,
+      2160,
+      3000
+    ],
+    "year_box": [
+      2024,
+      2928,
+      2156,
+      2997
+    ],
+    "text_box": [
+      1234,
+      752,
+      1741,
+      810
+    ]
+  }
+]

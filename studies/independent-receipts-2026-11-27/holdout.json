@@ -1,0 +1,424 @@
+{
+  "budget": 1000000,
+  "sources": {
+    "griffith": {
+      "path": "data/griffith.png",
+      "size": [
+        1234,
+        786
+      ],
+      "sha256": "3e3b02b832c6cc79ba7193e94cf9d2d7e8d7daa8a145e68eab550127e9be7bcc",
+      "role": "previously seen fixed distractor"
+    },
+    "d1": {
+      "volume": "aba1",
+      "pdf_page": 28,
+      "name": "Battle, Fowler, Stokes & Kheel letter",
+      "source": "https://www.justice.gov/d9/crt/legacy/2011/06/14/005-aba-crd-part1.pdf#page=28",
+      "path": "data/d1.png",
+      "size": [
+        2550,
+        3300
+      ],
+      "pdf_sha256": "bc1634b462f876022c255a7ebbf26aeabf807cfd1b337838f7461b68835db83e",
+      "sha256": "31c1a94b636b214fb3344b71735b4b4dea6ce31e4869d8dd9a9a2e17ed66e8b7",
+      "raster": "native_scan"
+    },
+    "d2": {
+      "volume": "aba1",
+      "pdf_page": 30,
+      "name": "Glenn R. Winters / American Judicature Society",
+      "source": "https://www.justice.gov/d9/crt/legacy/2011/06/14/005-aba-crd-part1.pdf#page=30",
+      "path": "data/d2.png",
+      "size": [
+        2550,
+        3300
+      ],
+      "pdf_sha256": "bc1634b462f876022c255a7ebbf26aeabf807cfd1b337838f7461b68835db83e",
+      "sha256": "2d01c60bd4548e7b7ac8734263c8bf0a5ae13548b49370e219258c5955a07924",
+      "raster": "native_scan"
+    },
+    "d3": {
+      "volume": "ccr28",
+      "pdf_page": 11,
+      "name": "Walton J. McLeod Jr. letter",
+      "source": "https://www.justice.gov/d9/crt/legacy/2011/06/14/003-ccr-crd-part28.pdf#page=11",
+      "path": "data/d3.png",
+      "size": [
+        2550,
+        3300
+      ],
+      "pdf_sha256": "d5492c6752bb1754f21fb6a460d213c8fb616bea6981329389f558f5f2843635",
+      "sha256": "0539a5fbaabf46addd34b7a5dcd7231233c571535f09e79e97f88ca2abdf648e",
+      "raster": "native_scan"
+    },
+    "d4": {
+      "volume": "ccr28",
+      "pdf_page": 14,
+      "name": "Fuller, Smith, Mosburg, Davis & Bowen letter",
+      "source": "https://www.justice.gov/d9/crt/legacy/2011/06/14/003-ccr-crd-part28.pdf#page=14",
+      "path": "data/d4.png",
+      "size": [
+        2550,
+        3300
+      ],
+      "pdf_sha256": "d5492c6752bb1754f21fb6a460d213c8fb616bea6981329389f558f5f2843635",
+      "sha256": "9d8d994abb7cc5624e3f79d1037241a38590cf8bdcd1d627a5eb91ea83263be0",
+      "raster": "native_scan"
+    },
+    "n1": {
+      "volume": "rfk7",
+      "pdf_page": 10,
+      "name": "Robert Anderson handwritten letter",
+      "source": "https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_7-part_1_of_6.pdf#page=10",
+      "path": "data/n1.png",
+      "size": [
+        2387,
+        3085
+      ],
+      "pdf_sha256": "2119daa8a80b0232ad83c5d69f9e95cf5ac80e6ce4623f44bd2a290787ec405c",
+      "sha256": "140770f7694c74f5057c5f2de773ff5e7a2c020730a0c652b15d14e20be424d1",
+      "raster": "native_scan"
+    },
+    "n2": {
+      "volume": "rfk7",
+      "pdf_page": 27,
+      "name": "John Main letter",
+      "source": "https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_7-part_1_of_6.pdf#page=27",
+      "path": "data/n2.png",
+      "size": [
+        2563,
+        3278
+      ],
+      "pdf_sha256": "2119daa8a80b0232ad83c5d69f9e95cf5ac80e6ce4623f44bd2a290787ec405c",
+      "sha256": "4809f81a792991034493851c93d70fdcde1d46ea30a53978fd85e0a2a7c52dc7",
+      "raster": "native_scan"
+    },
+    "n3": {
+      "volume": "rfk7",
+      "pdf_page": 36,
+      "name": "February 17 letter to the Justice Department",
+      "source": "https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_7-part_1_of_6.pdf#page=36",
+      "path": "data/n3.png",
+      "size": [
+        2420,
+        3141
+      ],
+      "pdf_sha256": "2119daa8a80b0232ad83c5d69f9e95cf5ac80e6ce4623f44bd2a290787ec405c",
+      "sha256": "bf9b7e1c54c7ea3e47518912ce8867ed34c8957fcac3e3752d10daea3abf6535",
+      "raster": "native_scan"
+    },
+    "n4": {
+      "volume": "rfk7",
+      "pdf_page": 39,
+      "name": "Peter Nordberg letter",
+      "source": "https://www.archives.gov/files/research/rfk/releases/2025/0418/166-12c-1_section_7-part_1_of_6.pdf#page=39",
+      "path": "data/n4.png",
+      "size": [
+        2564,
+        3283
+      ],
+      "pdf_sha256": "2119daa8a80b0232ad83c5d69f9e95cf5ac80e6ce4623f44bd2a290787ec405c",
+      "sha256": "98e7d47d52d4a73e11a2d77fb34413a4e20e54164ad57c551248b55dc061a2fc",
+      "raster": "native_scan"
+    }
+  },
+  "cases": [
+    {
+      "id": "D1",
+      "page": "d1",
+      "date": "JUL 12 1963",
+      "text": "There are many groups",
+      "text_box": [
+        466,
+        2340,
+        1054,
+        2398
+      ],
+      "stamps": [
+        {
+          "date_box": [
+            587,
+            2887,
+            859,
+            2958
+          ],
+          "year_box": [
+            765,
+            2884,
+            859,
+            2948
+          ]
+        }
+      ],
+      "sets": {
+        "single": [
+          "d1"
+        ],
+        "distractor": [
+          "griffith",
+          "d1"
+        ]
+      }
+    },
+    {
+      "id": "D2",
+      "page": "d2",
+      "date": "JUL 15 1963",
+      "text": "Thank you very much",
+      "text_box": [
+        701,
+        1495,
+        1229,
+        1547
+      ],
+      "stamps": [
+        {
+          "date_box": [
+            1432,
+            2746,
+            1715,
+            2804
+          ],
+          "year_box": [
+            1617,
+            2746,
+            1715,
+            2804
+          ]
+        }
+      ],
+      "sets": {
+        "single": [
+          "d2"
+        ],
+        "distractor": [
+          "griffith",
+          "d2"
+        ]
+      }
+    },
+    {
+      "id": "D3",
+      "page": "d3",
+      "date": "JUL 11 1963",
+      "text": "Thank you for your letter",
+      "text_box": [
+        520,
+        1250,
+        1118,
+        1305
+      ],
+      "stamps": [
+        {
+          "date_box": [
+            1077,
+            2283,
+            1353,
+            2368
+          ],
+          "year_box": [
+            1254,
+            2280,
+            1353,
+            2351
+          ]
+        }
+      ],
+      "sets": {
+        "single": [
+          "d3"
+        ],
+        "distractor": [
+          "griffith",
+          "d3"
+        ]
+      }
+    },
+    {
+      "id": "D4",
+      "page": "d4",
+      "date": "JUL 12 1963",
+      "text": "Immediately upon my return",
+      "text_box": [
+        593,
+        1757,
+        1188,
+        1801
+      ],
+      "stamps": [
+        {
+          "date_box": [
+            1412,
+            2917,
+            1685,
+            2989
+          ],
+          "year_box": [
+            1590,
+            2917,
+            1688,
+            2975
+          ]
+        }
+      ],
+      "sets": {
+        "single": [
+          "d4"
+        ],
+        "distractor": [
+          "griffith",
+          "d4"
+        ]
+      }
+    },
+    {
+      "id": "N1",
+      "page": "n1",
+      "date": "JUN 9 1971",
+      "text": "never came to trial",
+      "text_box": [
+        463,
+        1001,
+        1458,
+        1094
+      ],
+      "stamps": [
+        {
+          "date_box": [
+            1592,
+            2094,
+            1939,
+            2174
+          ],
+          "year_box": [
+            1809,
+            2098,
+            1939,
+            2174
+          ]
+        }
+      ],
+      "sets": {
+        "single": [
+          "n1"
+        ],
+        "distractor": [
+          "griffith",
+          "n1"
+        ]
+      }
+    },
+    {
+      "id": "N2",
+      "page": "n2",
+      "date": "MAY 1 1970",
+      "text": "if you would answer this letter",
+      "text_box": [
+        846,
+        671,
+        1680,
+        729
+      ],
+      "stamps": [
+        {
+          "date_box": [
+            1686,
+            2525,
+            2054,
+            2597
+          ],
+          "year_box": [
+            1932,
+            2525,
+            2054,
+            2597
+          ]
+        }
+      ],
+      "sets": {
+        "single": [
+          "n2"
+        ],
+        "distractor": [
+          "griffith",
+          "n2"
+        ]
+      }
+    },
+    {
+      "id": "N3",
+      "page": "n3",
+      "date": "FEB 24 1970",
+      "text": "I am a citizen of this great nation",
+      "text_box": [
+        509,
+        1025,
+        1417,
+        1096
+      ],
+      "stamps": [
+        {
+          "date_box": [
+            1697,
+            2822,
+            2067,
+            2890
+          ],
+          "year_box": [
+            1936,
+            2822,
+            2067,
+            2890
+          ]
+        }
+      ],
+      "sets": {
+        "single": [
+          "n3"
+        ],
+        "distractor": [
+          "griffith",
+          "n3"
+        ]
+      }
+    },
+    {
+      "id": "N4",
+      "page": "n4",
+      "date": "MAR 5 1970",
+      "text": "a plea for mercy",
+      "text_box": [
+        1234,
+        752,
+        1741,
+        810
+      ],
+      "stamps": [
+        {
+          "date_box": [
+            1798,
+            2915,
+            2160,
+            3000
+          ],
+          "year_box": [
+            2024,
+            2928,
+            2156,
+            2997
+          ]
+        }
+      ],
+      "sets": {
+        "single": [
+          "n4"
+        ],
+        "distractor": [
+          "griffith",
+          "n4"
+        ]
+      }
+    }
+  ]
+}

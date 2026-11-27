@@ -1,0 +1,13 @@
+group	policy	conditions	documents	year	date	text	joint	year_docs	date_docs	text_docs	joint_docs	mean_pixels	mean_footer	max_pixels	extra_calls	extra_on_target	extra_non_target_only
+ALL	spare-stamp	16	8	9	9	3	2	6	6	3	2	930701	249563	996673	23	5	4
+ALL	month-routed-stamp	16	8	9	8	3	1	6	6	3	1	942566	261428	999916	27	5	4
+single	spare-stamp	8	8	6	6	3	2	6	6	3	2	896992	249844	965212	6	4	0
+single	month-routed-stamp	8	8	5	4	3	1	5	4	3	1	915006	267857	999916	12	4	0
+distractor	spare-stamp	8	8	3	3	0	0	3	3	0	0	964410	249283	996673	17	1	4
+distractor	month-routed-stamp	8	8	4	4	0	0	4	4	0	0	970125	254998	980089	15	1	4
+aba1	spare-stamp	4	2	2	2	0	0	2	2	0	0	967612	262639	996673	9	2	1
+aba1	month-routed-stamp	4	2	2	2	0	0	2	2	0	0	974426	269453	983262	9	2	1
+ccr28	spare-stamp	4	2	1	1	1	0	1	1	1	0	939778	255282	956644	7	1	2
+ccr28	month-routed-stamp	4	2	1	1	1	0	1	1	1	0	954935	270438	974660	8	1	2
+rfk7	spare-stamp	8	4	6	6	2	2	3	3	2	2	907706	240166	967746	7	2	1
+rfk7	month-routed-stamp	8	4	6	5	2	1	3	3	2	1	920451	252910	999916	10	2	1

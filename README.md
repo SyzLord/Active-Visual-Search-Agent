@@ -66,3 +66,7 @@ The latest experiment includes its pinned inputs and fixtures. The engine's sepa
 
 Two large historical PDFs are fetched from the U.S. National Archives and Department of Justice and verified by SHA-256. The scanned pages, frozen inputs, and trial logs used by the current experiment are included.
 Run the fetch command again to resume a partial archive download. The scans are checked before use.
+
+## November 2026 sample expansion
+
+The [independent receipts study](studies/independent-receipts-2026-11-27/) adds eight scanned letters from three archives. Each letter was tested alone and with a distractor page for 16 conditions. At 1,000,000 pixels per query, the earlier policy verified both fields in 2/16 conditions and month-based reranking did so in 1/16. The [per-condition ledger](studies/independent-receipts-2026-11-27/results/rows.tsv) and replay commands accompany the inputs.

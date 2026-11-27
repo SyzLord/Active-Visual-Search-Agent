@@ -1,0 +1,51 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "D1-single-old",
+      "kind": "stamp",
+      "date": "JUL 12 1963",
+      "text": "There are many groups",
+      "files": [
+        "data/d1.png"
+      ],
+      "policy": "spare-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "D1-single-new",
+      "kind": "stamp",
+      "date": "JUL 12 1963",
+      "text": "There are many groups",
+      "files": [
+        "data/d1.png"
+      ],
+      "policy": "month-routed-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "D1-distractor-old",
+      "kind": "stamp",
+      "date": "JUL 12 1963",
+      "text": "There are many groups",
+      "files": [
+        "data/griffith.png",
+        "data/d1.png"
+      ],
+      "policy": "spare-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "D1-distractor-new",
+      "kind": "stamp",
+      "date": "JUL 12 1963",
+      "text": "There are many groups",
+      "files": [
+        "data/griffith.png",
+        "data/d1.png"
+      ],
+      "policy": "month-routed-stamp",
+      "pixel_budget": 1000000
+    }
+  ]
+}

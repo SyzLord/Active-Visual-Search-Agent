@@ -1,0 +1,57 @@
+{"event": "started", "id": "D2-single-old", "attempt": 1}
+{"event": "done", "id": "D2-single-old", "attempt": 1, "decision": "partial", "pixels": 947683, "ocr_calls": 7}
+{"event": "started", "id": "D2-single-new", "attempt": 1}
+{"event": "done", "id": "D2-single-new", "attempt": 1, "decision": "partial", "pixels": 983262, "ocr_calls": 9}
+{"event": "started", "id": "D2-distractor-old", "attempt": 1}
+{"event": "done", "id": "D2-distractor-old", "attempt": 1, "decision": "partial", "pixels": 996673, "ocr_calls": 14}
+{"event": "started", "id": "D2-distractor-new", "attempt": 1}
+{"event": "done", "id": "D2-distractor-new", "attempt": 1, "decision": "partial", "pixels": 970333, "ocr_calls": 12}
+{"event": "started", "id": "D3-single-old", "attempt": 1}
+{"event": "done", "id": "D3-single-old", "attempt": 1, "decision": "partial", "pixels": 909731, "ocr_calls": 5}
+{"event": "started", "id": "D3-single-new", "attempt": 1}
+{"event": "done", "id": "D3-single-new", "attempt": 1, "decision": "partial", "pixels": 909731, "ocr_calls": 5}
+{"event": "started", "id": "D3-distractor-old", "attempt": 1}
+{"event": "done", "id": "D3-distractor-old", "attempt": 1, "decision": "unresolved", "pixels": 956644, "ocr_calls": 12}
+{"event": "started", "id": "D3-distractor-new", "attempt": 1}
+{"event": "done", "id": "D3-distractor-new", "attempt": 1, "decision": "unresolved", "pixels": 974660, "ocr_calls": 12}
+{"event": "started", "id": "D4-single-old", "attempt": 1}
+{"event": "done", "id": "D4-single-old", "attempt": 1, "decision": "partial", "pixels": 947351, "ocr_calls": 7}
+{"event": "started", "id": "D4-single-new", "attempt": 1}
+{"event": "done", "id": "D4-single-new", "attempt": 1, "decision": "partial", "pixels": 971946, "ocr_calls": 8}
+{"event": "started", "id": "D4-distractor-old", "attempt": 1}
+{"event": "done", "id": "D4-distractor-old", "attempt": 1, "decision": "unresolved", "pixels": 945386, "ocr_calls": 11}
+{"event": "started", "id": "D4-distractor-new", "attempt": 1}
+{"event": "done", "id": "D4-distractor-new", "attempt": 1, "decision": "unresolved", "pixels": 963402, "ocr_calls": 11}
+{"event": "started", "id": "N1-single-old", "attempt": 1}
+{"event": "done", "id": "N1-single-old", "attempt": 1, "decision": "unresolved", "pixels": 959451, "ocr_calls": 8}
+{"event": "started", "id": "N1-single-new", "attempt": 1}
+{"event": "done", "id": "N1-single-new", "attempt": 1, "decision": "unresolved", "pixels": 999916, "ocr_calls": 9}
+{"event": "started", "id": "N1-distractor-old", "attempt": 1}
+{"event": "done", "id": "N1-distractor-old", "attempt": 1, "decision": "unresolved", "pixels": 962073, "ocr_calls": 11}
+{"event": "started", "id": "N1-distractor-new", "attempt": 1}
+{"event": "done", "id": "N1-distractor-new", "attempt": 1, "decision": "unresolved", "pixels": 980089, "ocr_calls": 11}
+{"event": "started", "id": "N2-single-old", "attempt": 1}
+{"event": "done", "id": "N2-single-old", "attempt": 1, "decision": "partial", "pixels": 965212, "ocr_calls": 6}
+{"event": "started", "id": "N2-single-new", "attempt": 1}
+{"event": "done", "id": "N2-single-new", "attempt": 1, "decision": "partial", "pixels": 965212, "ocr_calls": 6}
+{"event": "started", "id": "N2-distractor-old", "attempt": 1}
+{"event": "done", "id": "N2-distractor-old", "attempt": 1, "decision": "partial", "pixels": 967746, "ocr_calls": 10}
+{"event": "started", "id": "N2-distractor-new", "attempt": 1}
+{"event": "done", "id": "N2-distractor-new", "attempt": 1, "decision": "partial", "pixels": 967746, "ocr_calls": 10}
+{"event": "started", "id": "N3-single-old", "attempt": 1}
+{"event": "done", "id": "N3-single-old", "attempt": 1, "decision": "verified", "pixels": 544187, "ocr_calls": 2}
+{"event": "started", "id": "N3-single-new", "attempt": 1}
+{"event": "done", "id": "N3-single-new", "attempt": 1, "decision": "verified", "pixels": 544187, "ocr_calls": 2}
+{"event": "started", "id": "N3-distractor-old", "attempt": 1}
+{"event": "done", "id": "N3-distractor-old", "attempt": 1, "decision": "partial", "pixels": 963438, "ocr_calls": 9}
+{"event": "started", "id": "N3-distractor-new", "attempt": 1}
+{"event": "done", "id": "N3-distractor-new", "attempt": 1, "decision": "partial", "pixels": 963438, "ocr_calls": 9}
+{"event": "started", "id": "N4-single-old", "attempt": 1}
+{"event": "done", "id": "N4-single-old", "attempt": 1, "decision": "verified", "pixels": 938111, "ocr_calls": 7}
+{"event": "started", "id": "N4-single-new", "attempt": 1}
+{"event": "done", "id": "N4-single-new", "attempt": 1, "decision": "partial", "pixels": 981583, "ocr_calls": 9}
+{"event": "started", "id": "N4-distractor-old", "attempt": 1}
+{"event": "done", "id": "N4-distractor-old", "attempt": 1, "decision": "partial", "pixels": 961434, "ocr_calls": 8}
+{"event": "started", "id": "N4-distractor-new", "attempt": 1}
+{"event": "done", "id": "N4-distractor-new", "attempt": 1, "decision": "partial", "pixels": 961434, "ocr_calls": 8}
+{"event": "batch_finished", "pending": 0, "running": 0, "done": 28, "failed": 0}

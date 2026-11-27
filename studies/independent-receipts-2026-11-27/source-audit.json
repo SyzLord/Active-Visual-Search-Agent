@@ -1,0 +1,24 @@
+{
+  "scope": "all previous outputs; vendor and node_modules excluded",
+  "reference_files": 285,
+  "scan_files": 205,
+  "source_basenames": [
+    "003-ccr-crd-part28.pdf",
+    "005-aba-crd-part1.pdf",
+    "166-12c-1_section_7-part_1_of_6.pdf"
+  ],
+  "identifier_hits": {},
+  "duplicate_bytes": {
+    "data/d1.png": [],
+    "data/aba1.pdf": [],
+    "data/d2.png": [],
+    "data/d3.png": [],
+    "data/ccr28.pdf": [],
+    "data/d4.png": [],
+    "data/n1.png": [],
+    "data/rfk7.pdf": [],
+    "data/n2.png": [],
+    "data/n3.png": [],
+    "data/n4.png": []
+  }
+}

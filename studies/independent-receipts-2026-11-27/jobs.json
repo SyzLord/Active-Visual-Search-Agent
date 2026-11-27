@@ -1,0 +1,373 @@
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "D1-single-old",
+      "kind": "stamp",
+      "date": "JUL 12 1963",
+      "text": "There are many groups",
+      "files": [
+        "data/d1.png"
+      ],
+      "policy": "spare-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "D1-single-new",
+      "kind": "stamp",
+      "date": "JUL 12 1963",
+      "text": "There are many groups",
+      "files": [
+        "data/d1.png"
+      ],
+      "policy": "month-routed-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "D1-distractor-old",
+      "kind": "stamp",
+      "date": "JUL 12 1963",
+      "text": "There are many groups",
+      "files": [
+        "data/griffith.png",
+        "data/d1.png"
+      ],
+      "policy": "spare-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "D1-distractor-new",
+      "kind": "stamp",
+      "date": "JUL 12 1963",
+      "text": "There are many groups",
+      "files": [
+        "data/griffith.png",
+        "data/d1.png"
+      ],
+      "policy": "month-routed-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "D2-single-old",
+      "kind": "stamp",
+      "date": "JUL 15 1963",
+      "text": "Thank you very much",
+      "files": [
+        "data/d2.png"
+      ],
+      "policy": "spare-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "D2-single-new",
+      "kind": "stamp",
+      "date": "JUL 15 1963",
+      "text": "Thank you very much",
+      "files": [
+        "data/d2.png"
+      ],
+      "policy": "month-routed-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "D2-distractor-old",
+      "kind": "stamp",
+      "date": "JUL 15 1963",
+      "text": "Thank you very much",
+      "files": [
+        "data/griffith.png",
+        "data/d2.png"
+      ],
+      "policy": "spare-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "D2-distractor-new",
+      "kind": "stamp",
+      "date": "JUL 15 1963",
+      "text": "Thank you very much",
+      "files": [
+        "data/griffith.png",
+        "data/d2.png"
+      ],
+      "policy": "month-routed-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "D3-single-old",
+      "kind": "stamp",
+      "date": "JUL 11 1963",
+      "text": "Thank you for your letter",
+      "files": [
+        "data/d3.png"
+      ],
+      "policy": "spare-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "D3-single-new",
+      "kind": "stamp",
+      "date": "JUL 11 1963",
+      "text": "Thank you for your letter",
+      "files": [
+        "data/d3.png"
+      ],
+      "policy": "month-routed-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "D3-distractor-old",
+      "kind": "stamp",
+      "date": "JUL 11 1963",
+      "text": "Thank you for your letter",
+      "files": [
+        "data/griffith.png",
+        "data/d3.png"
+      ],
+      "policy": "spare-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "D3-distractor-new",
+      "kind": "stamp",
+      "date": "JUL 11 1963",
+      "text": "Thank you for your letter",
+      "files": [
+        "data/griffith.png",
+        "data/d3.png"
+      ],
+      "policy": "month-routed-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "D4-single-old",
+      "kind": "stamp",
+      "date": "JUL 12 1963",
+      "text": "Immediately upon my return",
+      "files": [
+        "data/d4.png"
+      ],
+      "policy": "spare-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "D4-single-new",
+      "kind": "stamp",
+      "date": "JUL 12 1963",
+      "text": "Immediately upon my return",
+      "files": [
+        "data/d4.png"
+      ],
+      "policy": "month-routed-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "D4-distractor-old",
+      "kind": "stamp",
+      "date": "JUL 12 1963",
+      "text": "Immediately upon my return",
+      "files": [
+        "data/griffith.png",
+        "data/d4.png"
+      ],
+      "policy": "spare-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "D4-distractor-new",
+      "kind": "stamp",
+      "date": "JUL 12 1963",
+      "text": "Immediately upon my return",
+      "files": [
+        "data/griffith.png",
+        "data/d4.png"
+      ],
+      "policy": "month-routed-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "N1-single-old",
+      "kind": "stamp",
+      "date": "JUN 9 1971",
+      "text": "never came to trial",
+      "files": [
+        "data/n1.png"
+      ],
+      "policy": "spare-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "N1-single-new",
+      "kind": "stamp",
+      "date": "JUN 9 1971",
+      "text": "never came to trial",
+      "files": [
+        "data/n1.png"
+      ],
+      "policy": "month-routed-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "N1-distractor-old",
+      "kind": "stamp",
+      "date": "JUN 9 1971",
+      "text": "never came to trial",
+      "files": [
+        "data/griffith.png",
+        "data/n1.png"
+      ],
+      "policy": "spare-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "N1-distractor-new",
+      "kind": "stamp",
+      "date": "JUN 9 1971",
+      "text": "never came to trial",
+      "files": [
+        "data/griffith.png",
+        "data/n1.png"
+      ],
+      "policy": "month-routed-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "N2-single-old",
+      "kind": "stamp",
+      "date": "MAY 1 1970",
+      "text": "if you would answer this letter",
+      "files": [
+        "data/n2.png"
+      ],
+      "policy": "spare-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "N2-single-new",
+      "kind": "stamp",
+      "date": "MAY 1 1970",
+      "text": "if you would answer this letter",
+      "files": [
+        "data/n2.png"
+      ],
+      "policy": "month-routed-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "N2-distractor-old",
+      "kind": "stamp",
+      "date": "MAY 1 1970",
+      "text": "if you would answer this letter",
+      "files": [
+        "data/griffith.png",
+        "data/n2.png"
+      ],
+      "policy": "spare-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "N2-distractor-new",
+      "kind": "stamp",
+      "date": "MAY 1 1970",
+      "text": "if you would answer this letter",
+      "files": [
+        "data/griffith.png",
+        "data/n2.png"
+      ],
+      "policy": "month-routed-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "N3-single-old",
+      "kind": "stamp",
+      "date": "FEB 24 1970",
+      "text": "I am a citizen of this great nation",
+      "files": [
+        "data/n3.png"
+      ],
+      "policy": "spare-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "N3-single-new",
+      "kind": "stamp",
+      "date": "FEB 24 1970",
+      "text": "I am a citizen of this great nation",
+      "files": [
+        "data/n3.png"
+      ],
+      "policy": "month-routed-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "N3-distractor-old",
+      "kind": "stamp",
+      "date": "FEB 24 1970",
+      "text": "I am a citizen of this great nation",
+      "files": [
+        "data/griffith.png",
+        "data/n3.png"
+      ],
+      "policy": "spare-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "N3-distractor-new",
+      "kind": "stamp",
+      "date": "FEB 24 1970",
+      "text": "I am a citizen of this great nation",
+      "files": [
+        "data/griffith.png",
+        "data/n3.png"
+      ],
+      "policy": "month-routed-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "N4-single-old",
+      "kind": "stamp",
+      "date": "MAR 5 1970",
+      "text": "a plea for mercy",
+      "files": [
+        "data/n4.png"
+      ],
+      "policy": "spare-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "N4-single-new",
+      "kind": "stamp",
+      "date": "MAR 5 1970",
+      "text": "a plea for mercy",
+      "files": [
+        "data/n4.png"
+      ],
+      "policy": "month-routed-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "N4-distractor-old",
+      "kind": "stamp",
+      "date": "MAR 5 1970",
+      "text": "a plea for mercy",
+      "files": [
+        "data/griffith.png",
+        "data/n4.png"
+      ],
+      "policy": "spare-stamp",
+      "pixel_budget": 1000000
+    },
+    {
+      "id": "N4-distractor-new",
+      "kind": "stamp",
+      "date": "MAR 5 1970",
+      "text": "a plea for mercy",
+      "files": [
+        "data/griffith.png",
+        "data/n4.png"
+      ],
+      "policy": "month-routed-stamp",
+      "pixel_budget": 1000000
+    }
+  ]
+}

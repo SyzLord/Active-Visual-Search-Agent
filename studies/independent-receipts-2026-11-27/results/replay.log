@@ -1,0 +1,38 @@
+protocol.md: OK
+../主动视觉搜索_批量续跑_2026-11-25/batch_engine.py: OK
+../主动视觉搜索_批量续跑_2026-11-25/batch.py: OK
+../主动视觉搜索_批量续跑_2026-11-25/batch_state.py: OK
+../主动视觉搜索_批量续跑_2026-11-25/vendor.sha256: OK
+../主动视觉搜索_批量续跑_2026-11-25/examples/data/griffith.png: OK
+policy.sha256: OK
+prepare.py: OK
+human-labels.json: OK
+screening.md: OK
+holdout.json: OK
+labels.png: OK
+jobs.json: OK
+pilot.jobs.json: OK
+remainder.jobs.json: OK
+source-audit.json: OK
+data/aba1.pdf: OK
+data/aba11.pdf: OK
+data/ccr28.pdf: OK
+data/miss18.pdf: OK
+data/rfk7.pdf: OK
+data/senate.pdf: OK
+data/d1.png: OK
+data/d2.png: OK
+data/d3.png: OK
+data/d4.png: OK
+data/griffith.png: OK
+data/n1.png: OK
+data/n2.png: OK
+data/n3.png: OK
+data/n4.png: OK
+{
+  "conditions": 16,
+  "trajectories": 32,
+  "ocr_input_hashes_verified": 272,
+  "new_ocr_calls": 0,
+  "all_decisions_scores_boxes_pixels_equal": true
+}
